@@ -1,17 +1,17 @@
 baseURL = 'https://example.org/'
 title = 'Zan'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 
 [languages]
-  [languages.zh]
-    languageCode = 'zh-CN'
-    languageName = '简体中文'
-    contentDir = 'content/zh'
-    weight = 1
   [languages.en]
     languageCode = 'en-US'
     languageName = 'English'
     contentDir = 'content/en'
+    weight = 1  
+  [languages.zh]
+    languageCode = 'zh-CN'
+    languageName = '简体中文'
+    contentDir = 'content/zh'
     weight = 2
