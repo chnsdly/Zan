@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 title = 'Zan'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 
 [languages]
