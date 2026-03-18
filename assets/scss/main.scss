@@ -2,9 +2,7 @@
 @use "abstracts/mixins";
 
 @use "base/reset";
-@use "base/typography";
-@use "base/helpers";
-@use "base/globals";
+@use "base/base";
 
 @use "layout/header";
 @use "layout/footer";
@@ -14,8 +12,6 @@
 @use "components/buttons";
 @use "components/cards";
 @use "components/forms";
-@use "components/tables";
-@use "components/badges";
 @use "components/breadcrumbs";
 
 @use "pages/home";
