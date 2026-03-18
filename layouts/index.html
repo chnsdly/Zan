@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <section class="home-page">
+    <div class="container">
+      <header class="home-page__header">
+        <h1>{{ .Title | default .Site.Title }}</h1>
+      </header>
+
+      {{ with .Description }}
+        <p class="home-page__description">{{ . }}</p>
+      {{ end }}
+
+      <div class="home-page__content">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+{{ end }}
