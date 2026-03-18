@@ -7,6 +7,15 @@
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ i18n "site_description" }}{{ end }}">
     {{ $styles := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+
+    {{/* SEO：声明当前页规范地址，并输出多语言版本对应关系 */}}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ if .IsTranslated }}
+      {{ range .AllTranslations }}
+        <link rel="alternate" hreflang="{{ or .Language.LanguageCode .Language.Lang }}" href="{{ .Permalink }}">
+      {{ end }}
+    {{ end }}
+
   </head>
   <body>
     <main>
