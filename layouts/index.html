@@ -3,7 +3,10 @@
 
   {{ with .Params.home_hero }}
     {{ if .enable }}
-    <section class="home-hero" {{ with .hero_bg }}style="--hero-bg: url('{{ . | relURL }}');"{{ end }}>
+    <section class="home-hero">
+      {{ with .hero_bg }}
+      <img class="home-hero__bg" src="{{ . | relURL }}" alt="" aria-hidden="true" decoding="async" fetchpriority="high">
+      {{ end }}
       <div class="container home-hero__inner">
           {{ with .title }}
           <h1 class="home-hero__title">{{ . }}</h1>
