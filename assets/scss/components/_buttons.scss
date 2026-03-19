@@ -1,0 +1,35 @@
+.button {
+  background-color: var(--brand);
+  color: var(--on-brand);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 52px;
+  padding: 0.875rem 1.5rem;
+  border: 0;
+  radius: var(--radius);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  transition:
+    transform var(--transition-base),
+    box-shadow var(--transition-base),
+    background-color var(--transition-base);
+  cursor: pointer;
+}
+
+.button:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.45);
+  outline-offset: 3px;
+}
+
+.button--primary:hover {
+  background-color: color-mix(in oklab, var(--brand) 92%, black);
+  box-shadow: var(--shadow-elevated);
+  transform: translateY(-2px);
+}
+
+.button--primary:active {
+  background-color: color-mix(in oklab, var(--brand) 84%, black);
+  transform: translateY(0);
+}

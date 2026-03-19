@@ -8,13 +8,23 @@
       <img class="home-hero__bg" src="{{ . | relURL }}" alt="" aria-hidden="true" decoding="async" fetchpriority="high">
       {{ end }}
       <div class="container home-hero__inner">
+          <!-- 标题 -->
           {{ with .title }}
           <h1 class="home-hero__title">{{ . }}</h1>
           {{ end }}
-
+          <!-- 描述 -->
           {{ with .description }}
           <p class="home-hero__description">{{ . }}</p>
           {{ end }}
+          <!-- 按钮 -->
+          {{ with .button }}
+          <div class="home-hero__action">
+            <a class="button" href="{{ .url | relLangURL }}">
+              {{ .label }}
+            </a>
+          </div>
+          {{ end }}
+
       </div>
     </section>
     {{ end }}
