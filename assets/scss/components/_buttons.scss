@@ -7,8 +7,7 @@
   gap: 0.5rem;
   min-height: 52px;
   padding: 0.875rem 1.5rem;
-  border: 0;
-  radius: var(--radius);
+  border-radius: var(--radius);
   box-shadow: var(--shadow);
   text-decoration: none;
   transition:
@@ -23,13 +22,13 @@
   outline-offset: 3px;
 }
 
-.button--primary:hover {
+.button:hover {
   background-color: color-mix(in oklab, var(--brand) 92%, black);
   box-shadow: var(--shadow-elevated);
   transform: translateY(-2px);
 }
 
-.button--primary:active {
+.button:active {
   background-color: color-mix(in oklab, var(--brand) 84%, black);
   transform: translateY(0);
 }
