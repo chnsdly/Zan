@@ -1,0 +1,13 @@
+.home-hero {
+  background-image: var(--hero-bg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-hero__inner {
+  min-height: 520px;
+  display: grid;
+  align-content: center;
+  gap: 16px;
+}

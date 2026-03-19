@@ -1,17 +1,50 @@
 {{ define "main" }}
-  <section class="home-page">
-    <div class="container">
-      <header class="home-page__header">
-        <h1>{{ .Title | default .Site.Title }}</h1>
-      </header>
+<main class="home-page">
 
-      {{ with .Description }}
-        <p class="home-page__description">{{ . }}</p>
-      {{ end }}
+  {{ with .Params.home_hero }}
+    {{ if .enable }}
+    <section class="home-hero" {{ with .hero_bg }}style="--hero-bg: url('{{ . | relURL }}');"{{ end }}>
+      <div class="container home-hero__inner">
+          {{ with .title }}
+          <h1 class="home-hero__title">{{ . }}</h1>
+          {{ end }}
 
-      <div class="home-page__content">
-        {{ .Content }}
+          {{ with .description }}
+          <p class="home-hero__description">{{ . }}</p>
+          {{ end }}
       </div>
+    </section>
+    {{ end }}
+  {{ end }}
+
+  {{ with .Params.home_ups }}
+  {{ if .enable }}
+  <section class="home-ups">
+    <div class="container">
+      <ul class="home-ups__inner">
+        {{ range .items }}
+        <li class="home-ups__item">
+          {{ with .icon }}
+          <div class="home-ups__icon">
+            <i class="{{ . }}" aria-hidden="true"></i>
+          </div>
+          {{ end }}
+
+          {{ with .title }}
+          <h2 class="home-ups__title">{{ . }}</h2>
+          {{ end }}
+
+          {{ with .description }}
+          <p class="home-ups__description">{{ . }}</p>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ul>
     </div>
   </section>
+  {{ end }}
+{{ end }}
+
+
+</main>
 {{ end }}
