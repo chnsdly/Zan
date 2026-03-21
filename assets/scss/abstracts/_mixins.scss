@@ -10,3 +10,21 @@
    - 用 @mixin 定义
    - 用 @include 调用
    ========================================================================== */
+
+@function space($n) { 
+  @return calc(var(--space) * #{$n}); 
+}
+
+/* 本来需要先@use "sass:map"，但不太顺利，就把map.get改成了兼容的map-get */
+$breakpoints: (
+  phone: 30rem,      // 480
+  tablet: 48rem,     // 768
+  laptop: 64rem,     // 1024
+  desktop: 80rem,    // 1280
+  wide: 96rem        // 1536
+);
+@mixin mq-up($name) {
+  @media (min-width: map-get($breakpoints, $name)) {
+    @content;
+  }
+}

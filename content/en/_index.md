@@ -6,8 +6,8 @@ params:
   home_hero:
     enable: true
     hero_bg: "images/hero_bg.webp"
-    title: "这是hero的标题"
-    description: "这是hero的描述"
+    title: "HERO TITLE HERO TITLE HERO TITLE HERO TITLE"
+    description: "description description description description description"
     button:
       label: "Learn more"
       url: "/products/"

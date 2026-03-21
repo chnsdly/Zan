@@ -1,21 +1,21 @@
-@use "abstracts/vars";
-@use "abstracts/mixins";
+@import "abstracts/vars";
+@import "abstracts/mixins";
 
-@use "base/reset";
-@use "base/base";
+@import "base/reset";
+@import "base/base";
 
-@use "layout/header";
-@use "layout/footer";
-@use "layout/sidebar";
-@use "layout/section";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/section";
 
-@use "components/buttons";
-@use "components/cards";
-@use "components/forms";
-@use "components/breadcrumbs";
+@import "components/buttons";
+@import "components/cards";
+@import "components/forms";
+@import "components/breadcrumbs";
 
-@use "pages/home";
-@use "pages/products";
-@use "pages/product-single";
-@use "pages/about";
-@use "pages/contact";
+@import "pages/home";
+@import "pages/products";
+@import "pages/product-single";
+@import "pages/about";
+@import "pages/contact";

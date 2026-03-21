@@ -1,0 +1,255 @@
+@charset "UTF-8";
+:root {
+  --brand:        #1279e8;
+  /* 品牌色 */
+  --on-brand:     #FAFAF7;
+  /* 品牌色上的文本 */
+  --surface:      #FAFAF7;
+  /* 页面底色 */
+  --on-surface:   #121212;
+  /* 页面底色上的文本 */
+  --secondary: color-mix(in oklab, var(--on-surface) 70%, var(--surface) 30%);
+  --container-narrow: 60rem;
+  /* 窄版：以阅读为主 */
+  --container:        72rem;
+  /* 默认：常规页面 */
+  --container-wide:   80rem;
+  /* 宽版：营销/视觉模块 */
+  --border:       1px solid #E7E5DD;
+  /* 全站统一边框 */
+  --space: 0.5rem;
+  --radius-s: 12px;
+  /* 按钮、输入框、小标签 */
+  --radius-m: 16px;
+  /* 卡片 */
+  --radius-l: 24px;
+  /* 大面板 */
+  --radius-pill: 999px;
+  /* 胶囊 */
+  --shadow: 0 1px 2px rgba(18, 18, 18, 0.03), 0 10px 28px rgba(18, 18, 18, 0.05);
+  --shadow-hover: 0 2px 4px rgba(18, 18, 18, 0.04), 0 18px 40px rgba(18, 18, 18, 0.08);
+  --transition-base: 180ms cubic-bezier(0.22, 0.72, 0.18, 1);
+  --focus-outline: 2px solid color-mix(in oklab, var(--brand) 45%, white);
+  --focus-offset: 2px; }
+
+/* ==========================================================================
+   - 响应式断点
+   - 容器宽度
+   - 按钮基础样式
+   - 输入框基础样式
+   - 阴影、圆角、过渡等常用组合
+   - visually-hidden、line-clamp、focus-ring 等工具型规则
+
+   使用方式：
+   - 用 @mixin 定义
+   - 用 @include 调用
+   ========================================================================== */
+/* 本来需要先@use "sass:map"，但不太顺利，就把map.get改成了兼容的map-get */
+/* 1. 让元素的宽高计算更省心，写的尺寸会把内边距和边框一起算进去 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* 2. 清掉标题、段落、列表等标签自带的外边距，避免页面间距乱掉 */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol,
+figure,
+blockquote,
+dl, dd {
+  margin: 0; }
+
+/* 3. 清掉列表默认的左侧缩进，避免 ul、ol 天生往右偏一块 */
+ul,
+ol {
+  padding: 0; }
+
+/* 4. 去掉列表前面自带的小圆点和数字，常用于导航和自定义列表 */
+ul,
+ol {
+  list-style: none; }
+
+/* 5. 让图片和视频按块级元素显示，并且不会撑破父容器 */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%; }
+
+/* 6. 让输入框、按钮、下拉框这些表单元素继承页面字体，保证风格统一 */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* 7. 去掉 button 自带的原生外观，方便完全按自己的样式来设计按钮 */
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit; }
+
+/* 8. 去掉链接默认的蓝色和下划线，让链接样式由你自己控制 */
+a {
+  color: inherit;
+  text-decoration: none; }
+
+/* 9. 合并表格边框和空隙，让表格看起来更整齐干净 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* 10. 限制文本域只能上下拉伸，避免用户横向拖拽把布局弄乱 */
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+   Base
+   --------------------------------------------------------------------------
+   这里存放全站的基础样式，用来定义网站默认的视觉起点。
+
+   一般放：
+   - body 的字体、字号、行高、文字颜色、背景色
+   - h1-h6、p、small、strong 等基础文字元素
+   - a 链接的默认颜色、悬停效果
+   - img、svg 等媒体元素的默认表现
+   - ul、ol、blockquote、hr、code 等常见内容元素
+   - .container 这类全站通用基础容器
+   - section、main 等常见结构元素的基础间距
+   - 少量全站通用的辅助类（如果不单独拆 helpers）
+
+   ========================================================================== */
+.container {
+  box-sizing: border-box;
+  max-width: var(--container);
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: calc(var(--space) * 1); }
+
+/* 在 .container 后面使用，保证能覆盖 */
+.container--wide {
+  --container: var(--container-wide); }
+
+.container--narrow {
+  --container: var(--container-narrow); }
+
+.section {
+  position: relative;
+  padding-block: calc(var(--space) * 4); }
+  @media (min-width: 48rem) {
+    .section {
+      padding-block: calc(var(--space) * 6); } }
+  @media (min-width: 80rem) {
+    .section {
+      padding-block: calc(var(--space) * 8); } }
+.font-meta {
+  font-size: 0.875rem;
+  font-weight: 400; }
+
+.font-body {
+  font-size: 1rem;
+  font-weight: 400; }
+
+.font-title-s {
+  font-size: 1.5rem;
+  font-weight: 500; }
+
+.font-title-l {
+  font-size: 2rem;
+  font-weight: 500; }
+
+.font-display {
+  font-size: 2.5rem;
+  font-weight: 600; }
+
+/* Header
+   页面顶部区域样式。
+   这里写 header 本身的背景、尺寸、间距、边框、阴影，
+   以及 logo、导航、操作区等的大体布局。 */
+/* Footer
+   页面底部区域样式。
+   这里写 footer 本身的背景、文字颜色、间距、分栏结构，
+   以及底部信息区的整体排版。 */
+/* Sidebar
+   侧边栏区域样式。
+   这里写侧栏本身的宽度、间距、吸附、边框等区域级规则，
+   不负责里面每个小组件的详细外观。 */
+/* Section
+   页面内容区块的通用外层样式。
+   这里统一管理各 section 的上下留白、容器宽度、
+   区块之间的节奏和基础布局。 */
+.button {
+  background-color: var(--brand);
+  color: var(--on-brand);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4rem;
+  padding: 0.625rem 1.5rem;
+  line-height: 1;
+  border-radius: var(--radius-s);
+  box-shadow: var(--shadow);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), background-color var(--transition-base);
+  cursor: pointer; }
+
+.button:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset); }
+
+.button:hover {
+  background-color: color-mix(in oklab, var(--brand) 92%, black);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px); }
+
+.button:active {
+  background-color: color-mix(in oklab, var(--brand) 84%, black);
+  transform: translateY(0);
+  box-shadow: var(--shadow); }
+
+.home-hero {
+  position: relative;
+  min-height: 78svh;
+  display: flex;
+  overflow: hidden; }
+
+.home-hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.home-hero__inner {
+  position: relative;
+  display: flex;
+  gap: calc(var(--space) * 6);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--on-brand); }
+
+.home-ups__inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px; }
+
+.home-ups__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow);
+  border: var(--border);
+  background-color: var(--surface);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), background-color var(--transition-base); }
+
+.home-ups__item:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+  background-color: color-mix(in oklab, var(--surface) 92%, black); }

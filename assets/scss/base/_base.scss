@@ -15,10 +15,32 @@
 
    ========================================================================== */
 
-
 .container {
+  box-sizing: border-box;
+  max-width: var(--container);
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 16px;
+  margin-inline: auto;
+  padding-inline: space(1);
 }
+/* 在 .container 后面使用，保证能覆盖 */
+.container--wide    { --container: var(--container-wide); }
+.container--narrow  { --container: var(--container-narrow); }
+
+.section {
+  position: relative;
+  padding-block: space(4);
+
+  @include mq-up(tablet) {
+    padding-block: space(6);
+  }
+
+  @include mq-up(desktop) {
+    padding-block: space(8);
+  }
+}
+
+.font-meta {font-size: 0.875rem; font-weight: 400;}
+.font-body {font-size: 1rem; font-weight: 400;}
+.font-title-s {font-size: 1.5rem; font-weight: 500;}
+.font-title-l {font-size: 2rem; font-weight: 500;}
+.font-display {font-size: 2.5rem; font-weight: 600;}

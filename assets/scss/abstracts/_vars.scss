@@ -1,14 +1,28 @@
 :root {
   --brand:        #1279e8;   /* 品牌色 */
-  --on-brand:     #000000;   /* 品牌色上的文本/图标 */
-  --surface:      #fafbff;   /* 页面默认底色：提亮整体背景 */
-  --on-surface:   #101114;   /* 正文前景色 */
-  --card:         #ffffff;
-  --on-card:      #0b0e10;
+  --on-brand:     #FAFAF7;   /* 品牌色上的文本 */
+  --surface:      #FAFAF7;   /* 页面底色 */
+  --on-surface:   #121212;   /* 页面底色上的文本 */
+  --secondary: color-mix(in oklab, var(--on-surface) 70%, var(--surface) 30%);
 
-  --border:       1px solid #d9e2ec;   /* 全站统一边框 */
-  --radius: 18px;
-  --shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
-  --shadow-elevated: 0 20px 48px rgba(15, 23, 42, 0.24);
-  --transition-base: 180ms ease;
+  --container-narrow: 60rem; /* 窄版：以阅读为主 */
+  --container:        72rem; /* 默认：常规页面 */
+  --container-wide:   80rem; /* 宽版：营销/视觉模块 */
+
+  --border:       1px solid #E7E5DD;   /* 全站统一边框 */
+  --space: 0.5rem;
+
+  --radius-s: 12px;  /* 按钮、输入框、小标签 */
+  --radius-m: 16px;  /* 卡片 */
+  --radius-l: 24px;  /* 大面板 */
+  --radius-pill: 999px; /* 胶囊 */
+
+  --shadow: 0 1px 2px rgba(18, 18, 18, 0.03), 0 10px 28px rgba(18, 18, 18, 0.05);
+  --shadow-hover: 0 2px 4px rgba(18, 18, 18, 0.04), 0 18px 40px rgba(18, 18, 18, 0.08);
+
+  --transition-base: 180ms cubic-bezier(0.22, 0.72, 0.18, 1);
+
+  --focus-outline: 2px solid color-mix(in oklab, var(--brand) 45%, white);
+  --focus-offset: 2px;
+
 }

@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main class="home-page">
-
+<!---------- 首页大图 ---------->
   {{ with .Params.home_hero }}
     {{ if .enable }}
     <section class="home-hero">
@@ -8,15 +8,14 @@
       <img class="home-hero__bg" src="{{ . | relURL }}" alt="" aria-hidden="true" decoding="async" fetchpriority="high">
       {{ end }}
       <div class="container home-hero__inner">
-          <!-- 标题 -->
           {{ with .title }}
-          <h1 class="home-hero__title">{{ . }}</h1>
+          <h1 class="font-display">{{ . }}</h1>
           {{ end }}
-          <!-- 描述 -->
+
           {{ with .description }}
-          <p class="home-hero__description">{{ . }}</p>
+          <p class="font-body">{{ . }}</p>
           {{ end }}
-          <!-- 按钮 -->
+          
           {{ with .button }}
           <div class="home-hero__action">
             <a class="button" href="{{ .url | relLangURL }}">
@@ -30,9 +29,10 @@
     {{ end }}
   {{ end }}
 
+<!---------- UPS ---------->
   {{ with .Params.home_ups }}
   {{ if .enable }}
-  <section class="home-ups">
+  <section class="section home-ups">
     <div class="container">
       <ul class="home-ups__inner">
         {{ range .items }}
@@ -44,11 +44,11 @@
           {{ end }}
 
           {{ with .title }}
-          <h2 class="home-ups__title">{{ . }}</h2>
+          <h2 class="font-title-s">{{ . }}</h2>
           {{ end }}
 
           {{ with .description }}
-          <p class="home-ups__description">{{ . }}</p>
+          <p class="font-body">{{ . }}</p>
           {{ end }}
         </li>
         {{ end }}

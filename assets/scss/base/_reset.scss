@@ -1,17 +1,72 @@
-/* ==========================================================================
-   Reset
-   --------------------------------------------------------------------------
-   这里存放“样式重置”规则，用来尽量抹平不同浏览器的默认样式差异，
-   给整个网站建立一个更统一、更可控的起点。
+/* 1. 让元素的宽高计算更省心，写的尺寸会把内边距和边框一起算进去 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-   一般放：
-   - 盒模型统一（如 box-sizing: border-box）
-   - body 默认 margin 清除
-   - 标题、段落、列表的默认 margin / padding 重置
-   - ul / ol 列表样式重置
-   - img、picture、video 等媒体元素的基础重置
-   - form 元素（button、input、textarea、select）的继承性重置
-   - table 默认边距与边框折叠处理
-   - a 标签默认下划线或颜色的基础处理（如需）
-   
-   ========================================================================== */
+/* 2. 清掉标题、段落、列表等标签自带的外边距，避免页面间距乱掉 */
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol,
+figure,
+blockquote,
+dl, dd {
+  margin: 0;
+}
+
+/* 3. 清掉列表默认的左侧缩进，避免 ul、ol 天生往右偏一块 */
+ul,
+ol {
+  padding: 0;
+}
+
+/* 4. 去掉列表前面自带的小圆点和数字，常用于导航和自定义列表 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 5. 让图片和视频按块级元素显示，并且不会撑破父容器 */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. 让输入框、按钮、下拉框这些表单元素继承页面字体，保证风格统一 */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. 去掉 button 自带的原生外观，方便完全按自己的样式来设计按钮 */
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+
+/* 8. 去掉链接默认的蓝色和下划线，让链接样式由你自己控制 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 9. 合并表格边框和空隙，让表格看起来更整齐干净 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 10. 限制文本域只能上下拉伸，避免用户横向拖拽把布局弄乱 */
+textarea {
+  resize: vertical;
+}

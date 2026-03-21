@@ -1,0 +1,50 @@
+[[main]]
+name = "PRODUCT"
+url = "/products/"
+identifier = "products"
+weight = 10
+
+  [[main]]
+  name = "oil immersed transformers"
+  url = "/products/oil-immersed-transformers/"
+  parent = "products"
+  weight = 11
+
+  [[main]]
+  name = "dry type transformers"
+  url = "/products/dry-type-transformers/"
+  parent = "products"
+  weight = 12
+
+  [[main]]
+  name = "ring main units"
+  url = "/products/ring-main-units/"
+  parent = "products"
+  weight = 13
+
+[[main]]
+name = "ABOUT US"
+url = "about/"
+weight = 20
+
+[[main]]
+name = "INSIGHTS"
+url = "insights/"
+weight = 30
+
+[[main]]
+name = "CONTACT"
+url = "contact/"
+weight = 40
+
+
+# footer menu
+[[footer]]
+name = "隐私"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "常见问题"
+url = "about/"
+weight = 2

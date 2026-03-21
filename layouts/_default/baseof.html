@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ .Title | default .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ i18n "site_description" }}{{ end }}">
-    {{ $styles := resources.Get "scss/main.scss" | css.Sass (dict "transpiler" "dartsass") | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+    {{ $scss := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css") }}
+    <link rel="stylesheet" href="{{ $scss.RelPermalink }}">
 
     {{/* SEO：声明当前页规范地址，并输出多语言版本对应关系 */}}
     <link rel="canonical" href="{{ .Permalink }}">

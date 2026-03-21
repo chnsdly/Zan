@@ -4,12 +4,11 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  min-height: 52px;
-  padding: 0.875rem 1.5rem;
-  border-radius: var(--radius);
+  min-height: 4rem;
+  padding: 0.625rem 1.5rem;
+  line-height: 1;
+  border-radius: var(--radius-s);
   box-shadow: var(--shadow);
-  text-decoration: none;
   transition:
     transform var(--transition-base),
     box-shadow var(--transition-base),
@@ -18,17 +17,18 @@
 }
 
 .button:focus-visible {
-  outline: 3px solid rgba(255, 255, 255, 0.45);
-  outline-offset: 3px;
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
 }
 
 .button:hover {
   background-color: color-mix(in oklab, var(--brand) 92%, black);
-  box-shadow: var(--shadow-elevated);
+  box-shadow: var(--shadow-hover);
   transform: translateY(-2px);
 }
 
 .button:active {
   background-color: color-mix(in oklab, var(--brand) 84%, black);
   transform: translateY(0);
+  box-shadow: var(--shadow);
 }
