@@ -15,11 +15,9 @@
         <link rel="alternate" hreflang="{{ or .Language.LanguageCode .Language.Lang }}" href="{{ .Permalink }}">
       {{ end }}
     {{ end }}
-
   </head>
   <body>
-    <main>
-      {{ block "main" . }}{{ end }}
-    </main>
+    {{ partial "header.html" . }}
+    {{ block "main" . }}{{ end }}
   </body>
 </html>
