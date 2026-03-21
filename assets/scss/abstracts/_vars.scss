@@ -12,6 +12,10 @@
   --border:       1px solid #E7E5DD;   /* 全站统一边框 */
   --space: 0.5rem;
 
+  --height-button: 4rem;
+  --height-input: 2.75rem;
+  --height-header: 4.5rem;
+
   --radius-s: 12px;  /* 按钮、输入框、小标签 */
   --radius-m: 16px;  /* 卡片 */
   --radius-l: 24px;  /* 大面板 */
@@ -19,10 +23,15 @@
 
   --shadow: 0 1px 2px rgba(18, 18, 18, 0.03), 0 10px 28px rgba(18, 18, 18, 0.05);
   --shadow-hover: 0 2px 4px rgba(18, 18, 18, 0.04), 0 18px 40px rgba(18, 18, 18, 0.08);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.32), inset 0 1px 2px rgba(18, 18, 18, 0.08), inset 0 0 0 1px rgba(18, 18, 18, 0.04);
 
   --transition-base: 180ms cubic-bezier(0.22, 0.72, 0.18, 1);
 
   --focus-outline: 2px solid color-mix(in oklab, var(--brand) 45%, white);
   --focus-offset: 2px;
 
+  --z-base: 0;       /* 普通内容 */
+  --z-header: 10;    /* 吸顶头部 */
+  --z-panel: 20;     /* 下拉、弹出层、抽屉 */
+  --z-modal: 30;     /* 遮罩、弹窗这类最高层 */
 }

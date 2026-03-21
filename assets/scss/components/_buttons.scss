@@ -4,7 +4,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 4rem;
+  min-height: var(--height-button);
   padding: 0.625rem 1.5rem;
   line-height: 1;
   border-radius: var(--radius-s);

@@ -21,8 +21,313 @@
 
   </head>
   <body>
-    <main>
-      
+    
+
+
+<header class="site-header" data-site-header>
+  <div class="site-header__bar">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="/">
+        <img class="site-header__logo-image" src="/images/logo.png" alt="Zan" width="492"
+          height="492" decoding="async">
+      </a>
+
+      <div class="site-header__actions">
+        
+        <details class="site-header__language" data-language-switcher>
+          <summary class="site-header__icon-button">
+            <span class="site-header__language-label font-meta">English</span>
+            <svg class="site-header__language-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="1.8" />
+            </svg>
+          </summary>
+          <ul class="site-header__language-list">
+            
+            
+            
+            
+            
+            
+            
+            
+            <li>
+              <a class="site-header__language-link site-header__language-link--current"
+                href="/" lang="en-US" aria-current="true" >
+                English
+              </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            <li>
+              <a class="site-header__language-link"
+                href="/zh/" lang="zh-CN" >
+                简体中文
+              </a>
+            </li>
+            
+          </ul>
+        </details>
+        
+
+        <button class="site-header__menu-toggle" type="button" aria-expanded="false"
+          aria-controls="site-header-drawer" aria-label='open menu' data-menu-toggle>
+          <span class="site-header__menu-toggle-box" aria-hidden="true">
+            <span class="site-header__menu-toggle-line"></span>
+            <span class="site-header__menu-toggle-line"></span>
+            <span class="site-header__menu-toggle-line"></span>
+          </span>
+        </button>
+      </div>
+
+      <nav class="site-header__nav" aria-label='Primary navigation'>
+        <ul class="site-header__nav-list">
+          
+          
+          <li class="site-header__nav-item site-header__nav-item--has-children">
+            
+            <button class="site-header__nav-link site-header__nav-toggle" type="button">
+              <span>PRODUCT</span>
+              <svg class="site-header__nav-caret" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.8" />
+              </svg>
+            </button>
+            <ul class="site-header__submenu">
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/products/oil-immersed-transformers/" >
+                  oil immersed transformers
+                </a>
+              </li>
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/products/dry-type-transformers/" >
+                  dry type transformers
+                </a>
+              </li>
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/products/ring-main-units/" >
+                  ring main units
+                </a>
+              </li>
+              
+            </ul>
+            
+          </li>
+          
+          
+          <li class="site-header__nav-item">
+            
+            <a class="site-header__nav-link" href="/about/" >
+              ABOUT US
+            </a>
+            
+          </li>
+          
+          
+          <li class="site-header__nav-item">
+            
+            <a class="site-header__nav-link" href="/insights/" >
+              INSIGHTS
+            </a>
+            
+          </li>
+          
+          
+          <li class="site-header__nav-item">
+            
+            <a class="site-header__nav-link" href="/contact/" >
+              CONTACT
+            </a>
+            
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="site-header__drawer" id="site-header-drawer" data-menu-drawer hidden>
+    <div class="site-header__drawer-inner container">
+      <div class="site-header__mobile-head">
+        <button class="site-header__back" type="button" data-menu-back hidden>
+          <span aria-hidden="true">&lt;</span>
+          <span>返回</span>
+        </button>
+        <p class="site-header__mobile-title font-title-s" data-menu-title>菜单</p>
+      </div>
+
+      <div class="site-header__mobile-panels">
+        <div class="site-header__mobile-panel site-header__mobile-panel--root" data-menu-panel="root">
+          <ul class="site-header__mobile-list">
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <button class="site-header__mobile-link site-header__mobile-link--submenu" type="button"
+                data-menu-open="products">
+                <span>PRODUCT</span>
+                <svg class="site-header__mobile-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M9 7l5 5-5 5" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.8" />
+                </svg>
+              </button>
+              
+            </li>
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <a class="site-header__mobile-link" href="/about/">ABOUT US</a>
+              
+            </li>
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <a class="site-header__mobile-link" href="/insights/">INSIGHTS</a>
+              
+            </li>
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <a class="site-header__mobile-link" href="/contact/">CONTACT</a>
+              
+            </li>
+            
+          </ul>
+        </div>
+
+        
+        
+        
+        <div class="site-header__mobile-panel" data-menu-panel="products" hidden>
+          <ul class="site-header__mobile-list">
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/products/oil-immersed-transformers/">oil immersed transformers</a>
+            </li>
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/products/dry-type-transformers/">dry type transformers</a>
+            </li>
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/products/ring-main-units/">ring main units</a>
+            </li>
+            
+          </ul>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  (() => {
+    const header = document.querySelector('[data-site-header]');
+    if (!header) return;
+
+    const toggle = header.querySelector('[data-menu-toggle]');
+    const drawer = header.querySelector('[data-menu-drawer]');
+    const backButton = header.querySelector('[data-menu-back]');
+    const title = header.querySelector('[data-menu-title]');
+    const languageSwitcher = header.querySelector('[data-language-switcher]');
+    const menuTitles = {
+      root: "\"菜单\"",
+      "\"products\"": "\"PRODUCT\"",
+    };
+
+    let activePanel = 'root';
+
+    const closeLanguageSwitcher = () => {
+      if (languageSwitcher) languageSwitcher.removeAttribute('open');
+    };
+
+    const showPanel = (panelName) => {
+      activePanel = panelName;
+      header.querySelectorAll('[data-menu-panel]').forEach((panel) => {
+        panel.hidden = panel.dataset.menuPanel !== panelName;
+      });
+      backButton.hidden = panelName === 'root';
+      title.textContent = menuTitles[panelName] || menuTitles.root;
+    };
+
+    const closeDrawer = () => {
+      header.dataset.menuState = 'closed';
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', "\"open menu\"");
+      drawer.hidden = true;
+      document.body.classList.remove('is-menu-open');
+      showPanel('root');
+    };
+
+    const openDrawer = () => {
+      closeLanguageSwitcher();
+      drawer.hidden = false;
+      requestAnimationFrame(() => {
+        header.dataset.menuState = 'open';
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.setAttribute('aria-label', "\"Close menu\"");
+        document.body.classList.add('is-menu-open');
+      });
+    };
+
+    toggle.addEventListener('click', () => {
+      const isOpen = header.dataset.menuState === 'open';
+      if (isOpen) {
+        closeDrawer();
+      } else {
+        openDrawer();
+      }
+    });
+
+    header.querySelectorAll('[data-menu-open]').forEach((button) => {
+      button.addEventListener('click', () => {
+        showPanel(button.dataset.menuOpen);
+      });
+    });
+
+    backButton.addEventListener('click', () => showPanel('root'));
+
+    document.addEventListener('click', (event) => {
+      if (!languageSwitcher || !languageSwitcher.hasAttribute('open')) return;
+      if (!languageSwitcher.contains(event.target)) {
+        closeLanguageSwitcher();
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 1024) {
+        closeDrawer();
+      }
+    });
+
+    showPanel('root');
+    closeDrawer();
+  })();
+</script>
+    
 <main class="home-page">
 
   
@@ -117,6 +422,5 @@
 
 </main>
 
-    </main>
   </body>
 </html>
