@@ -15,7 +15,7 @@ body.is-menu-open {
 .site-header__inner {
   min-height: var(--height-header);
   display: flex;
-  padding-inline: space(4);
+  padding-inline: space(2);
   align-items: center;
   gap: space(2);
 }
@@ -34,7 +34,9 @@ body.is-menu-open {
 .site-header__actions {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: space(1);
+  margin-left: auto;
 }
 
 .site-header__icon-button {
@@ -308,6 +310,7 @@ body.is-menu-open {
 @include mq-up(laptop) {
   .site-header__actions {
     order: 3;
+    margin-left: 0;
   }
 
   .site-header__menu-toggle,
