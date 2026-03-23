@@ -299,12 +299,13 @@ body.is-menu-open {
   padding: calc(var(--space) * 1);
   border: var(--border);
   background-color: #ffffff;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-inset);
   display: grid;
   gap: calc(var(--space) * 0.5); }
 
 .site-header__language-link {
-  display: inline-flex;
+  display: flex;
+  width: 100%;
   align-items: center;
   transition: color var(--transition-base), background-color var(--transition-base), transform var(--transition-base); }
 
