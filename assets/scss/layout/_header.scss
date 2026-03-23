@@ -107,6 +107,8 @@ body.is-menu-open {
 
 .site-header__language summary {
   list-style: none;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .site-header__language summary::-webkit-details-marker {
@@ -148,6 +150,8 @@ body.is-menu-open {
   display: flex;
   width: 100%;
   align-items: center;
+  user-select: none;
+  -webkit-user-select: none;
   transition:
     color var(--transition-base),
     background-color var(--transition-base),
@@ -381,6 +385,14 @@ body.is-menu-open {
       opacity var(--transition-base),
       transform var(--transition-base),
       visibility var(--transition-base);
+    &::before {
+      content: "";
+      position: absolute;
+      top: calc(-1 * #{space(1)});
+      left: 0;
+      right: 0;
+      height: space(1);
+    }
   }
 
   .site-header__submenu-link {
