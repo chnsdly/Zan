@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Zan</title>
+    <title>Home | Zan on Zan</title>
     <link>http://localhost:1313/en/</link>
-    <description>Recent content in Home on Zan</description>
+    <description>Recent content in Home | Zan on Zan</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>dry type transformers</title>
+      <link>http://localhost:1313/en/products/dry-type-transformers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/products/dry-type-transformers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>oil immersed transformers</title>
+      <link>http://localhost:1313/en/products/oil-immersed-transformers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/products/oil-immersed-transformers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ring main units</title>
+      <link>http://localhost:1313/en/products/ring-main-units/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/products/ring-main-units/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,6 +1,5 @@
 {{ $menu := .Site.Menus.main }}
 {{ $languages := .Site.Languages }}
-{{ $showLanguages := gt (len $languages) 1 }}
 <header class="site-header" data-site-header>
   <div class="site-header__bar">
     <div class="site-header__inner">
@@ -10,7 +9,7 @@
       </a>
 
       <div class="site-header__actions">
-        {{ if $showLanguages }}
+        {{ if gt (len $languages) 1 }}
         <details class="site-header__language" data-language-switcher>
           <summary class="site-header__icon-button">
             <span class="site-header__language-label font-meta">{{ .Site.Language.LanguageName }}</span>
@@ -27,7 +26,7 @@
             {{ if eq .Language.Lang $langCode }}{{ $target = .RelPermalink }}{{ end }}
             {{ end }}
             <li>
-              <a class="site-header__language-link{{ if eq $.Site.Language.Lang .Lang }} site-header__language-link--current{{ end }}"
+              <a class="site-header__language-link font-meta {{ if eq $.Site.Language.Lang .Lang }} site-header__language-link--current{{ end }}"
                 href="{{ $target }}" lang="{{ or .LanguageCode .Lang }}" {{ if eq $.Site.Language.Lang .Lang
                 }}aria-current="true" {{ end }}>
                 {{ .LanguageName }}
@@ -88,11 +87,10 @@
   </div>
 
   <div class="site-header__drawer" id="site-header-drawer" data-menu-drawer hidden>
-    <div class="site-header__drawer-inner container">
+    <div class="site-header__drawer-inner">
       <div class="site-header__mobile-head">
         <button class="site-header__back" type="button" data-menu-back hidden>
           <span aria-hidden="true">&lt;</span>
-          <span>{{ i18n "back" | default "返回" }}</span>
         </button>
         <p class="site-header__mobile-title font-title-s" data-menu-title>{{ i18n "menu" | default "菜单" }}</p>
       </div>

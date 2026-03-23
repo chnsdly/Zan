@@ -139,13 +139,11 @@ body.is-menu-open {
   gap: space(0.5);
 }
 
-.site-header__language-link,
-.site-header__back {
+.site-header__language-link {
   display: inline-flex;
   align-items: center;
-  gap: space(0.75);
-  min-height: 2.75rem;
-  padding-inline: space(1.25);
+  gap: space(1);
+  padding-inline: space(1);
   border-radius: var(--radius-s);
   transition:
     color var(--transition-base),
@@ -304,7 +302,11 @@ body.is-menu-open {
 }
 
 .site-header__back {
-  padding-inline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-inline-size: var(space(4));
+  min-block-size: var(space(2));
 }
 
 @include mq-up(laptop) {
