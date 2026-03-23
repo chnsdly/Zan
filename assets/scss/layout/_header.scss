@@ -127,13 +127,11 @@ body.is-menu-open {
 
 .site-header__language-list {
   position: absolute;
-  top: calc(100% + #{space(1)});
   right: 0;
   min-width: 9rem;
   padding: space(1);
   border: var(--border);
-  border-radius: var(--radius-m);
-  background-color: var(--surface);
+  background-color: #ffffff;
   box-shadow: var(--shadow);
   display: grid;
   gap: space(0.5);
@@ -305,8 +303,19 @@ body.is-menu-open {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-inline-size: var(space(4));
-  min-block-size: var(space(2));
+  inline-size: space(6);
+  block-size: space(6);
+  padding: 0;
+  border-radius: var(--radius-pill);
+  color: var(--on-surface);
+  flex: 0 0 auto;
+  font-size: 1.25rem;
+  line-height: 1;
+  transition:
+    color var(--transition-base),
+    background-color var(--transition-base),
+    border-color var(--transition-base),
+    transform var(--transition-base);
 }
 
 @include mq-up(laptop) {

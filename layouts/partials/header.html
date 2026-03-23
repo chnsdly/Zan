@@ -53,7 +53,7 @@
           {{ $itemKey := .Identifier | default (.Name | anchorize) }}
           <li class="site-header__nav-item{{ if .HasChildren }} site-header__nav-item--has-children{{ end }}">
             {{ if .HasChildren }}
-            <button class="site-header__nav-link site-header__nav-toggle{{ if or ($.IsMenuCurrent " main" .)
+            <button class="site-header__nav-link site-header__nav-toggle{{ if or ($.IsMenuCurrent "main" .)
               ($.HasMenuCurrent "main" .) }} site-header__nav-link--current{{ end }}" type="button">
               <span>{{ .Name }}</span>
               <svg class="site-header__nav-caret" viewBox="0 0 24 24" aria-hidden="true">
