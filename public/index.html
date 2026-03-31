@@ -452,8 +452,10 @@
               class="home-stats__number"
               data-count-up
               data-target="25"
-              data-suffix="Years"
             >0</span>
+            
+            <span class="home-stats__suffix font-body">Years</span>
+            
           </p>
           
           <p class="home-stats__label font-body">Industry Experience</p>
@@ -465,9 +467,11 @@
             <span
               class="home-stats__number"
               data-count-up
-              data-target="12000"
-              data-suffix="Units"
+              data-target="13000"
             >0</span>
+            
+            <span class="home-stats__suffix font-body">Units</span>
+            
           </p>
           
           <p class="home-stats__label font-body">Annual Production Capacity</p>
@@ -479,9 +483,11 @@
             <span
               class="home-stats__number"
               data-count-up
-              data-target="100"
-              data-suffix="Units"
+              data-target="110"
             >0</span>
+            
+            <span class="home-stats__suffix font-body">&#43;</span>
+            
           </p>
           
           <p class="home-stats__label font-body">Countries and Regions Served</p>
@@ -494,8 +500,10 @@
               class="home-stats__number"
               data-count-up
               data-target="1000"
-              data-suffix="&#43;"
             >0</span>
+            
+            <span class="home-stats__suffix font-body">&#43;</span>
+            
           </p>
           
           <p class="home-stats__label font-body">Projects Delivered</p>
@@ -524,8 +532,7 @@
 
     const setFinalValue = (counter) => {
       const target = Number(counter.dataset.target || 0);
-      const suffix = counter.dataset.suffix || "";
-      counter.textContent = `${formatNumber(target)}${suffix}`;
+      counter.textContent = `${formatNumber(target)}`;
     };
 
     if (prefersReducedMotion) {
@@ -538,7 +545,6 @@
       animated.add(counter);
 
       const target = Number(counter.dataset.target || 0);
-      const suffix = counter.dataset.suffix || "";
       const duration = 1200 + Math.random() * 600;
       const start = performance.now();
 
@@ -546,12 +552,12 @@
         const progress = Math.min((now - start) / duration, 1);
         const eased = easeOutCubic(progress);
         const current = Math.round(target * eased);
-        counter.textContent = `${formatNumber(current)}${suffix}`;
+        counter.textContent = `${formatNumber(current)}`;
 
         if (progress < 1) {
           requestAnimationFrame(step);
         } else {
-          counter.textContent = `${formatNumber(target)}${suffix}`;
+          counter.textContent = `${formatNumber(target)}`;
         }
       };
 

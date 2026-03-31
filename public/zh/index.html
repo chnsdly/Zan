@@ -452,8 +452,10 @@
               class="home-stats__number"
               data-count-up
               data-target="25"
-              data-suffix="年"
             >0</span>
+            
+            <span class="home-stats__suffix font-body">年</span>
+            
           </p>
           
           <p class="home-stats__label font-body">行业经验</p>
@@ -466,8 +468,10 @@
               class="home-stats__number"
               data-count-up
               data-target="13000"
-              data-suffix="台"
             >0</span>
+            
+            <span class="home-stats__suffix font-body">台</span>
+            
           </p>
           
           <p class="home-stats__label font-body">年产能</p>
@@ -480,8 +484,10 @@
               class="home-stats__number"
               data-count-up
               data-target="110"
-              data-suffix="个"
             >0</span>
+            
+            <span class="home-stats__suffix font-body">&#43;</span>
+            
           </p>
           
           <p class="home-stats__label font-body">服务国家和地区</p>
@@ -494,8 +500,10 @@
               class="home-stats__number"
               data-count-up
               data-target="1000"
-              data-suffix="&#43;"
             >0</span>
+            
+            <span class="home-stats__suffix font-body">&#43;</span>
+            
           </p>
           
           <p class="home-stats__label font-body">累计交付项目</p>
@@ -524,8 +532,7 @@
 
     const setFinalValue = (counter) => {
       const target = Number(counter.dataset.target || 0);
-      const suffix = counter.dataset.suffix || "";
-      counter.textContent = `${formatNumber(target)}${suffix}`;
+      counter.textContent = `${formatNumber(target)}`;
     };
 
     if (prefersReducedMotion) {
@@ -538,7 +545,6 @@
       animated.add(counter);
 
       const target = Number(counter.dataset.target || 0);
-      const suffix = counter.dataset.suffix || "";
       const duration = 1200 + Math.random() * 600;
       const start = performance.now();
 
@@ -546,12 +552,12 @@
         const progress = Math.min((now - start) / duration, 1);
         const eased = easeOutCubic(progress);
         const current = Math.round(target * eased);
-        counter.textContent = `${formatNumber(current)}${suffix}`;
+        counter.textContent = `${formatNumber(current)}`;
 
         if (progress < 1) {
           requestAnimationFrame(step);
         } else {
-          counter.textContent = `${formatNumber(target)}${suffix}`;
+          counter.textContent = `${formatNumber(target)}`;
         }
       };
 

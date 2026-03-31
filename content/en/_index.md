@@ -42,11 +42,11 @@ home_stats:
     - value: 25
       suffix: "Years"
       label: "Industry Experience"
-    - value: 12000
+    - value: 13000
       suffix: "Units"
       label: "Annual Production Capacity"
-    - value: 100
-      suffix: "Units"
+    - value: 110
+      suffix: "+"
       label: "Countries and Regions Served"
     - value: 1000
       suffix: "+"

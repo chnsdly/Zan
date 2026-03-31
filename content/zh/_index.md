@@ -46,7 +46,7 @@ home_stats:
       suffix: "台"
       label: "年产能"
     - value: 110
-      suffix: "个"
+      suffix: "+"
       label: "服务国家和地区"
     - value: 1000
       suffix: "+"
