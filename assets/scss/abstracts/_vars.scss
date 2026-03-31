@@ -4,6 +4,7 @@
   --surface:      #FAFAF7;   /* 页面底色 */
   --on-surface:   #121212;   /* 页面底色上的文本 */
   --secondary: color-mix(in oklab, var(--on-surface) 70%, var(--surface) 30%);
+  --card: color-mix(in oklab, var(--surface) 38%, white); /* 卡片背景色 */
 
   --container-narrow: 60rem; /* 窄版：以阅读为主 */
   --container:        72rem; /* 默认：常规页面 */

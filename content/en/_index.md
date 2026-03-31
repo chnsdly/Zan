@@ -6,11 +6,51 @@ params:
   home_hero:
     enable: true
     hero_bg: "images/hero_bg.webp"
-    title: "HERO TITLE HERO TITLE HERO TITLE HERO TITLE"
-    description: "description description description description description"
+    title: "RELIABLE POWER, BUILT FOR LONG-TERM PERFORMANCE"
+    description: "Engineered solutions for modern power distribution, focused on safety, efficiency, and dependable operation across diverse project needs."
     button:
       label: "Learn more"
       url: "/products/"
+
+home_trusted:
+  enable: true
+  title: "Trusted by Global Partners"
+  description: "Long-term cooperation built on reliable quality, responsive service, and stable supply."
+  logos:
+    - name: "Partner 1"
+      logo: "images/partners/partner-01.png"
+    - name: "Partner 2"
+      logo: "images/partners/partner-02.png"
+    - name: "Partner 3"
+      logo: "images/partners/partner-03.png"
+    - name: "Partner 4"
+      logo: "images/partners/partner-04.png"
+    - name: "Partner 5"
+      logo: "images/partners/partner-05.png"
+    - name: "Partner 6"
+      logo: "images/partners/partner-06.png"
+    - name: "Partner 7"
+      logo: "images/partners/partner-07.png"
+    - name: "Partner 8"
+      logo: "images/partners/partner-08.png"
+
+home_stats:
+  enable: true
+  title: "Strength Backed by Experience"
+  description: "Built on long-term industry experience, broad market reach, and a consistent focus on dependable power distribution solutions."
+  items:
+    - value: 25
+      suffix: "+"
+      label: "Years of Industry Experience"
+    - value: 12000
+      suffix: "+"
+      label: "Annual Production Capacity (Units)"
+    - value: 100
+      suffix: "+"
+      label: "Countries and Regions Served"
+    - value: 1000
+      suffix: "+"
+      label: "Projects Delivered"
 
   home_ups:
     enable: true

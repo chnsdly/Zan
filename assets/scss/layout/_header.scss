@@ -143,7 +143,7 @@ body.is-menu-open {
   background-color: #ffffff;
   box-shadow: var(--shadow-inset);
   display: grid;
-  gap: space(0.5);
+  gap: space(1);
 }
 
 .site-header__language-link {
@@ -247,7 +247,7 @@ body.is-menu-open {
 .site-header__drawer {
   position: fixed;
   inset: var(--site-header-height) 0 0;
-  background-color: var(--surface);
+  background-color: var(--card);
   border-top: var(--border);
   overflow: hidden;
   opacity: 0;
@@ -374,7 +374,7 @@ body.is-menu-open {
     padding: space(1);
     border: var(--border);
     border-radius: var(--radius-m);
-    background-color: var(--surface);
+    background-color: var(--card);
     box-shadow: var(--shadow);
     gap: space(0.5);
     opacity: 0;

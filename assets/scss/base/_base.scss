@@ -14,7 +14,9 @@
    - 少量全站通用的辅助类（如果不单独拆 helpers）
 
    ========================================================================== */
-
+body {
+  background-color: var(--surface);
+}
 .container {
   box-sizing: border-box;
   max-width: var(--container);
@@ -28,14 +30,14 @@
 
 .section {
   position: relative;
-  padding-block: space(4);
+  padding-block: space(2);
 
   @include mq-up(tablet) {
-    padding-block: space(6);
+    padding-block: space(3);
   }
 
   @include mq-up(desktop) {
-    padding-block: space(8);
+    padding-block: space(4);
   }
 }
 
