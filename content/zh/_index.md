@@ -15,7 +15,7 @@ params:
 home_trusted:
   enable: true
   title: "全球合作伙伴"
-  description: "以可靠品质、快速响应与稳定供货，建立长期合作关系。"
+  description: ""
   logos:
     - name: "Partner 1"
       logo: "images/partners/partner-01.png"
@@ -40,28 +40,16 @@ home_stats:
   description: "依托长期行业经验、广泛市场覆盖，以及对可靠配电解决方案的持续专注。"
   items:
     - value: 25
-      suffix: "+"
-      label: "行业经验（年）"
-    - value: 12000
-      suffix: "+"
-      label: "年产能（台）"
-    - value: 100
-      suffix: "+"
-      label: "服务国家和地区（个）"
+      suffix: "年"
+      label: "行业经验"
+    - value: 13000
+      suffix: "台"
+      label: "年产能"
+    - value: 110
+      suffix: "个"
+      label: "服务国家和地区"
     - value: 1000
       suffix: "+"
-      label: "累计交付项目（个）"
+      label: "累计交付项目"
 
-  home_ups:
-    enable: true
-    items:
-      - icon: "fas fa-certificate"
-        title: "ISO认证"
-        description: "工厂管理符合 ISO9001 与 OHSAS18001 标准。"
-      - icon: "fas fa-vial"
-        title: "SGS 检测"
-        description: "SGS 检测报告证明原材料均为食品级全新原料。"
-      - icon: "fas fa-truck-loading"
-        title: "物流保障"
-        description: "出口配套能力覆盖 20+ 国家，满足跨境运输需求。"
 ---

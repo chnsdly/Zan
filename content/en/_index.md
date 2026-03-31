@@ -15,7 +15,7 @@ params:
 home_trusted:
   enable: true
   title: "Trusted by Global Partners"
-  description: "Long-term cooperation built on reliable quality, responsive service, and stable supply."
+  description: ""
   logos:
     - name: "Partner 1"
       logo: "images/partners/partner-01.png"
@@ -40,13 +40,13 @@ home_stats:
   description: "Built on long-term industry experience, broad market reach, and a consistent focus on dependable power distribution solutions."
   items:
     - value: 25
-      suffix: "+"
-      label: "Years of Industry Experience"
+      suffix: "Years"
+      label: "Industry Experience"
     - value: 12000
-      suffix: "+"
-      label: "Annual Production Capacity (Units)"
+      suffix: "Units"
+      label: "Annual Production Capacity"
     - value: 100
-      suffix: "+"
+      suffix: "Units"
       label: "Countries and Regions Served"
     - value: 1000
       suffix: "+"

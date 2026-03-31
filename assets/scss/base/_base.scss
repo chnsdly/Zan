@@ -28,19 +28,6 @@ body {
 .container--wide    { --container: var(--container-wide); }
 .container--narrow  { --container: var(--container-narrow); }
 
-.section {
-  position: relative;
-  padding-block: space(2);
-
-  @include mq-up(tablet) {
-    padding-block: space(3);
-  }
-
-  @include mq-up(desktop) {
-    padding-block: space(4);
-  }
-}
-
 .font-meta {font-size: 0.875rem; font-weight: 400;}
 .font-body {font-size: 1rem; font-weight: 400;}
 .font-title-s {font-size: 1.5rem; font-weight: 500;}
