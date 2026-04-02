@@ -1,0 +1,7 @@
++++
+title = "SCB13 Cast Resin Dry-Type Transformer"
+description = "SCB13环氧树脂浇注干式变压器面向商业建筑与工业配电节能改造，兼顾低损耗、低噪声与高安全性，适合需要稳定供电与降本增效的中低压应用。"
+image = "/images/dry-type/scb13-dry-type-transformer.webp"
++++
+
+SCB13系列采用环氧树脂浇注绝缘与阻燃结构，适用于医院、学校、购物中心、厂房等对消防与运行可靠性要求高的场景。该系列在降低空载损耗和运行噪声方面表现稳定，可帮助用户优化配电能效、减少运维压力，并提升长期用电经济性。
