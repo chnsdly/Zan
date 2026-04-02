@@ -35,12 +35,12 @@ home_trusted:
       logo: "images/partners/partner-08.png"
 
 home_featured:
-  title: "精选产品"
-  description: "来自产品库中标记为 featured 的产品。"
+  title: "热门产品"
+  description: "围绕可靠运行、高效表现与多样化项目需求而打造。"
 
 home_stats:
   enable: true
-  title: "经验铸就的实力"
+  title: "经验铸就实力"
   description: "依托长期行业经验、广泛市场覆盖，以及对可靠配电解决方案的持续专注。"
   items:
     - value: 25

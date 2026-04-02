@@ -36,7 +36,7 @@ home_trusted:
 
 home_featured:
   title: "Featured Products"
-  description: "Products curated from content items marked as featured = true."
+  description: "Engineered for reliable operation, efficient performance, and diverse project requirements."
 
 home_stats:
   enable: true

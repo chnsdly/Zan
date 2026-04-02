@@ -614,7 +614,7 @@ body.is-menu-open {
   padding: calc(var(--space) * 3);
   border-radius: var(--radius-m);
   border: var(--border);
-  background-color: var(--surface);
+  background-color: var(--card);
   box-shadow: var(--shadow);
   transition: transform var(--transition-base), box-shadow var(--transition-base), background-color var(--transition-base), opacity var(--transition-base); }
 

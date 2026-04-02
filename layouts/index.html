@@ -61,36 +61,6 @@
 {{ end }}
 
 
-<!---------- UPS ---------->
-  {{ with .Params.home_ups }}
-  {{ if .enable }}
-  <section class="section home-ups">
-    <div class="container">
-      <ul class="home-ups__inner">
-        {{ range .items }}
-        <li class="home-ups__item">
-          {{ with .icon }}
-          <div class="home-ups__icon">
-            <i class="{{ . }}" aria-hidden="true"></i>
-          </div>
-          {{ end }}
-
-          {{ with .title }}
-          <h2 class="font-title-s">{{ . }}</h2>
-          {{ end }}
-
-          {{ with .description }}
-          <p class="font-body">{{ . }}</p>
-          {{ end }}
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
-  {{ end }}
-{{ end }}
-
-
 <!---------- Featured Products ---------->
   {{ $featuredProducts := where (where .Site.RegularPages "Section" "product") "Params.featured" true }}
   {{ if gt (len $featuredProducts) 0 }}
