@@ -36,7 +36,7 @@ home_trusted:
 
 home_stats:
   enable: true
-  title: "经验铸就的实力保障"
+  title: "经验铸就的实力"
   description: "依托长期行业经验、广泛市场覆盖，以及对可靠配电解决方案的持续专注。"
   items:
     - value: 25

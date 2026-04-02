@@ -2,6 +2,7 @@
 title = "SCB14 Cast Resin Dry-Type Transformer"
 description = "SCB14 is a higher-efficiency cast resin dry-type transformer for indoor distribution projects that require oil-free fire safety together with stronger long-term energy performance, stable thermal behavior, and reliable operation in demanding commercial and public infrastructure environments."
 image = "/images/dry-type/scb14-dry-type-transformer.webp"
+featured = true
 +++
 
 SCB14 belongs to the same oil-free cast-resin indoor transformer family as SCB13, while its market positioning generally places greater emphasis on efficiency-oriented operation and long-duration reliability. The design focus is typically on improved loss control, stable thermal behavior, and dependable electrical performance under continuous service, making it suitable for applications where uptime and energy outcomes are equally important.

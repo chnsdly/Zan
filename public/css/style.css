@@ -11,7 +11,7 @@
   --secondary: color-mix(in oklab, var(--on-surface) 70%, var(--surface) 30%);
   --card: color-mix(in oklab, var(--surface) 38%, white);
   /* 卡片背景色 */
-  --container-narrow: 60rem;
+  --container-narrow: 56rem;
   /* 窄版：以阅读为主 */
   --container:        72rem;
   /* 默认：常规页面 */
@@ -722,6 +722,8 @@ body.is-menu-open {
 
 .product-single__overview {
   display: grid;
+  padding-bottom: calc(var(--space) * 4);
+  border-bottom: 1px solid #E7E5DD;
   gap: calc(var(--space) * 2); }
 
 .product-single__media {
@@ -738,7 +740,7 @@ body.is-menu-open {
 
 .product-single__summary {
   display: grid;
-  gap: calc(var(--space) * 2); }
+  gap: calc(var(--space) * 3); }
 
 .product-single__quote {
   width: fit-content;
@@ -750,7 +752,7 @@ body.is-menu-open {
   gap: calc(var(--space) * 2); }
 
 .product-single__details-title {
-  text-align: left; }
+  text-align: center; }
 
 .product-single__content {
   display: grid;
@@ -762,5 +764,5 @@ body.is-menu-open {
 @media (min-width: 48rem) {
   .product-single__overview {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: calc(var(--space) * 3);
+    gap: calc(var(--space) * 4);
     align-items: start; } }

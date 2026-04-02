@@ -6,7 +6,7 @@
   --secondary: color-mix(in oklab, var(--on-surface) 70%, var(--surface) 30%);
   --card: color-mix(in oklab, var(--surface) 38%, white); /* 卡片背景色 */
 
-  --container-narrow: 60rem; /* 窄版：以阅读为主 */
+  --container-narrow: 56rem; /* 窄版：以阅读为主 */
   --container:        72rem; /* 默认：常规页面 */
   --container-wide:   80rem; /* 宽版：营销/视觉模块 */
 
