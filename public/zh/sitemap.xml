@@ -50,30 +50,6 @@
                 href="http://localhost:1313/zh/product/oil-immersed/oil-immersed-power-220kv/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/product/oil-immersed/three-dimensional-wound-core-transformer/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/product/oil-immersed/three-dimensional-wound-core-transformer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/product/oil-immersed/three-dimensional-wound-core-transformer/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -134,6 +110,42 @@
                 href="http://localhost:1313/zh/product/oil-immersed/oil-immersed-transformer-s22/"
                 />
   </url><url>
+    <loc>http://localhost:1313/zh/product/dry-type/scb13-dry-type-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/dry-type/scb13-dry-type-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/dry-type/scb13-dry-type-transformer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/product/dry-type/scb14-dry-type-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/dry-type/scb14-dry-type-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/dry-type/scb14-dry-type-transformer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/product/dry-type/scb15h-dry-type-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/dry-type/scb15h-dry-type-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/dry-type/scb15h-dry-type-transformer/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -144,6 +156,18 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/product/dry-type/</loc>
@@ -168,6 +192,18 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/product/switchgear/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/product/oil-immersed/three-dimensional-wound-core-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/three-dimensional-wound-core-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/three-dimensional-wound-core-transformer/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/</loc>

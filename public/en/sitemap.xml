@@ -182,6 +182,42 @@
                 href="http://localhost:1313/product/oil-immersed/oil-immersed-transformer-s22/"
                 />
   </url><url>
+    <loc>http://localhost:1313/product/dry-type/scb13-dry-type-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/dry-type/scb13-dry-type-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/dry-type/scb13-dry-type-transformer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/dry-type/scb14-dry-type-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/dry-type/scb14-dry-type-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/dry-type/scb14-dry-type-transformer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/dry-type/scb15h-dry-type-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/dry-type/scb15h-dry-type-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/dry-type/scb15h-dry-type-transformer/"
+                />
+  </url><url>
     <loc>http://localhost:1313/product/switchgear/</loc>
     <xhtml:link
                 rel="alternate"

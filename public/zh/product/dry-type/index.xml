@@ -7,5 +7,26 @@
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <atom:link href="http://localhost:1313/zh/product/dry-type/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SCB13干式变压器</title>
+      <link>http://localhost:1313/zh/product/dry-type/scb13-dry-type-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/product/dry-type/scb13-dry-type-transformer/</guid>
+      <description>&lt;p&gt;SCB13系列采用环氧树脂浇注绝缘与阻燃结构，适用于医院、学校、购物中心、厂房等对消防与运行可靠性要求高的场景。该系列在降低空载损耗和运行噪声方面表现稳定，可帮助用户优化配电能效、减少运维压力，并提升长期用电经济性。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SCB14干式变压器</title>
+      <link>http://localhost:1313/zh/product/dry-type/scb14-dry-type-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/product/dry-type/scb14-dry-type-transformer/</guid>
+      <description>&lt;p&gt;SCB14系列在SCB13基础上进一步优化损耗控制与温升性能，适用于负载波动较大、连续运行时间长的关键配电系统。对于数据中心、商业综合体和市政基础设施等用户，SCB14可在保障供电稳定的同时降低电能损耗，满足节能与可靠并重的项目需求。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SCBH15干式变压器</title>
+      <link>http://localhost:1313/zh/product/dry-type/scb15h-dry-type-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/product/dry-type/scb15h-dry-type-transformer/</guid>
+      <description>&lt;p&gt;SCBH15H系列面向高能效与低碳目标场景，通过非晶合金铁芯显著降低空载损耗，帮助用户在长期运行中减少电费与碳排放压力。该系列同时具备干式变压器的阻燃、免维护和安装灵活优势，适合节能改造项目与新建绿色建筑配电系统。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

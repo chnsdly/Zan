@@ -1,5 +1,5 @@
 +++
-title = "SCBH15H Cast Resin Dry-Type Transformer"
+title = "SCBH15干式变压器"
 description = "SCBH15H干式变压器采用非晶合金节能技术与环氧树脂浇注绝缘，主打超低空载损耗与绿色低碳配电，适用于对能耗指标敏感的园区、公共建筑和新能源配套项目。"
 image = "/images/dry-type/scb15h-dry-type-transformer.webp"
 +++

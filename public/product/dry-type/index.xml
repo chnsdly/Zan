@@ -7,5 +7,26 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="http://localhost:1313/product/dry-type/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SCB13 Cast Resin Dry-Type Transformer</title>
+      <link>http://localhost:1313/product/dry-type/scb13-dry-type-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/product/dry-type/scb13-dry-type-transformer/</guid>
+      <description>&lt;p&gt;The SCB13 series uses cast resin insulation with flame-retardant structure, making it a practical choice for hospitals, schools, malls, and manufacturing facilities where safety and reliability are critical. It helps reduce no-load loss and operating noise while supporting stable power quality and lower lifecycle operating cost.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SCB14 Cast Resin Dry-Type Transformer</title>
+      <link>http://localhost:1313/product/dry-type/scb14-dry-type-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/product/dry-type/scb14-dry-type-transformer/</guid>
+      <description>&lt;p&gt;Compared with earlier generations, the SCB14 series further optimizes loss control and thermal performance for demanding duty cycles. It is well suited for data centers, transit infrastructure, and high-rise commercial buildings that require stable continuous operation, energy savings, and dependable distribution resilience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SCBH15 Cast Resin Dry-Type Transformer</title>
+      <link>http://localhost:1313/product/dry-type/scb15h-dry-type-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/product/dry-type/scb15h-dry-type-transformer/</guid>
+      <description>&lt;p&gt;The SCBH15H series is designed for users prioritizing strict energy targets and long-term cost reduction. Its amorphous alloy core significantly lowers no-load loss, while cast resin insulation provides flame-retardant, low-maintenance operation. It is ideal for green buildings, utility upgrades, and renewable-energy supporting distribution systems.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

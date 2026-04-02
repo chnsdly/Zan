@@ -1,0 +1,60 @@
+.product-single__header {
+  margin-bottom: space(4);
+  text-align: center;
+}
+
+.product-single__overview {
+  display: grid;
+  gap: space(2);
+}
+
+.product-single__media {
+  border: var(--border);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  background-color: color-mix(in oklab, var(--surface) 86%, var(--brand));
+}
+
+.product-single__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
+.product-single__summary {
+  display: grid;
+  gap: space(2);
+  align-content: start;
+}
+
+.product-single__quote {
+  width: fit-content;
+}
+
+.product-single__details {
+  margin-top: space(4);
+  display: grid;
+  gap: space(2);
+}
+
+.product-single__details-title {
+  text-align: left;
+}
+
+.product-single__content {
+  display: grid;
+  gap: space(1.5);
+}
+
+.product-single__content p {
+  color: var(--on-surface);
+}
+
+@include mq-up(tablet) {
+  .product-single__overview {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: space(3);
+    align-items: start;
+  }
+}

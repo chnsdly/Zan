@@ -1,5 +1,5 @@
 +++
-title = "SCBH15H Cast Resin Dry-Type Transformer"
+title = "SCBH15 Cast Resin Dry-Type Transformer"
 description = "SCBH15H cast resin dry-type transformer combines amorphous alloy core efficiency with dry-type safety advantages, targeting ultra-low no-load loss and low-carbon power distribution for energy-sensitive projects."
 image = "/images/dry-type/scb15h-dry-type-transformer.webp"
 +++
