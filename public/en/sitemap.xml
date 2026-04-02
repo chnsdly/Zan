@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/dry-type/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/dry-type/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/dry-type/"
-                />
-  </url><url>
     <loc>http://localhost:1313/insights/</loc>
     <xhtml:link
                 rel="alternate"
@@ -24,42 +12,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/insights/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/oil-immersed/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/oil-immersed/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/oil-immersed/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/substation/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/substation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/substation/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/switchgear/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/switchgear/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/switchgear/"
                 />
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
@@ -74,6 +26,30 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/substation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/substation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/substation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/dry-type/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/dry-type/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/dry-type/"
+                />
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
@@ -84,6 +60,30 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/oil-immersed/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/oil-immersed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/oil-immersed/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/switchgear/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/switchgear/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/switchgear/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
