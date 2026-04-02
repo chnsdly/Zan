@@ -2,9 +2,7 @@
 <main class="product-single-page" aria-labelledby="product-single-title">
   <section class="section product-single">
     <div class="container container--narrow">
-      <header class="product-single__header">
-        <h1 id="product-single-title" class="product-single__title font-title-l">{{ .Title }}</h1>
-      </header>
+      
 
       <div class="product-single__overview">
         {{ with .Params.image }}
@@ -20,6 +18,10 @@
         {{ end }}
 
         <div class="product-single__summary">
+          {{with .Title}}
+          <h1 id="product-single-title" class="product-single__title font-title-s">{{ . }}</h1>
+          {{ end }}
+
           {{ with .Description }}
             <p class="font-body">{{ . }}</p>
           {{ end }}

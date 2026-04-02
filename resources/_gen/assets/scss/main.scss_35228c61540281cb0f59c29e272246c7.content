@@ -717,8 +717,7 @@ body.is-menu-open {
   .products-list__grid {
     grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
-.product-single__header {
-  margin-bottom: calc(var(--space) * 4);
+.product-single__title {
   text-align: center; }
 
 .product-single__overview {
@@ -739,11 +738,11 @@ body.is-menu-open {
 
 .product-single__summary {
   display: grid;
-  gap: calc(var(--space) * 2);
-  align-content: start; }
+  gap: calc(var(--space) * 2); }
 
 .product-single__quote {
-  width: fit-content; }
+  width: fit-content;
+  margin: 0 auto; }
 
 .product-single__details {
   margin-top: calc(var(--space) * 4);
