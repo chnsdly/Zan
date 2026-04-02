@@ -1,7 +1,10 @@
 +++
 title = "SCB13 Cast Resin Dry-Type Transformer"
-description = "SCB13 cast resin dry-type transformer series is built for energy-efficient industrial and commercial distribution, delivering low loss, low noise, and high fire safety for medium- and low-voltage applications."
+description = "SCB13 is an oil-free cast resin dry-type transformer for indoor distribution environments that require fire safety, low maintenance, and reliable load-center installation, offering stable performance, reduced operational risk, and balanced lifecycle economics for critical building power systems."
 image = "/images/dry-type/scb13-dry-type-transformer.webp"
 +++
 
-The SCB13 series uses cast resin insulation with flame-retardant structure, making it a practical choice for hospitals, schools, malls, and manufacturing facilities where safety and reliability are critical. It helps reduce no-load loss and operating noise while supporting stable power quality and lower lifecycle operating cost.
+SCB13 is a cast-resin dry-type transformer built around the core advantage of oil-free operation: no oil leakage risk, lower fire hazard profile, and easier integration inside buildings where safety and maintenance access are critical. It is commonly air-cooled and intended for indoor distribution rooms close to the load center, helping reduce cable routing complexity while maintaining reliable day-to-day supply quality.
+
+Typical SCB13 designs emphasize low loss, low noise, low partial discharge behavior, and strong moisture resistance, with optional forced-air cooling for temporary overload support where project requirements allow. This makes the series suitable for hospitals, schools, commercial complexes, and industrial facilities seeking dependable indoor power distribution with controlled maintenance burden and long-term operational stability.
+
