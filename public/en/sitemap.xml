@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/dry-type/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/dry-type/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/dry-type/"
+                />
+  </url><url>
     <loc>http://localhost:1313/insights/</loc>
     <xhtml:link
                 rel="alternate"
@@ -14,16 +26,40 @@
                 href="http://localhost:1313/insights/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/oil-immersed/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh/about/"
+                href="http://localhost:1313/zh/oil-immersed/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/about/"
+                href="http://localhost:1313/oil-immersed/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/substation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/substation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/substation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/switchgear/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/switchgear/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/switchgear/"
                 />
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
@@ -38,18 +74,6 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/products/dry-type-transformers/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/products/dry-type-transformers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/products/dry-type-transformers/"
-                />
-  </url><url>
     <loc>http://localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
@@ -60,42 +84,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/products/oil-immersed-transformers/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/products/oil-immersed-transformers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/products/oil-immersed-transformers/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/products/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/products/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/products/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/products/ring-main-units/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/products/ring-main-units/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/products/ring-main-units/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>

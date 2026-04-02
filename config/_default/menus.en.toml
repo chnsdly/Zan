@@ -1,31 +1,27 @@
 [[main]]
-name = "PRODUCT"
-url = "/products/"
-identifier = "products"
+name = "HOME"
+url = "/"
 weight = 10
 
-  [[main]]
-  name = "oil immersed transformers"
-  url = "/products/oil-immersed-transformers/"
-  parent = "products"
-  weight = 11
-
-  [[main]]
-  name = "dry type transformers"
-  url = "/products/dry-type-transformers/"
-  parent = "products"
-  weight = 12
-
-  [[main]]
-  name = "ring main units"
-  url = "/products/ring-main-units/"
-  parent = "products"
-  weight = 13
+[[main]]
+name = "SWITCHGEAR"
+url = "/switchgear/"
+weight = 11
 
 [[main]]
-name = "ABOUT US"
-url = "about/"
-weight = 20
+name = "COMPACT SUBSTATION"
+url = "/substation/"
+weight = 12
+
+[[main]]
+name = "OIL-IMMERSED TRANSFORMER"
+url = "/oil-immersed/"
+weight = 13
+
+[[main]]
+name = "DRY-TYPE TRANSFORMER"
+url = "/dry-type/"
+weight = 14
 
 [[main]]
 name = "INSIGHTS"

@@ -47,7 +47,7 @@ home_stats:
       label: "Annual Production Capacity"
     - value: 110
       suffix: "+"
-      label: "Countries and Regions Served"
+      label: "Countries Served"
     - value: 1000
       suffix: "+"
       label: "Projects Delivered"

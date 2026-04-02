@@ -527,7 +527,7 @@ body.is-menu-open {
 
 .section__description {
   margin: 0 auto;
-  max-width: 62ch;
+  max-width: 120ch;
   color: var(--secondary); }
 
 .button {

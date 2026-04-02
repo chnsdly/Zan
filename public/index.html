@@ -89,44 +89,46 @@
         <ul class="site-header__nav-list">
           
           
-          <li class="site-header__nav-item site-header__nav-item--has-children">
+          <li class="site-header__nav-item">
             
-            <button class="site-header__nav-link site-header__nav-toggle" type="button">
-              <span>PRODUCT</span>
-              <svg class="site-header__nav-caret" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                  stroke-width="1.8" />
-              </svg>
-            </button>
-            <ul class="site-header__submenu">
-              
-              <li class="site-header__submenu-item">
-                <a class="site-header__submenu-link" href="/products/oil-immersed-transformers/" >
-                  oil immersed transformers
-                </a>
-              </li>
-              
-              <li class="site-header__submenu-item">
-                <a class="site-header__submenu-link" href="/products/dry-type-transformers/" >
-                  dry type transformers
-                </a>
-              </li>
-              
-              <li class="site-header__submenu-item">
-                <a class="site-header__submenu-link" href="/products/ring-main-units/" >
-                  ring main units
-                </a>
-              </li>
-              
-            </ul>
+            <a class="site-header__nav-link" href="/" >
+              HOME
+            </a>
             
           </li>
           
           
           <li class="site-header__nav-item">
             
-            <a class="site-header__nav-link" href="/about/" >
-              ABOUT US
+            <a class="site-header__nav-link" href="/switchgear/" >
+              SWITCHGEAR
+            </a>
+            
+          </li>
+          
+          
+          <li class="site-header__nav-item">
+            
+            <a class="site-header__nav-link" href="/substation/" >
+              COMPACT SUBSTATION
+            </a>
+            
+          </li>
+          
+          
+          <li class="site-header__nav-item">
+            
+            <a class="site-header__nav-link" href="/oil-immersed/" >
+              OIL-IMMERSED TRANSFORMER
+            </a>
+            
+          </li>
+          
+          
+          <li class="site-header__nav-item">
+            
+            <a class="site-header__nav-link" href="/dry-type/" >
+              DRY-TYPE TRANSFORMER
             </a>
             
           </li>
@@ -170,21 +172,35 @@
             
             <li class="site-header__mobile-item">
               
-              <button class="site-header__mobile-link site-header__mobile-link--submenu" type="button"
-                data-menu-open="products">
-                <span>PRODUCT</span>
-                <svg class="site-header__mobile-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M9 7l5 5-5 5" fill="none" stroke="currentColor" stroke-linecap="round"
-                    stroke-linejoin="round" stroke-width="1.8" />
-                </svg>
-              </button>
+              <a class="site-header__mobile-link" href="/">HOME</a>
               
             </li>
             
             
             <li class="site-header__mobile-item">
               
-              <a class="site-header__mobile-link" href="/about/">ABOUT US</a>
+              <a class="site-header__mobile-link" href="/switchgear/">SWITCHGEAR</a>
+              
+            </li>
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <a class="site-header__mobile-link" href="/substation/">COMPACT SUBSTATION</a>
+              
+            </li>
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <a class="site-header__mobile-link" href="/oil-immersed/">OIL-IMMERSED TRANSFORMER</a>
+              
+            </li>
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <a class="site-header__mobile-link" href="/dry-type/">DRY-TYPE TRANSFORMER</a>
               
             </li>
             
@@ -208,23 +224,14 @@
         
         
         
-        <div class="site-header__mobile-panel" data-menu-panel="products" hidden>
-          <ul class="site-header__mobile-list">
-            
-            <li class="site-header__mobile-item">
-              <a class="site-header__mobile-link" href="/products/oil-immersed-transformers/">oil immersed transformers</a>
-            </li>
-            
-            <li class="site-header__mobile-item">
-              <a class="site-header__mobile-link" href="/products/dry-type-transformers/">dry type transformers</a>
-            </li>
-            
-            <li class="site-header__mobile-item">
-              <a class="site-header__mobile-link" href="/products/ring-main-units/">ring main units</a>
-            </li>
-            
-          </ul>
-        </div>
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -253,7 +260,7 @@
     const languageSwitcher = header.querySelector('[data-language-switcher]');
     const menuTitles = {
       root: "\"菜单\"",
-      "\"products\"": "\"PRODUCT\"",
+      
     };
 
     let activePanel = 'root';
@@ -490,7 +497,7 @@
             
           </p>
           
-          <p class="home-stats__label font-body">Countries and Regions Served</p>
+          <p class="home-stats__label font-body">Countries Served</p>
           
         </li>
         
@@ -514,7 +521,7 @@
     </div>
   </section>
   
-  
+   
 
 <script>
   (() => {

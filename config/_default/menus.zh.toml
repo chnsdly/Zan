@@ -1,31 +1,27 @@
 [[main]]
-name = "产品"
-url = "/products/"
-identifier = "products"
+name = "首页"
+url = "/"
 weight = 10
 
-  [[main]]
-  name = "油浸式变压器"
-  url = "/products/oil-immersed-transformers/"
-  parent = "products"
-  weight = 11
-
-  [[main]]
-  name = "干式变压器"
-  url = "/products/dry-type-transformers/"
-  parent = "products"
-  weight = 12
-
-  [[main]]
-  name = "环网柜"
-  url = "/products/ring-main-units/"
-  parent = "products"
-  weight = 13
+[[main]]
+name = "开关柜"
+url = "/switchgear/"
+weight = 11
 
 [[main]]
-name = "关于我们"
-url = "about/"
-weight = 20
+name = "箱式变电站"
+url = "/substation/"
+weight = 12
+
+[[main]]
+name = "油浸式变压器"
+url = "/oil-immersed/"
+weight = 13
+
+[[main]]
+name = "干式变压器"
+url = "/dry-type/"
+weight = 14
 
 [[main]]
 name = "行业洞察"

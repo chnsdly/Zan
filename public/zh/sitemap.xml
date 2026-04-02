@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/zh/dry-type/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/dry-type/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/dry-type/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh/insights/</loc>
     <xhtml:link
                 rel="alternate"
@@ -12,6 +24,42 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/insights/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/oil-immersed/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/oil-immersed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/oil-immersed/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/substation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/substation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/substation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/switchgear/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/switchgear/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/switchgear/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/categories/</loc>
@@ -26,18 +74,6 @@
                 href="http://localhost:1313/zh/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/products/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/products/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/products/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -50,42 +86,6 @@
                 href="http://localhost:1313/zh/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/products/dry-type-transformers/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/products/dry-type-transformers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/products/dry-type-transformers/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/about/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/products/ring-main-units/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/products/ring-main-units/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/products/ring-main-units/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh/</loc>
     <xhtml:link
                 rel="alternate"
@@ -96,18 +96,6 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/products/oil-immersed-transformers/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/products/oil-immersed-transformers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/products/oil-immersed-transformers/"
                 />
   </url>
 </urlset>

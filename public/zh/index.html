@@ -89,44 +89,46 @@
         <ul class="site-header__nav-list">
           
           
-          <li class="site-header__nav-item site-header__nav-item--has-children">
+          <li class="site-header__nav-item">
             
-            <button class="site-header__nav-link site-header__nav-toggle" type="button">
-              <span>产品</span>
-              <svg class="site-header__nav-caret" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                  stroke-width="1.8" />
-              </svg>
-            </button>
-            <ul class="site-header__submenu">
-              
-              <li class="site-header__submenu-item">
-                <a class="site-header__submenu-link" href="/zh/products/oil-immersed-transformers/" >
-                  油浸式变压器
-                </a>
-              </li>
-              
-              <li class="site-header__submenu-item">
-                <a class="site-header__submenu-link" href="/zh/products/dry-type-transformers/" >
-                  干式变压器
-                </a>
-              </li>
-              
-              <li class="site-header__submenu-item">
-                <a class="site-header__submenu-link" href="/zh/products/ring-main-units/" >
-                  环网柜
-                </a>
-              </li>
-              
-            </ul>
+            <a class="site-header__nav-link" href="/zh/" >
+              首页
+            </a>
             
           </li>
           
           
           <li class="site-header__nav-item">
             
-            <a class="site-header__nav-link" href="/zh/about/" >
-              关于我们
+            <a class="site-header__nav-link" href="/zh/switchgear/" >
+              开关柜
+            </a>
+            
+          </li>
+          
+          
+          <li class="site-header__nav-item">
+            
+            <a class="site-header__nav-link" href="/zh/substation/" >
+              箱式变电站
+            </a>
+            
+          </li>
+          
+          
+          <li class="site-header__nav-item">
+            
+            <a class="site-header__nav-link" href="/zh/oil-immersed/" >
+              油浸式变压器
+            </a>
+            
+          </li>
+          
+          
+          <li class="site-header__nav-item">
+            
+            <a class="site-header__nav-link" href="/zh/dry-type/" >
+              干式变压器
             </a>
             
           </li>
@@ -170,21 +172,35 @@
             
             <li class="site-header__mobile-item">
               
-              <button class="site-header__mobile-link site-header__mobile-link--submenu" type="button"
-                data-menu-open="products">
-                <span>产品</span>
-                <svg class="site-header__mobile-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M9 7l5 5-5 5" fill="none" stroke="currentColor" stroke-linecap="round"
-                    stroke-linejoin="round" stroke-width="1.8" />
-                </svg>
-              </button>
+              <a class="site-header__mobile-link" href="/zh/">首页</a>
               
             </li>
             
             
             <li class="site-header__mobile-item">
               
-              <a class="site-header__mobile-link" href="/zh/about/">关于我们</a>
+              <a class="site-header__mobile-link" href="/zh/switchgear/">开关柜</a>
+              
+            </li>
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <a class="site-header__mobile-link" href="/zh/substation/">箱式变电站</a>
+              
+            </li>
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <a class="site-header__mobile-link" href="/zh/oil-immersed/">油浸式变压器</a>
+              
+            </li>
+            
+            
+            <li class="site-header__mobile-item">
+              
+              <a class="site-header__mobile-link" href="/zh/dry-type/">干式变压器</a>
               
             </li>
             
@@ -208,23 +224,14 @@
         
         
         
-        <div class="site-header__mobile-panel" data-menu-panel="products" hidden>
-          <ul class="site-header__mobile-list">
-            
-            <li class="site-header__mobile-item">
-              <a class="site-header__mobile-link" href="/zh/products/oil-immersed-transformers/">油浸式变压器</a>
-            </li>
-            
-            <li class="site-header__mobile-item">
-              <a class="site-header__mobile-link" href="/zh/products/dry-type-transformers/">干式变压器</a>
-            </li>
-            
-            <li class="site-header__mobile-item">
-              <a class="site-header__mobile-link" href="/zh/products/ring-main-units/">环网柜</a>
-            </li>
-            
-          </ul>
-        </div>
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -253,7 +260,7 @@
     const languageSwitcher = header.querySelector('[data-language-switcher]');
     const menuTitles = {
       root: "\"菜单\"",
-      "\"products\"": "\"产品\"",
+      
     };
 
     let activePanel = 'root';
@@ -514,7 +521,7 @@
     </div>
   </section>
   
-  
+   
 
 <script>
   (() => {
