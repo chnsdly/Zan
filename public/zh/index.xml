@@ -7,5 +7,54 @@
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>110 kV Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/zh/oil-immersed/oil-immersed-power-110kv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/oil-immersed/oil-immersed-power-110kv/</guid>
+      <description>&lt;p&gt;该110kV油浸式变压器适用于区域电网联络、城市变电站及高耗能企业配电系统，强调长期可靠运行与全生命周期能效表现。通过优化温升与电磁设计，可在连续负载条件下保障供电稳定，降低运维风险。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>220 kV Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/zh/oil-immersed/oil-immersed-power-220kv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/oil-immersed/oil-immersed-power-220kv/</guid>
+      <description>&lt;p&gt;该220kV等级产品面向主网输电与大型变电站扩容项目，强调高容量承载与系统安全运行能力。通过优化结构与散热设计，可在复杂环境下维持稳定性能，为关键电力基础设施提供可靠支撑。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3D Wound-Core Transformer</title>
+      <link>http://localhost:1313/zh/oil-immersed/three-dimensional-wound-core-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/oil-immersed/three-dimensional-wound-core-transformer/</guid>
+      <description>&lt;p&gt;相较传统叠片铁心结构，三维卷铁心技术具备磁路连续性更好、振动更低、部分负载效率更高等优势。适用于城市配电、对噪声敏感区域及强调电能质量的项目建设。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Amorphous 3D Wound-Core Transformer</title>
+      <link>http://localhost:1313/zh/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</guid>
+      <description>&lt;p&gt;该系列结合非晶合金铁心与三维卷铁心设计，可显著降低空载损耗并提升全寿命周期能效表现。适用于节能指标严格、追求低碳运营与长期投资回报的用户需求。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>S13 Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/zh/oil-immersed/oil-immersed-transformer-s13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/oil-immersed/oil-immersed-transformer-s13/</guid>
+      <description>&lt;p&gt;S13系列针对节能配电需求打造，在保障电压质量的同时有效降低空载损耗与噪声水平。适合园区配电、公共基础设施和商业用电场景，兼顾稳定供电与经济性，是常见的节能型油浸式变压器方案。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>S20 Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/zh/oil-immersed/oil-immersed-transformer-s20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/oil-immersed/oil-immersed-transformer-s20/</guid>
+      <description>&lt;p&gt;S20系列面向高标准能效项目，能够在长期运行中显著减少电能损耗，提升系统经济性。对于追求绿色制造和精细化能耗管理的用户，该系列在效率、稳定性和耐久性方面更具综合优势。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>S22 Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/zh/oil-immersed/oil-immersed-transformer-s22/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/oil-immersed/oil-immersed-transformer-s22/</guid>
+      <description>&lt;p&gt;S22系列定位于高端节能应用场景，在空载损耗与负载损耗控制方面表现突出。对于关注ESG、碳排管理与长期用能成本的用户，该系列可有效提升配电系统能效水平与可持续价值。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

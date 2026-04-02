@@ -7,5 +7,54 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <atom:link href="http://localhost:1313/oil-immersed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>110 kV Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/oil-immersed/oil-immersed-power-110kv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/oil-immersed/oil-immersed-power-110kv/</guid>
+      <description>&lt;p&gt;This 110 kV oil-immersed transformer is designed for regional grid interconnection, urban substations, and energy-intensive plants that demand high reliability and long service intervals. It supports efficient power transmission, reduced lifecycle energy consumption, and robust thermal performance for continuous operation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>220 kV Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/oil-immersed/oil-immersed-power-220kv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/oil-immersed/oil-immersed-power-220kv/</guid>
+      <description>&lt;p&gt;This 220 kV class transformer supports backbone transmission projects and large-scale substation expansion where high capacity and system stability are essential. It is engineered to handle severe operating environments, improve grid security, and meet demanding utility performance requirements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3D Wound-Core Transformer</title>
+      <link>http://localhost:1313/oil-immersed/three-dimensional-wound-core-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/oil-immersed/three-dimensional-wound-core-transformer/</guid>
+      <description>&lt;p&gt;Compared with conventional laminated cores, this 3D wound-core transformer delivers improved magnetic flux continuity, lower vibration, and better efficiency at partial loads. It is ideal for urban distribution, data-supporting infrastructure, and noise-sensitive installations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Amorphous 3D Wound-Core Transformer</title>
+      <link>http://localhost:1313/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</guid>
+      <description>&lt;p&gt;This series integrates amorphous alloy core technology and three-dimensional wound-core structure to minimize no-load losses and improve lifecycle energy performance. It is highly suitable for users aiming at strict efficiency targets, lower emissions, and future-ready power systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>S13 Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/oil-immersed/oil-immersed-transformer-s13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/oil-immersed/oil-immersed-transformer-s13/</guid>
+      <description>&lt;p&gt;The S13 series is widely selected for energy-saving distribution projects where users need lower no-load loss, quieter operation, and dependable voltage quality. It is suitable for industrial parks, public infrastructure, and commercial power systems seeking long-term operating cost optimization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>S20 Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/oil-immersed/oil-immersed-transformer-s20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/oil-immersed/oil-immersed-transformer-s20/</guid>
+      <description>&lt;p&gt;Built for high-standard efficiency projects, the S20 series helps utilities and industrial users reduce annual energy losses while maintaining stable output and strong overload resilience. It is a preferred choice for green manufacturing facilities and new distribution network retrofits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>S22 Oil-Immersed Transformer</title>
+      <link>http://localhost:1313/oil-immersed/oil-immersed-transformer-s22/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/oil-immersed/oil-immersed-transformer-s22/</guid>
+      <description>&lt;p&gt;The S22 series targets advanced power users that prioritize superior efficiency and sustainability outcomes. With reduced no-load and load losses, it helps cut operating expenses and supports ESG-oriented power infrastructure modernization.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

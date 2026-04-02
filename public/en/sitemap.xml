@@ -14,6 +14,54 @@
                 href="http://localhost:1313/insights/"
                 />
   </url><url>
+    <loc>http://localhost:1313/oil-immersed/oil-immersed-power-110kv/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/oil-immersed/oil-immersed-power-110kv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/oil-immersed/oil-immersed-power-110kv/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/oil-immersed/oil-immersed-power-220kv/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/oil-immersed/oil-immersed-power-220kv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/oil-immersed/oil-immersed-power-220kv/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/oil-immersed/three-dimensional-wound-core-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/oil-immersed/three-dimensional-wound-core-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/oil-immersed/three-dimensional-wound-core-transformer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/"
+                />
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -72,6 +120,42 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/oil-immersed/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/oil-immersed/oil-immersed-transformer-s13/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/oil-immersed/oil-immersed-transformer-s13/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/oil-immersed/oil-immersed-transformer-s13/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/oil-immersed/oil-immersed-transformer-s20/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/oil-immersed/oil-immersed-transformer-s20/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/oil-immersed/oil-immersed-transformer-s20/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/oil-immersed/oil-immersed-transformer-s22/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/oil-immersed/oil-immersed-transformer-s22/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/oil-immersed/oil-immersed-transformer-s22/"
                 />
   </url><url>
     <loc>http://localhost:1313/switchgear/</loc>
