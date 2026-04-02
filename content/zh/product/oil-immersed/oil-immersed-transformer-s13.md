@@ -1,5 +1,5 @@
 +++
-title = "S13 Oil-Immersed Transformer"
+title = "S13油浸式变压器"
 description = "S13油浸式配电变压器系列以低空载损耗和高能效为核心，适用于工厂、商业建筑与配网改造项目，帮助用户降低电费与长期运营成本。"
 image = "/images/oil-immersed/oil-immersed-transformer-s13.webp"
 +++

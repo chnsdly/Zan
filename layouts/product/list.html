@@ -1,8 +1,32 @@
+
 {{ define "main" }}
-<main class="product-page" aria-labelledby="product-page-title">
-  <section class="section">
+<main class="products-list-page" aria-labelledby="products-list-page-title">
+  <section class="section products-list">
     <div class="container">
-      <h1 id="product-page-title" class="section__title font-title-l">{{ .Title }}</h1>
+      <header class="section__header products-list__header">
+        <h1 id="products-list-page-title" class="section__title font-title-l">{{ .Title }}</h1>
+        {{ with .Description }}
+          <p class="section__description font-body">{{ . }}</p>
+        {{ end }}
+      </header>
+
+      <ul class="products-list__grid">
+        {{ range .RegularPages.ByWeight.ByTitle }}
+          {{ $item := . }}
+          <li class="products-list__item">
+            <a class="products-list__card" href="{{ .RelPermalink }}">
+              {{ with .Params.image }}
+                <div class="products-list__media">
+                  <img class="products-list__image" src="{{ . | relURL }}" alt="{{ $item.Title }}" loading="lazy" decoding="async">
+                </div>
+              {{ end }}
+              <div class="products-list__content">
+                <h2 class="font-body">{{ .Title }}</h2>
+              </div>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
     </div>
   </section>
 </main>

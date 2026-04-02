@@ -1,5 +1,5 @@
 +++
-title = "S20 Oil-Immersed Transformer"
+title = "S20油浸式变压器"
 description = "S20超节能油浸式变压器，具备更低铁损与更优综合能效，适合低碳工厂、新建园区和高标准配网升级，助力实现降耗与降本双目标。"
 image = "/images/oil-immersed/oil-immersed-transformer-s20.webp"
 +++

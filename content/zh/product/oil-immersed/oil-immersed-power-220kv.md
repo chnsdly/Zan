@@ -1,5 +1,5 @@
 +++
-title = "220 kV Oil-Immersed Transformer"
+title = "220kV油浸式变压器"
 description = "220kV油浸式电力变压器，适用于高压输电与骨干变电站工程，具备绝缘可靠性高、电磁性能优、长期运行稳定等特点，满足关键电网的高容量需求。"
 image = "/images/oil-immersed/oil-immersed-power-220kv.webp"
 +++

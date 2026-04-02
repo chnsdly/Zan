@@ -1,5 +1,5 @@
 +++
-title = "S22 Oil-Immersed Transformer"
+title = "S22油浸式变压器"
 description = "S22高效节能油浸式变压器系列，提供更低损耗与更优综合效率，适合智能电网及注重节能减碳的企业配电系统建设。"
 image = "/images/oil-immersed/oil-immersed-transformer-s22.webp"
 +++

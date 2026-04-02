@@ -1,5 +1,5 @@
 +++
-title = "3D Wound-Core Transformer"
+title = "立体三角卷铁芯变压器"
 description = "三维立体卷铁心油浸式变压器，采用三维磁路设计以降低空载损耗与运行噪声，三相受磁更均衡，适用于对供电品质要求较高的配电场景。"
 image = "/images/oil-immersed/three-dimensional-wound-core-transformer.webp"
 +++

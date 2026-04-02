@@ -1,5 +1,5 @@
 +++
-title = "110 kV Oil-Immersed Transformer"
+title = "110kV油浸式变压器"
 description = "110kV油浸式电力变压器，面向电网变电站与大型工业供电场景，具备低损耗、抗短路能力强、运行稳定等优势，满足高负荷工况下的可靠输配电需求。"
 image = "/images/oil-immersed/oil-immersed-power-110kv.webp"
 +++

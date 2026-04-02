@@ -26,6 +26,54 @@
                 href="http://localhost:1313/insights/"
                 />
   </url><url>
+    <loc>http://localhost:1313/product/oil-immersed/oil-immersed-power-110kv/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/oil-immersed-power-110kv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/oil-immersed-power-110kv/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/oil-immersed/oil-immersed-power-220kv/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/oil-immersed-power-220kv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/oil-immersed-power-220kv/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/oil-immersed/three-dimensional-wound-core-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/three-dimensional-wound-core-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/three-dimensional-wound-core-transformer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/"
+                />
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -38,6 +86,30 @@
                 href="http://localhost:1313/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/product/substation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/substation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/substation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/dry-type/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/dry-type/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/dry-type/"
+                />
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <xhtml:link
                 rel="alternate"
@@ -48,6 +120,78 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/oil-immersed/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/oil-immersed/oil-immersed-transformer-s13/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/oil-immersed-transformer-s13/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/oil-immersed-transformer-s13/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/oil-immersed/oil-immersed-transformer-s20/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/oil-immersed-transformer-s20/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/oil-immersed-transformer-s20/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/oil-immersed/oil-immersed-transformer-s22/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/oil-immersed/oil-immersed-transformer-s22/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/oil-immersed/oil-immersed-transformer-s22/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/product/switchgear/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/switchgear/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/switchgear/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
