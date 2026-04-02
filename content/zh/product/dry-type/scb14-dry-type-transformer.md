@@ -1,0 +1,7 @@
++++
+title = "SCB14 Cast Resin Dry-Type Transformer"
+description = "SCB14环氧树脂浇注干式变压器针对高负载与高可靠性配电需求设计，具备更优能效、抗短时过载能力与低噪音表现，适合数据中心、轨道交通与高层建筑。"
+image = "/images/dry-type/scb14-dry-type-transformer.webp"
++++
+
+SCB14系列在SCB13基础上进一步优化损耗控制与温升性能，适用于负载波动较大、连续运行时间长的关键配电系统。对于数据中心、商业综合体和市政基础设施等用户，SCB14可在保障供电稳定的同时降低电能损耗，满足节能与可靠并重的项目需求。
