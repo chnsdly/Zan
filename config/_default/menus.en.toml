@@ -5,22 +5,22 @@ weight = 10
 
 [[main]]
 name = "SWITCHGEAR"
-url = "/switchgear/"
+url = "/product/switchgear/"
 weight = 11
 
 [[main]]
 name = "COMPACT SUBSTATION"
-url = "/substation/"
+url = "/product/substation/"
 weight = 12
 
 [[main]]
 name = "OIL-IMMERSED TRANSFORMER"
-url = "/oil-immersed/"
+url = "/product/oil-immersed/"
 weight = 13
 
 [[main]]
 name = "DRY-TYPE TRANSFORMER"
-url = "/dry-type/"
+url = "/product/dry-type/"
 weight = 14
 
 [[main]]

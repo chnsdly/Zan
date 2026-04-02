@@ -5,22 +5,22 @@ weight = 10
 
 [[main]]
 name = "开关柜"
-url = "/switchgear/"
+url = "/product/switchgear/"
 weight = 11
 
 [[main]]
 name = "箱式变电站"
-url = "/substation/"
+url = "/product/substation/"
 weight = 12
 
 [[main]]
 name = "油浸式变压器"
-url = "/oil-immersed/"
+url = "/product/oil-immersed/"
 weight = 13
 
 [[main]]
 name = "干式变压器"
-url = "/dry-type/"
+url = "/product/dry-type/"
 weight = 14
 
 [[main]]
