@@ -560,8 +560,7 @@ body.is-menu-open {
   box-shadow: var(--shadow); }
 
 .breadcrumbs {
-  padding-block: calc(var(--space) * 1.5);
-  border-bottom: var(--border); }
+  padding-block: calc(var(--space) * 1.5); }
 
 .breadcrumbs__list {
   display: flex;

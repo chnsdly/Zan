@@ -2,7 +2,7 @@
   {{ $homeLabel := i18n "breadcrumb_home" | default "Home" }}
   {{ $navLabel := i18n "breadcrumbs_navigation" | default "Breadcrumb" }}
   {{ $containerClass := "container" }}
-  {{ if and .IsPage (eq .Type "product") }}
+  {{ if and .IsPage (in (slice "product" "insights") .Type) }}
     {{ $containerClass = "container container--narrow" }}
   {{ end }}
 
