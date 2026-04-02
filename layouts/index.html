@@ -90,6 +90,40 @@
   {{ end }}
 {{ end }}
 
+
+<!---------- Featured Products ---------->
+  {{ $featuredProducts := where (where .Site.RegularPages "Section" "product") "Params.featured" true }}
+  {{ if gt (len $featuredProducts) 0 }}
+  <section class="section home-featured" aria-labelledby="home-featured-title">
+    <div class="container">
+      <div class="section__header products-list__header">
+        <h2 id="home-featured-title" class="section__title font-title-l">{{ with .Params.home_featured.title }}{{ . }}{{ else }}Featured Products{{ end }}</h2>
+        {{ with .Params.home_featured.description }}
+        <p class="section__description font-body">{{ . }}</p>
+        {{ end }}
+      </div>
+
+      <ul class="products-list__grid">
+        {{ range $featuredProducts.ByWeight.ByTitle }}
+          {{ $item := . }}
+          <li class="products-list__item">
+            <a class="products-list__card" href="{{ .RelPermalink }}">
+              {{ with .Params.image }}
+                <div class="products-list__media">
+                  <img class="products-list__image" src="{{ . | relURL }}" alt="{{ $item.Title }}" loading="lazy" decoding="async">
+                </div>
+              {{ end }}
+              <div class="products-list__content">
+                <h2 class="font-body">{{ .Title }}</h2>
+              </div>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+  {{ end }}
+
 <!---------- Stats ---------->
   {{ with .Params.home_stats }}
   {{ if .enable }}

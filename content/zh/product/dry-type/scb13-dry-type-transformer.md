@@ -1,6 +1,7 @@
 +++
 title = "SCB13干式变压器"
 description = "SCB13树脂浇注干式变压器面向室内配电应用，强调无油运行、防火安全、低维护和稳定供电。该系列适用于商业建筑、公共设施与工业厂房等负荷中心安装场景，为用户提供可靠性与经济性兼顾的干式配电方案。"
+featured = true
 image = "/images/dry-type/scb13-dry-type-transformer.webp"
 +++
 

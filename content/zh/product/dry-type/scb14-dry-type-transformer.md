@@ -1,6 +1,7 @@
 +++
 title = "SCB14干式变压器"
 description = "SCB14树脂浇注干式变压器定位于更高能效与更高运行稳定性需求的室内配电项目，在保持无油防火优势的同时，进一步强化损耗控制与温升管理，适用于轨道交通、医疗、教育及高层商业建筑等关键场景。"
+featured = true
 image = "/images/dry-type/scb14-dry-type-transformer.webp"
 +++
 

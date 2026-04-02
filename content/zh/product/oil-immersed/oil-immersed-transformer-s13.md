@@ -1,6 +1,7 @@
 +++
 title = "S13油浸式变压器"
 description = "S13全密封油浸式配电变压器是成熟的低损耗主流系列，适用于工业、公用事业与商业配电系统升级。产品强调稳定电压输出、较低空载损耗、可靠密封结构与可控采购成本，适合兼顾性能与投资效率的项目。"
+featured = true
 image = "/images/oil-immersed/oil-immersed-transformer-s13.webp"
 +++
 
