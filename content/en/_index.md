@@ -34,6 +34,10 @@ home_trusted:
     - name: "Partner 8"
       logo: "images/partners/partner-08.png"
 
+home_featured:
+  title: "Featured Products"
+  description: "Products curated from content items marked as featured = true."
+
 home_stats:
   enable: true
   title: "Strength Backed by Experience"

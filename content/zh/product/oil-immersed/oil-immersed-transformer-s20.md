@@ -1,6 +1,7 @@
 +++
 title = "S20油浸式变压器"
 description = "S20全密封油浸式配电变压器定位于更高能效等级需求，在保持常规配电可靠性的同时，进一步优化空载与负载损耗。该系列适合全年连续带电网络及注重全生命周期电费控制的工业和公用事业客户。"
+featured = true
 image = "/images/oil-immersed/oil-immersed-transformer-s20.webp"
 +++
 

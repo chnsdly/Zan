@@ -34,6 +34,10 @@ home_trusted:
     - name: "Partner 8"
       logo: "images/partners/partner-08.png"
 
+home_featured:
+  title: "精选产品"
+  description: "来自产品库中标记为 featured 的产品。"
+
 home_stats:
   enable: true
   title: "经验铸就的实力"
