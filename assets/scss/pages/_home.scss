@@ -26,12 +26,10 @@
 
 
 .home-trusted {
-  background-color: color-mix(in oklab, var(--surface) 88%, var(--brand));
+  background-color: color-mix(in oklab, var(--surface) 95%, black);
 }
 
 .home-trusted__list {
-  list-style: none;
-  padding: 0;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: space(2);
@@ -52,6 +50,10 @@
   object-fit: contain;
 }
 
+.home-stats {
+  padding-block: space(4);
+  background-color: color-mix(in oklab, var(--surface) 95%, black);
+}
 
 .home-stats__grid {
   display: grid;
@@ -60,7 +62,7 @@
 }
 
 .home-stats__item {
-  padding: space(3);
+  padding: space(2);
   border-radius: var(--radius-m);
   border: var(--border);
   background-color: var(--card);
@@ -106,25 +108,10 @@
   color: var(--on-surface);
 }
 
-.home-stats__company {
-  margin-top: space(4);
-}
-
-.home-stats__company .product-single__title {
-  text-align: left;
-}
-
-.home-stats__company .product-single__quote {
-  margin: 0;
-}
-
-.home-stats__factory {
-  margin-top: space(3);
-}
 
 .home-stats__factory-grid {
   display: grid;
-  gap: space(1.5);
+  gap: space(2);
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 

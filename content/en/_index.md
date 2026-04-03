@@ -55,26 +55,14 @@ home_stats:
     - value: 1000
       suffix: "+"
       label: "Projects Delivered"
-  company:
-    image: "images/company/company.webp"
-    title: "Hengli New Energy Technology (Linyi) Co., Ltd."
-    description: "Hengli New Energy Technology (Linyi) Co., Ltd. focuses on new energy and power-support solutions, integrating R&D, manufacturing, sales, and service to deliver stable and efficient products for industrial, energy, and infrastructure customers. Committed to quality-first and long-term value, the company continuously improves technology, production management, and delivery assurance to become a trusted partner in green energy."
+home_company:
+  image: "images/company/company.webp"
+  title: "Hengli New Energy Technology (Linyi) Co., Ltd."
+  description: "The company focuses on power distribution equipment solutions, providing safe, stable, and energy-efficient support for utility networks, industrial projects, commercial buildings, and public infrastructure. With the ability to address different voltage classes, installation conditions, and operating requirements, the company offers integrated support from product selection and solution matching to project delivery. Its product portfolio covers both oil-immersed and dry-type technologies, balancing operating efficiency, fire safety, low loss, low maintenance, and long-term reliability. Guided by a practical engineering approach and a commitment to consistent quality, the company helps customers improve power system performance and achieve better alignment with real project needs."
   factory_gallery:
     images:
       - "images/company/factory-1.webp"
       - "images/company/factory-2.webp"
       - "images/company/factory-3.webp"
 
-  home_ups:
-    enable: true
-    items:
-      - icon: "fas fa-certificate"
-        title: "ISO认证"
-        description: "工厂管理符合 ISO9001 与 OHSAS18001 标准。"
-      - icon: "fas fa-vial"
-        title: "SGS 检测"
-        description: "SGS 检测报告证明原材料均为食品级全新原料。"
-      - icon: "fas fa-truck-loading"
-        title: "物流保障"
-        description: "出口配套能力覆盖 20+ 国家，满足跨境运输需求。"
 ---

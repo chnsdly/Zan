@@ -36,7 +36,7 @@ weight = 40
 
 # footer menu
 [[footer]]
-name = "隐私"
+name = "隐私政策"
 url = "about/"
 weight = 2
 

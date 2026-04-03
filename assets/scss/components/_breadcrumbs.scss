@@ -1,5 +1,6 @@
 .breadcrumbs {
-  padding-block: space(1.5);
+  padding-block: space(1);
+  border-bottom: 1px solid #E7E5DD;
 }
 
 .breadcrumbs__list {
@@ -64,10 +65,4 @@
   color: var(--on-surface);
   font-weight: 500;
   overflow-wrap: anywhere;
-}
-
-@include mq-up(tablet) {
-  .breadcrumbs {
-    padding-block: space(2);
-  }
 }
