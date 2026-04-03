@@ -2,15 +2,14 @@
 title: "Home | Zan"
 description: ""
 
-params:
-  home_hero:
-    enable: true
-    hero_bg: "images/hero_bg.webp"
-    title: "RELIABLE POWER, BUILT FOR LONG-TERM PERFORMANCE"
-    description: "Engineered solutions for modern power distribution, focused on safety, efficiency, and dependable operation across diverse project needs."
-    button:
-      label: "Learn more"
-      url: "/products/"
+home_hero:
+  enable: true
+  hero_bg: "images/hero_bg.webp"
+  title: "RELIABLE POWER, BUILT FOR LONG-TERM PERFORMANCE"
+  description: "Engineered solutions for modern power distribution, focused on safety, efficiency, and dependable operation across diverse project needs."
+  button:
+    label: "Learn more"
+    url: "/products/"
 
 home_trusted:
   enable: true
@@ -55,17 +54,18 @@ home_stats:
     - value: 1000
       suffix: "+"
       label: "Projects Delivered"
+
 home_company:
+  enable: true
   image: "images/company/company.webp"
   title: "Hengli New Energy Technology (Linyi) Co., Ltd."
   description: "The company focuses on power distribution equipment solutions, providing safe, stable, and energy-efficient support for utility networks, industrial projects, commercial buildings, and public infrastructure. With the ability to address different voltage classes, installation conditions, and operating requirements, the company offers integrated support from product selection and solution matching to project delivery. Its product portfolio covers both oil-immersed and dry-type technologies, balancing operating efficiency, fire safety, low loss, low maintenance, and long-term reliability. Guided by a practical engineering approach and a commitment to consistent quality, the company helps customers improve power system performance and achieve better alignment with real project needs."
   factory_gallery:
-    images:
-      - image: "images/company/factory-1.webp"
-        name: "Factory interior image"
-      - image: "images/company/factory-2.webp"
-        name: "Factory interior image"
-      - image: "images/company/factory-3.webp"
-        name: "Factory interior image"
+    - image: "images/company/factory-1.webp"
+      name: "Factory interior image"
+    - image: "images/company/factory-2.webp"
+      name: "Factory interior image"
+    - image: "images/company/factory-3.webp"
+      name: "Factory interior image"
 
 ---

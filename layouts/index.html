@@ -129,42 +129,6 @@
           </li>
           {{ end }}
         </ul>
-      
-        {{ with .company }}
-        {{ $company := . }}
-          <div class="product-single__overview">
-            {{ with .image }}
-            <div class="product-single__media">
-              <img class="product-single__image" src="{{ . | relURL }}" alt="{{ $company.title }}" loading="lazy"
-                decoding="async">
-            </div>
-            {{ end }}
-      
-            <div class="product-single__summary">
-              {{ with .title }}
-              <h3 id="home-company-title" class="product-single__title font-title-s">{{ . }}</h3>
-              {{ end }}
-              {{ with .description }}
-              <p class="font-body">{{ . }}</p>
-              {{ end }}
-              <a class="button product-single__quote" href='{{ "/contact/" | relLangURL }}'>
-                {{ i18n "contact_us" | default "Contact Us" }}
-              </a>
-            </div>
-          </div>
-        {{ end }}
-      
-        {{ with .factory_gallery }}
-        {{ with .images }}
-        <section class="home-stats__factory">
-          <div class="home-stats__factory-grid">
-            {{ range . }}
-            <img class="home-stats__factory-image" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">
-            {{ end }}
-          </div>
-        </section>
-        {{ end }}
-        {{ end }}
       </div>
     </div>
   </section>
@@ -177,10 +141,11 @@
   <section class="section home-company">
     <div class="container">
       <div class="section__inner">
+        {{ $company := . }}
           <div class="home-company__overview">
             {{ with .image }}
             <div class="home-company__media">
-              <img class="home-company__image" src="{{ . | relURL }}" alt="{{ $.title }}" loading="lazy"
+              <img class="home-company__image" src="{{ . | relURL }}" alt="{{ $company.title }}" loading="lazy"
                 decoding="async">
             </div>
             {{ end }}
@@ -200,15 +165,11 @@
         {{ end }}
       
         {{ with .factory_gallery }}
-        {{ with .images }}
-        <section class="home-company__factory">
           <div class="home-company__factory-grid">
             {{ range . }}
             <img class="home-company__factory-image" src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy" decoding="async">
             {{ end }}
           </div>
-        </section>
-        {{ end }}
         {{ end }}
       </div>
     </div>
