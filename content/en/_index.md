@@ -39,6 +39,7 @@ home_featured:
 
 home_stats:
   enable: true
+  stats_bg: "images/home_stats.webp"
   title: "Strength Backed by Experience"
   description: "Built on long-term industry experience, broad market reach, and a consistent focus on dependable power distribution solutions."
   items:

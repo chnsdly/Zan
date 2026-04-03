@@ -510,7 +510,7 @@ body.is-menu-open {
    区块之间的节奏和基础布局。 */
 .section {
   position: relative;
-  padding-block: calc(var(--space) * 3); }
+  padding-block: calc(var(--space) * 4); }
 
 .section__inner {
   display: grid;
@@ -707,12 +707,23 @@ body.is-menu-open {
 .home-company__media {
   border: var(--border);
   border-radius: var(--radius-m);
-  overflow: hidden; }
+  overflow: hidden;
+  transition: box-shadow var(--transition-base); }
 
 .home-company__image {
   width: 100%;
   object-fit: cover;
-  aspect-ratio: 4 / 3; }
+  aspect-ratio: 4 / 3;
+  transition: transform var(--transition-base);
+  will-change: transform; }
+
+.home-company__media:hover,
+.home-company__media:focus-within {
+  box-shadow: var(--shadow-hover); }
+
+.home-company__media:hover .home-company__image,
+.home-company__media:focus-within .home-company__image {
+  transform: scale(1.06); }
 
 .home-company__summary {
   display: grid;

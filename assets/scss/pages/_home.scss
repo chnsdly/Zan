@@ -119,12 +119,25 @@
   border: var(--border);
   border-radius: var(--radius-m);
   overflow: hidden;
+  transition: box-shadow var(--transition-base);
 }
 
 .home-company__image {
   width: 100%;
   object-fit: cover;
   aspect-ratio: 4 / 3;
+  transition: transform var(--transition-base);
+  will-change: transform;
+}
+
+.home-company__media:hover,
+.home-company__media:focus-within {
+  box-shadow: var(--shadow-hover);
+}
+
+.home-company__media:hover .home-company__image,
+.home-company__media:focus-within .home-company__image {
+  transform: scale(1.06);
 }
 
 .home-company__summary {
@@ -185,6 +198,8 @@
   object-fit: cover;
   aspect-ratio: 4 / 3;
 }
+
+
 
 @include mq-up(tablet) {
   .home-stats__grid {
