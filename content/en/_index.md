@@ -55,6 +55,15 @@ home_stats:
     - value: 1000
       suffix: "+"
       label: "Projects Delivered"
+  company:
+    image: "images/company/company.webp"
+    title: "Hengli New Energy Technology (Linyi) Co., Ltd."
+    description: "Hengli New Energy Technology (Linyi) Co., Ltd. focuses on new energy and power-support solutions, integrating R&D, manufacturing, sales, and service to deliver stable and efficient products for industrial, energy, and infrastructure customers. Committed to quality-first and long-term value, the company continuously improves technology, production management, and delivery assurance to become a trusted partner in green energy."
+  factory_gallery:
+    images:
+      - "images/company/factory-1.webp"
+      - "images/company/factory-2.webp"
+      - "images/company/factory-3.webp"
 
   home_ups:
     enable: true
