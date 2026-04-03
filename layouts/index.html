@@ -165,10 +165,19 @@
         {{ end }}
       
         {{ with .factory_gallery }}
-          <div class="home-company__factory-grid">
-            {{ range . }}
-            <img class="home-company__factory-image" src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy" decoding="async">
-            {{ end }}
+          <div class="home-company__factory-gallery" tabindex="0" aria-label="Factory gallery">
+            <div class="home-company__factory-track">
+              {{ range . }}
+              <div class="home-company__factory-item">
+                <img class="home-company__factory-image" src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy" decoding="async">
+              </div>
+              {{ end }}
+              {{ range . }}
+              <div class="home-company__factory-item" aria-hidden="true">
+                <img class="home-company__factory-image" src="{{ .image | relURL }}" alt="" loading="lazy" decoding="async">
+              </div>
+              {{ end }}
+            </div>
           </div>
         {{ end }}
       </div>
