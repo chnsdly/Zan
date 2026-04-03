@@ -63,8 +63,11 @@ home_company:
   description: "公司专注于输配电设备解决方案，致力于为电网建设、工业项目、商业建筑及公共设施等场景提供安全、稳定、节能的电力设备支持。围绕不同电压等级、安装环境与运行要求，公司可为客户提供从产品选型、方案匹配到交付配套的综合服务。产品方向覆盖油浸式与干式两大技术路线，兼顾高效运行、防火安全、低损耗、低维护与长期可靠性。公司坚持以务实的工程思维和稳定的产品质量，帮助客户提升供配电系统的运行效率与项目适配度。"
   factory_gallery:
     images:
-      - "images/company/factory-1.webp"
-      - "images/company/factory-2.webp"
-      - "images/company/factory-3.webp"
+      - image: "images/company/factory-1.webp"
+        name: "工厂内部图片"
+      - image: "images/company/factory-2.webp"
+        name: "工厂内部图片"
+      - image: "images/company/factory-3.webp"
+        name: "工厂内部图片"
 
 ---

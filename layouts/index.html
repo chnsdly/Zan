@@ -177,22 +177,22 @@
   <section class="section home-company">
     <div class="container">
       <div class="section__inner">
-          <div class="product-single__overview">
+          <div class="home-company__overview">
             {{ with .image }}
-            <div class="product-single__media">
-              <img class="product-single__image" src="{{ . | relURL }}" alt="{{ . }}" loading="lazy"
+            <div class="home-company__media">
+              <img class="home-company__image" src="{{ . | relURL }}" alt="{{ $.title }}" loading="lazy"
                 decoding="async">
             </div>
             {{ end }}
       
-            <div class="product-single__summary">
+            <div class="home-company__summary">
               {{ with .title }}
-              <h3 id="home-company-title" class="product-single__title font-title-s">{{ . }}</h3>
+              <h3 id="home-company-title" class="home-company__title font-title-s">{{ . }}</h3>
               {{ end }}
               {{ with .description }}
               <p class="font-body">{{ . }}</p>
               {{ end }}
-              <a class="button product-single__quote" href='{{ "/contact/" | relLangURL }}'>
+              <a class="button home-company__quote" href='{{ "/contact/" | relLangURL }}'>
                 {{ i18n "contact_us" | default "Contact Us" }}
               </a>
             </div>
@@ -201,10 +201,10 @@
       
         {{ with .factory_gallery }}
         {{ with .images }}
-        <section class="home-stats__factory">
-          <div class="home-stats__factory-grid">
+        <section class="home-company__factory">
+          <div class="home-company__factory-grid">
             {{ range . }}
-            <img class="home-stats__factory-image" src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">
+            <img class="home-company__factory-image" src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy" decoding="async">
             {{ end }}
           </div>
         </section>
