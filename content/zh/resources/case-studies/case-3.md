@@ -6,7 +6,7 @@ date = 2026-03-26T09:00:00Z
 publishDate = 2026-03-26T09:00:00Z
 image = "/images/resources/case-studies/case-3.webp"
 readingTime = "阅读约5分钟"
-featured = false
+featured = true
 +++
 
 ## 项目背景
