@@ -26,7 +26,7 @@
 
 
 .home-trusted {
-  background-color: color-mix(in oklab, var(--surface) 93%, black);
+  background-color: color-mix(in oklab, var(--surface) 93%, var(--brand));
 }
 
 .home-trusted__list {
@@ -52,7 +52,7 @@
 
 .home-stats {
   padding-block: space(4);
-  background-color: color-mix(in oklab, var(--surface) 93%, black);
+  background-color: color-mix(in oklab, var(--surface) 93%, var(--brand));
 }
 
 .home-stats__grid {

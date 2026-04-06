@@ -91,7 +91,7 @@
           
           <li class="site-header__nav-item">
             
-            <a class="site-header__nav-link" href="/" >
+            <a class="site-header__nav-link" href="/" aria-current="page" >
               HOME
             </a>
             
@@ -134,11 +134,30 @@
           </li>
           
           
-          <li class="site-header__nav-item">
+          <li class="site-header__nav-item site-header__nav-item--has-children">
             
-            <a class="site-header__nav-link" href="/insights/" >
-              INSIGHTS
-            </a>
+            <button class="site-header__nav-link site-header__nav-toggle" type="button">
+              <span>RESOURCES</span>
+              <svg class="site-header__nav-caret" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.8" />
+              </svg>
+            </button>
+            <ul class="site-header__submenu">
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/" >
+                  Isights
+                </a>
+              </li>
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/" >
+                  Case Studies
+                </a>
+              </li>
+              
+            </ul>
             
           </li>
           
@@ -207,7 +226,14 @@
             
             <li class="site-header__mobile-item">
               
-              <a class="site-header__mobile-link" href="/insights/">INSIGHTS</a>
+              <button class="site-header__mobile-link site-header__mobile-link--submenu" type="button"
+                data-menu-open="resources">
+                <span>RESOURCES</span>
+                <svg class="site-header__mobile-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M9 7l5 5-5 5" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.8" />
+                </svg>
+              </button>
               
             </li>
             
@@ -239,6 +265,20 @@
         
         
         
+        <div class="site-header__mobile-panel" data-menu-panel="resources" hidden>
+          <ul class="site-header__mobile-list">
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/">Isights</a>
+            </li>
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/">Case Studies</a>
+            </li>
+            
+          </ul>
+        </div>
+        
         
         
         
@@ -260,7 +300,7 @@
     const languageSwitcher = header.querySelector('[data-language-switcher]');
     const menuTitles = {
       root: "\"菜单\"",
-      
+      "\"resources\"": "\"RESOURCES\"",
     };
 
     let activePanel = 'root';
@@ -354,7 +394,7 @@
           
           
           <div class="home-hero__action">
-            <a class="button" href="/products/">
+            <a class="button" href="/product/oil-immersed/">
               Learn more
             </a>
           </div>
@@ -456,6 +496,36 @@
           
           
           <li class="products-list__item">
+            <a class="products-list__card" href="/product/oil-immersed/oil-immersed-power-110kv/">
+              
+              <div class="products-list__media">
+                <img class="products-list__image" src="/images/oil-immersed/oil-immersed-power-110kv.webp" alt="110 kV Oil-Immersed Transformer" loading="lazy"
+                  decoding="async">
+              </div>
+              
+              <div class="products-list__content">
+                <h2 class="font-body">110 kV Oil-Immersed Transformer</h2>
+              </div>
+            </a>
+          </li>
+          
+          
+          <li class="products-list__item">
+            <a class="products-list__card" href="/product/oil-immersed/oil-immersed-power-220kv/">
+              
+              <div class="products-list__media">
+                <img class="products-list__image" src="/images/oil-immersed/oil-immersed-power-220kv.webp" alt="220 kV Oil-Immersed Transformer" loading="lazy"
+                  decoding="async">
+              </div>
+              
+              <div class="products-list__content">
+                <h2 class="font-body">220 kV Oil-Immersed Transformer</h2>
+              </div>
+            </a>
+          </li>
+          
+          
+          <li class="products-list__item">
             <a class="products-list__card" href="/product/oil-immersed/oil-immersed-transformer-s13/">
               
               <div class="products-list__media">
@@ -486,6 +556,21 @@
           
           
           <li class="products-list__item">
+            <a class="products-list__card" href="/product/oil-immersed/oil-immersed-transformer-s22/">
+              
+              <div class="products-list__media">
+                <img class="products-list__image" src="/images/oil-immersed/oil-immersed-transformer-s22.webp" alt="S22 Oil-Immersed Transformer" loading="lazy"
+                  decoding="async">
+              </div>
+              
+              <div class="products-list__content">
+                <h2 class="font-body">S22 Oil-Immersed Transformer</h2>
+              </div>
+            </a>
+          </li>
+          
+          
+          <li class="products-list__item">
             <a class="products-list__card" href="/product/dry-type/scb13-dry-type-transformer/">
               
               <div class="products-list__media">
@@ -510,6 +595,21 @@
               
               <div class="products-list__content">
                 <h2 class="font-body">SCB14 Cast Resin Dry-Type Transformer</h2>
+              </div>
+            </a>
+          </li>
+          
+          
+          <li class="products-list__item">
+            <a class="products-list__card" href="/product/dry-type/scb15h-dry-type-transformer/">
+              
+              <div class="products-list__media">
+                <img class="products-list__image" src="/images/dry-type/scb15h-dry-type-transformer.webp" alt="SCBH15 Cast Resin Dry-Type Transformer" loading="lazy"
+                  decoding="async">
+              </div>
+              
+              <div class="products-list__content">
+                <h2 class="font-body">SCBH15 Cast Resin Dry-Type Transformer</h2>
               </div>
             </a>
           </li>

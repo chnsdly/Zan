@@ -1,46 +1,59 @@
 [[main]]
 name = "首页"
-url = "/"
+pageRef = "/"
 weight = 10
 
 [[main]]
 name = "开关柜"
-url = "/product/switchgear/"
+pageRef = "/product/switchgear"
 weight = 11
 
 [[main]]
 name = "箱式变电站"
-url = "/product/substation/"
+pageRef = "/product/substation"
 weight = 12
 
 [[main]]
 name = "油浸式变压器"
-url = "/product/oil-immersed/"
+pageRef = "/product/oil-immersed"
 weight = 13
 
 [[main]]
 name = "干式变压器"
-url = "/product/dry-type/"
+pageRef = "/product/dry-type"
 weight = 14
 
 [[main]]
-name = "行业洞察"
-url = "insights/"
+name = "资源中心"
+pageRef = "/resources"
+identifier = "resources"
 weight = 30
+
+  [[main]]
+  name = "行业洞察"
+  pageRef = "/resources/insights"
+  parent = "resources"
+  weight = 31
+
+  [[main]]
+  name = "客户案例"
+  pageRef = "/resources/case-studies"
+  parent = "resources"
+  weight = 32
 
 [[main]]
 name = "联系我们"
-url = "contact/"
+pageRef = "/contact"
 weight = 40
 
 
 # footer menu
 [[footer]]
 name = "隐私政策"
-url = "about/"
+pageRef = "/footer/privacy-policy"
 weight = 2
 
 [[footer]]
 name = "常见问题"
-url = "about/"
+pageRef = "/footer/faq"
 weight = 4

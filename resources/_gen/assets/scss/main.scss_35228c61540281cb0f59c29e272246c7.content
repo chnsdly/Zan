@@ -636,7 +636,7 @@ body.is-menu-open {
   color: var(--on-brand); }
 
 .home-trusted {
-  background-color: color-mix(in oklab, var(--surface) 93%, black); }
+  background-color: color-mix(in oklab, var(--surface) 93%, var(--brand)); }
 
 .home-trusted__list {
   display: grid;
@@ -658,7 +658,7 @@ body.is-menu-open {
 
 .home-stats {
   padding-block: calc(var(--space) * 4);
-  background-color: color-mix(in oklab, var(--surface) 93%, black); }
+  background-color: color-mix(in oklab, var(--surface) 93%, var(--brand)); }
 
 .home-stats__grid {
   display: grid;

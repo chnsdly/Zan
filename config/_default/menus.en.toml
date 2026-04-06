@@ -1,46 +1,59 @@
 [[main]]
 name = "HOME"
-url = "/"
+pageRef = "/"
 weight = 10
 
 [[main]]
 name = "SWITCHGEAR"
-url = "/product/switchgear/"
+pageRef = "/product/switchgear"
 weight = 11
 
 [[main]]
 name = "COMPACT SUBSTATION"
-url = "/product/substation/"
+pageRef = "/product/substation"
 weight = 12
 
 [[main]]
 name = "OIL-IMMERSED TRANSFORMER"
-url = "/product/oil-immersed/"
+pageRef = "/product/oil-immersed"
 weight = 13
 
 [[main]]
 name = "DRY-TYPE TRANSFORMER"
-url = "/product/dry-type/"
+pageRef = "/product/dry-type"
 weight = 14
 
 [[main]]
-name = "INSIGHTS"
-url = "insights/"
+name = "RESOURCES"
+pageRef = "/resources"
+identifier = "resources"
 weight = 30
+
+  [[main]]
+  name = "Isights"
+  pageRef = "/resources/insights"
+  parent = "resources"
+  weight = 31
+
+  [[main]]
+  name = "Case Studies"
+  pageRef = "/resources/case-studies"
+  parent = "resources"
+  weight = 32
 
 [[main]]
 name = "CONTACT"
-url = "contact/"
+pageRef = "/contact"
 weight = 40
 
 
 # footer menu
 [[footer]]
-name = "隐私"
-url = "about/"
+name = "Privacy Policy"
+pageRef = "/footer/privacy-policy"
 weight = 1
 
 [[footer]]
-name = "常见问题"
-url = "about/"
+name = "FAQ"
+pageRef = "/footer/faq"
 weight = 2

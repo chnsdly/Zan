@@ -99,7 +99,7 @@
           
           <li class="site-header__nav-item">
             
-            <a class="site-header__nav-link" href="/zh/product/switchgear/" >
+            <a class="site-header__nav-link" href="/zh/product/switchgear/" aria-current="page" >
               开关柜
             </a>
             
@@ -133,11 +133,30 @@
           </li>
           
           
-          <li class="site-header__nav-item">
+          <li class="site-header__nav-item site-header__nav-item--has-children">
             
-            <a class="site-header__nav-link" href="/zh/insights/" >
-              行业洞察
-            </a>
+            <button class="site-header__nav-link site-header__nav-toggle" type="button">
+              <span>资源中心</span>
+              <svg class="site-header__nav-caret" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.8" />
+              </svg>
+            </button>
+            <ul class="site-header__submenu">
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/zh/" >
+                  行业洞察
+                </a>
+              </li>
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/zh/" >
+                  客户案例
+                </a>
+              </li>
+              
+            </ul>
             
           </li>
           
@@ -206,7 +225,14 @@
             
             <li class="site-header__mobile-item">
               
-              <a class="site-header__mobile-link" href="/zh/insights/">行业洞察</a>
+              <button class="site-header__mobile-link site-header__mobile-link--submenu" type="button"
+                data-menu-open="resources">
+                <span>资源中心</span>
+                <svg class="site-header__mobile-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M9 7l5 5-5 5" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.8" />
+                </svg>
+              </button>
               
             </li>
             
@@ -238,6 +264,20 @@
         
         
         
+        <div class="site-header__mobile-panel" data-menu-panel="resources" hidden>
+          <ul class="site-header__mobile-list">
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/zh/">行业洞察</a>
+            </li>
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/zh/">客户案例</a>
+            </li>
+            
+          </ul>
+        </div>
+        
         
         
         
@@ -259,7 +299,7 @@
     const languageSwitcher = header.querySelector('[data-language-switcher]');
     const menuTitles = {
       root: "\"菜单\"",
-      
+      "\"resources\"": "\"资源中心\"",
     };
 
     let activePanel = 'root';
