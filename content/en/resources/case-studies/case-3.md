@@ -1,11 +1,11 @@
 +++
-title = "Case 3: Urban Distribution Reliability Upgrade with Smart Monitoring"
+title = "Urban Distribution Reliability Upgrade with Smart Monitoring"
 description = "A city district modernized legacy substations by deploying efficient transformers and digital monitoring for faster fault response."
-author = "Zan Power Team"
+author = "Hengli Team"
 date = 2026-03-26T09:00:00Z
 publishDate = 2026-03-26T09:00:00Z
 image = "/images/resources/case-studies/case-3.webp"
-readingTime = "5 min read"
+readingTime = "5 min"
 featured = true
 +++
 

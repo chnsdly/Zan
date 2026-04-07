@@ -23,17 +23,15 @@
             {{ end }}
 
             <div class="case-studies-list__content">
-              <h2 class="case-studies-list__title font-title-s">{{ .Title }}</h2>
+              <h2 class="case-studies-list__title font-title-xs">{{ .Title }}</h2>
 
               {{ with $summary }}
               <p class="case-studies-list__excerpt font-body">{{ . }}</p>
               {{ end }}
 
-              <span class="case-studies-list__read-more font-meta">阅读全文</span>
-
               <p class="case-studies-list__meta font-meta">
-                {{ with .Params.author }}<span class="case-studies-list__author">作者：{{ . }}</span>{{ end }}
-                <span class="case-studies-list__reading-time">阅读时长：{{ .ReadingTime }} 分钟</span>
+                {{ with .Params.author }}<span class="case-studies-list__author">{{ i18n "author" }}: {{ . }}</span>{{ end }}
+                {{ with .Params.readingTime }}<span class="case-studies-list__reading-time">{{ i18n "readingTime" }}: {{ . }}</span>{{ end }}
               </p>
             </div>
           </a>

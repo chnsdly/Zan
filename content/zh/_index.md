@@ -68,4 +68,21 @@ home_company:
     - image: "images/company/factory-3.webp"
       name: "工厂内部图片"
 
+home_reports:
+  enable: true
+  title: "支撑信任的不只是承诺"
+  description: "我们重视让合作建立在清晰，严谨与可验证之上。"
+  images:
+    - name: "检测报告 1"
+      image: "images/company/product-test-report-1.webp"
+    - name: "检测报告 2"
+      image: "images/company/product-test-report-2.webp"
+    - name: "检测报告 3"
+      image: "images/company/product-test-report-3.webp"
+    - name: "检测报告 4"
+      image: "images/company/product-test-report-4.webp"
+    - name: "检测报告 5"
+      image: "images/company/product-test-report-5.webp"
+    - name: "检测报告 6"
+      image: "images/company/product-test-report-6.webp"
 ---

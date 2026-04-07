@@ -1,11 +1,11 @@
 +++
-title = "案例1：电子制造工厂干式变压器升级"
+title = "电子制造工厂干式变压器升级"
 description = "某精密电子工厂以低损耗干式变压器替换老旧设备，降低停机风险并提升电压稳定性。"
-author = "Zan Power Team"
+author = "恒锂团队"
 date = 2026-03-12T09:00:00Z
 publishDate = 2026-03-12T09:00:00Z
 image = "/images/resources/case-studies/case-1.webp"
-readingTime = "阅读约6分钟"
+readingTime = "6分钟"
 featured = true
 +++
 

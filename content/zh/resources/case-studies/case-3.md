@@ -1,11 +1,11 @@
 +++
-title = "案例3：城市配电可靠性提升与智能监测改造"
+title = "城市配电可靠性提升与智能监测改造"
 description = "某城区通过高效配电变压器与数字化监测改造，缩短故障处置时间并提升供电连续性。"
-author = "Zan Power Team"
+author = "恒锂团队"
 date = 2026-03-26T09:00:00Z
 publishDate = 2026-03-26T09:00:00Z
 image = "/images/resources/case-studies/case-3.webp"
-readingTime = "阅读约5分钟"
+readingTime = "5分钟"
 featured = true
 +++
 

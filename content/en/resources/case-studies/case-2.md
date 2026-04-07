@@ -1,11 +1,11 @@
 +++
-title = "Case 2: Oil-Immersed Transformer for a Utility-Scale Solar Project"
+title = "Oil-Immersed Transformer for a Utility-Scale Solar Project"
 description = "A solar farm used high-efficiency oil-immersed transformers to improve collection efficiency and support stable grid interconnection."
-author = "Zan Power Team"
+author = "Hengli Team"
 date = 2026-03-19T09:00:00Z
 publishDate = 2026-03-19T09:00:00Z
 image = "/images/resources/case-studies/case-2.webp"
-readingTime = "7 min read"
+readingTime = "7 min"
 featured = true
 +++
 

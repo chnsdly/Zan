@@ -1,11 +1,11 @@
 +++
-title = "案例2：大型光伏电站油浸式变压器应用"
+title = "大型光伏电站油浸式变压器应用"
 description = "某120MW光伏项目采用高效油浸式变压器，提升集电效率并保障并网稳定运行。"
-author = "Zan Power Team"
+author = "恒锂团队"
 date = 2026-03-19T09:00:00Z
 publishDate = 2026-03-19T09:00:00Z
 image = "/images/resources/case-studies/case-2.webp"
-readingTime = "阅读约7分钟"
+readingTime = "7分钟"
 featured = true
 +++
 

@@ -1,11 +1,11 @@
 +++
-title = "Case 1: Dry-Type Transformer Upgrade for an Electronics Plant"
+title = "Dry-Type Transformer Upgrade for an Electronics Plant"
 description = "A precision electronics factory replaced aging distribution units with low-loss dry-type transformers to reduce downtime and stabilize voltage quality."
-author = "Zan Power Team"
+author = "Hengli Team"
 date = 2026-03-12T09:00:00Z
 publishDate = 2026-03-12T09:00:00Z
 image = "/images/resources/case-studies/case-1.webp"
-readingTime = "6 min read"
+readingTime = "6 min"
 featured = true
 +++
 

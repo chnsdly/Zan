@@ -2,6 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/zh/resources/</loc>
+    <lastmod>2026-03-26T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/case-studies/</loc>
+    <lastmod>2026-03-26T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/case-studies/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/case-studies/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/case-studies/case-3-copy/</loc>
+    <lastmod>2026-03-26T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/case-studies/case-3-copy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/case-studies/case-3-copy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/case-studies/case-3/</loc>
+    <lastmod>2026-03-26T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/case-studies/case-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/case-studies/case-3/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/</loc>
+    <lastmod>2026-03-26T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/case-studies/case-2-copy/</loc>
+    <lastmod>2026-03-19T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/case-studies/case-2-copy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/case-studies/case-2-copy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/case-studies/case-2/</loc>
+    <lastmod>2026-03-19T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/case-studies/case-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/case-studies/case-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/case-studies/case-1-copy/</loc>
+    <lastmod>2026-03-12T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/case-studies/case-1-copy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/case-studies/case-1-copy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/case-studies/case-1/</loc>
+    <lastmod>2026-03-12T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/case-studies/case-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/case-studies/case-1/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zh/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -36,18 +153,6 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/footer/privacy-policy/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/resources/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/resources/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/resources/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/product/oil-immersed/oil-immersed-power-110kv/</loc>
@@ -240,18 +345,6 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/product/oil-immersed/three-dimensional-wound-core-transformer/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/product/substation/</loc>

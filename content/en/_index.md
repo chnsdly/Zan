@@ -69,4 +69,21 @@ home_company:
     - image: "images/company/factory-3.webp"
       name: "Factory interior image"
 
+home_reports:
+  enable: true
+  title: "Trust is built on more than promises."
+  description: "We are committed to building partnerships on clarity, rigor, and verifiable standards."
+  images:
+    - name: "Test report 1"
+      image: "images/company/product-test-report-1.webp"
+    - name: "Test report 2"
+      image: "images/company/product-test-report-2.webp"
+    - name: "Test report 3"
+      image: "images/company/product-test-report-3.webp"
+    - name: "Test report 4"
+      image: "images/company/product-test-report-4.webp"
+    - name: "Test report 5"
+      image: "images/company/product-test-report-5.webp"
+    - name: "Test report 6"
+      image: "images/company/product-test-report-6.webp"
 ---

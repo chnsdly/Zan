@@ -185,6 +185,34 @@
   </section>
   {{ end }} 
 
+<!---------- Test Reports ---------->
+  {{ with .Params.home_reports }}
+  {{ if .enable }}
+  <section class="section home-reports" aria-labelledby="home-reports-title">
+    <div class="container">
+      <div class="section__inner">
+        <div class="section__header">
+          {{ with .title }}
+          <h2 id="home-reports-title" class="section__title font-title-l">{{ . }}</h2>
+          {{ end }}
+          {{ with .description }}
+          <p class="section__description font-body">{{ . }}</p>
+          {{ end }}
+        </div>
+        {{ with .images }}
+        <ul class="home-reports__list">
+          {{ range . }}
+          <li class="home-reports__item">
+            <img class="home-reports__image" src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy" decoding="async">
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
 
 <script>
   (() => {
