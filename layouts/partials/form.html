@@ -1,0 +1,61 @@
+{{ $page := .page }}
+{{ $sitekey := .sitekey }}
+
+<div class="lead-form-block" data-lead-form-block>
+  <form action="/api/lead" method="POST" class="lead-form" data-lead-form accept-charset="UTF-8">
+    {{/* 当前页面地址，便于后端记录线索来源页 */}}
+    <input type="hidden" name="page_url" value="{{ $page.Permalink }}">
+
+    {{/* UTM 参数，由下面的脚本从 URL 查询参数中自动写入 */}}
+    <input type="hidden" name="utm_source" value="">
+    <input type="hidden" name="utm_medium" value="">
+    <input type="hidden" name="utm_campaign" value="">
+    <input type="hidden" name="utm_term" value="">
+    <input type="hidden" name="utm_content" value="">
+
+    {{/* 蜜罐字段 */}}
+    <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
+      <label>Leave this field blank<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+    </div>
+
+    {{/* 表单字段 */}}
+    <label>{{ T "lead_form_name" }}<input name="name" type="text" required autocomplete="name" maxlength="100"></label>
+    <label>{{ T "lead_form_email" }}<input name="email" type="email" required autocomplete="email" maxlength="254"></label>
+    <label>{{ T "lead_form_company" }}<input name="company" type="text" autocomplete="organization" maxlength="150"></label>
+    <label>{{ T "lead_form_country" }}<input name="country" type="text" required autocomplete="country-name" maxlength="100"></label>
+    <label>{{ T "lead_form_phone" }}<input name="phone" type="tel" required autocomplete="tel" inputmode="tel" maxlength="50"></label>
+    <label>{{ T "lead_form_message" }}<textarea name="message" rows="4" maxlength="2000"></textarea></label>
+
+    {{/* Cloudflare Turnstile：前端渲染验证组件，后端再做服务端验真 */}}
+    <div class="cf-turnstile" data-sitekey="{{ $sitekey }}"></div>
+
+    {{/* 提交按钮 */}}
+    <button type="submit">{{ T "lead_form_submit" }}</button>
+
+  </form>
+
+  {{/* Turnstile 官方脚本。也可以在全站公共模板里引入。 */}}
+  <script defer src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
+
+  <script>
+    (() => {
+      // 只处理当前这一个表单，避免依赖全局重复 id
+      const block = document.currentScript?.closest("[data-lead-form-block]");
+      const form = block?.querySelector('form[data-lead-form]');
+      if (!(form instanceof HTMLFormElement)) return;
+
+      // 从当前页面 URL 中读取 UTM 参数并写入隐藏字段
+      const params = new URLSearchParams(window.location.search);
+      const utmKeys = ["utm_source","utm_medium","utm_campaign","utm_term","utm_content"];
+
+      for (const key of utmKeys) {
+        const input = form.querySelector(`input[name="${key}"]`);
+        const value = params.get(key);
+
+        if (input instanceof HTMLInputElement && value) {
+          input.value = value;
+        }
+      }
+    })();
+  </script>
+</div>
