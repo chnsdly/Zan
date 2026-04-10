@@ -1,61 +1,99 @@
 {{ $page := .page }}
 {{ $sitekey := .sitekey }}
+{{ $formId := .id }}
 
-<div class="lead-form-block" data-lead-form-block>
-  <form action="/api/lead" method="POST" class="lead-form" data-lead-form accept-charset="UTF-8">
-    {{/* 当前页面地址，便于后端记录线索来源页 */}}
-    <input type="hidden" name="page_url" value="{{ $page.Permalink }}">
+{{ with $page }}
+  {{ with .File }}
+    {{ $formId = printf "%s-%s" $formId .UniqueID }}
+  {{ else }}
+    {{ $formId = printf "%s-%s" $formId (.RelPermalink | urlize) }}
+  {{ end }}
+{{ end }}
 
-    {{/* UTM 参数，由下面的脚本从 URL 查询参数中自动写入 */}}
+<div class="lead-form" data-lead-form-block>
+  <form action="/api/lead" method="POST" class="lead-form__form" data-lead-form accept-charset="UTF-8">
+
+    <input type="hidden" name="page_url" value="{{ with $page }}{{ .Permalink }}{{ end }}">
     <input type="hidden" name="utm_source" value="">
     <input type="hidden" name="utm_medium" value="">
     <input type="hidden" name="utm_campaign" value="">
     <input type="hidden" name="utm_term" value="">
     <input type="hidden" name="utm_content" value="">
 
-    {{/* 蜜罐字段 */}}
-    <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
-      <label>Leave this field blank<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+    <div class="lead-form__honeypot" aria-hidden="true">
+      <label class="lead-form__honeypot-label" for="{{ $formId }}-website">Leave this field blank</label>
+      <input id="{{ $formId }}-website" name="website" type="text" tabindex="-1" autocomplete="off">
     </div>
 
-    {{/* 表单字段 */}}
-    <label>{{ T "lead_form_name" }}<input name="name" type="text" required autocomplete="name" maxlength="100"></label>
-    <label>{{ T "lead_form_email" }}<input name="email" type="email" required autocomplete="email" maxlength="254"></label>
-    <label>{{ T "lead_form_company" }}<input name="company" type="text" autocomplete="organization" maxlength="150"></label>
-    <label>{{ T "lead_form_country" }}<input name="country" type="text" required autocomplete="country-name" maxlength="100"></label>
-    <label>{{ T "lead_form_phone" }}<input name="phone" type="tel" required autocomplete="tel" inputmode="tel" maxlength="50"></label>
-    <label>{{ T "lead_form_message" }}<textarea name="message" rows="4" maxlength="2000"></textarea></label>
+    <div class="lead-form__fields">
+      <div class="lead-form__field">
+        <label class="lead-form__label font-meta" for="{{ $formId }}-name">{{ T "lead_form_name" }}</label>
+        <input class="lead-form__input" id="{{ $formId }}-name" name="name" type="text" required autocomplete="name" maxlength="100">
+      </div>  
 
-    {{/* Cloudflare Turnstile：前端渲染验证组件，后端再做服务端验真 */}}
-    <div class="cf-turnstile" data-sitekey="{{ $sitekey }}"></div>
+      <div class="lead-form__field">
+        <label class="lead-form__label font-meta" for="{{ $formId }}-email">{{ T "lead_form_email" }}</label>
+        <input class="lead-form__input" id="{{ $formId }}-email" name="email" type="email" required autocomplete="email" maxlength="254">
+      </div>
 
-    {{/* 提交按钮 */}}
-    <button type="submit">{{ T "lead_form_submit" }}</button>
+      <div class="lead-form__field">
+        <label class="lead-form__label font-meta" for="{{ $formId }}-company">{{ T "lead_form_company" }}</label>
+        <input class="lead-form__input" id="{{ $formId }}-company" name="company" type="text" autocomplete="organization" maxlength="150">
+      </div>
 
+      <div class="lead-form__field">
+        <label class="lead-form__label font-meta" for="{{ $formId }}-country">{{ T "lead_form_country" }}</label>
+        <input class="lead-form__input" id="{{ $formId }}-country" name="country" type="text" required autocomplete="country-name" maxlength="100">
+      </div>
+
+      <div class="lead-form__field">
+        <label class="lead-form__label font-meta" for="{{ $formId }}-phone">{{ T "lead_form_phone" }}</label>
+        <input class="lead-form__input" id="{{ $formId }}-phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" maxlength="50">
+      </div>
+
+      <div class="lead-form__field lead-form__field--full">
+        <label class="lead-form__label font-meta" for="{{ $formId }}-message">{{ T "lead_form_message" }}</label>
+        <textarea class="lead-form__input lead-form__input--textarea" id="{{ $formId }}-message" name="message" rows="4" maxlength="2000"></textarea>
+      </div>
+    </div>
+
+    <div class="lead-form__captcha">
+      <div class="cf-turnstile" data-sitekey="{{ $sitekey }}"></div>
+    </div>
+
+    <button type="submit" class="button lead-form__submit">{{ T "lead_form_submit" }}</button>
   </form>
-
-  {{/* Turnstile 官方脚本。也可以在全站公共模板里引入。 */}}
-  <script defer src="https://challenges.cloudflare.com/turnstile/v0/api.js"></script>
 
   <script>
     (() => {
-      // 只处理当前这一个表单，避免依赖全局重复 id
+      const scriptId = "cf-turnstile-api";
+      if (document.getElementById(scriptId)) return;
+
+      const script = document.createElement("script");
+      script.id = scriptId;
+      script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  </script>
+
+  <script>
+    (() => {
       const block = document.currentScript?.closest("[data-lead-form-block]");
-      const form = block?.querySelector('form[data-lead-form]');
+      const form = block?.querySelector("form[data-lead-form]");
       if (!(form instanceof HTMLFormElement)) return;
 
-      // 从当前页面 URL 中读取 UTM 参数并写入隐藏字段
       const params = new URLSearchParams(window.location.search);
-      const utmKeys = ["utm_source","utm_medium","utm_campaign","utm_term","utm_content"];
+      const utmKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"];
 
-      for (const key of utmKeys) {
+      utmKeys.forEach((key) => {
         const input = form.querySelector(`input[name="${key}"]`);
         const value = params.get(key);
 
         if (input instanceof HTMLInputElement && value) {
           input.value = value;
         }
-      }
+      });
     })();
   </script>
 </div>

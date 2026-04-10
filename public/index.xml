@@ -52,13 +52,6 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
       <link>http://localhost:1313/footer/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/footer/faq/</guid>
@@ -98,6 +91,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</guid>
       <description>&lt;p&gt;This transformer family integrates two efficiency-oriented design paths: amorphous alloy core technology for no-load-loss reduction and 3D wound-core geometry for improved three-phase magnetic balance. The combination is particularly valuable in networks with long energized periods and frequent light-load operation, where baseline losses have a large impact on annual energy cost and total ownership economics.&lt;/p&gt;&#xA;&lt;p&gt;As with any engineered product, realized savings depend on the exact rating, design execution, and manufacturing quality, so procurement decisions should rely on certified loss sheets and test documentation for the offered model. Positioned correctly, this series delivers a credible value proposition of stronger energy-saving performance, stable oil-immersed reliability, and improved long-term operating efficiency for utilities, industrial users, and international EPC projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact Us</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
     </item>
     <item>
       <title>S13 Oil-Immersed Transformer</title>

@@ -119,18 +119,6 @@
                 href="http://localhost:1313/zh/resources/case-studies/case-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/contact/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh/footer/faq/</loc>
     <xhtml:link
                 rel="alternate"
@@ -345,6 +333,18 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/product/oil-immersed/three-dimensional-wound-core-transformer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/contact/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/product/substation/</loc>

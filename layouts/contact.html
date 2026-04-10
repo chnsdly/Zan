@@ -1,0 +1,76 @@
+{{ define "main" }}
+
+<main class="section contact-page" aria-labelledby="contact-page-title">
+  <div class="container container--narrow">
+    <div class="section__inner">
+      {{ with .Params.contact }}
+      <div class="contact-page__content">
+        <section class="contact-page__panel contact-page__panel--summary" aria-labelledby="contact-summary-title">
+          <div class="contact-page__summary">
+            {{ with .intro_title }}
+            <h2 id="contact-summary-title" class="contact-page__panel-title font-title-s">{{ . }}</h2>
+            {{ end }}
+
+            {{ with .intro_description }}
+            <p class="contact-page__panel-description font-body">{{ . }}</p>
+            {{ end }}
+          </div>
+
+          {{ with .info_items }}
+          <dl class="contact-page__info-list">
+            {{ range . }}
+            <div class="contact-page__info-item">
+              {{ with .label }}
+              <dt class="contact-page__info-label font-meta">{{ . }}</dt>
+              {{ end }}
+
+              <dd class="contact-page__info-value font-body">
+                {{ if .href }}
+                <a class="contact-page__info-link" href="{{ .href }}">{{ .value }}</a>
+                {{ else }}
+                {{ .value }}
+                {{ end }}
+              </dd>
+            </div>
+            {{ end }}
+          </dl>
+          {{ end }}
+
+          {{ if or .checklist_title .checklist }}
+          <div class="contact-page__notes">
+            {{ with .checklist_title }}
+            <h3 class="contact-page__notes-title font-title-xs">{{ . }}</h3>
+            {{ end }}
+
+            {{ with .checklist }}
+            <ul class="contact-page__notes-list">
+              {{ range . }}
+              <li class="contact-page__notes-item font-body">{{ . }}</li>
+              {{ end }}
+            </ul>
+            {{ end }}
+          </div>
+          {{ end }}
+        </section>
+
+        <section class="contact-page__panel contact-page__panel--form" aria-labelledby="contact-form-title">
+          <div class="contact-page__form-header">
+            {{ with .form.title }}
+            <h2 id="contact-form-title" class="contact-page__panel-title font-title-s">{{ . }}</h2>
+            {{ else }}
+            <h2 id="contact-form-title" class="contact-page__panel-title font-title-s">{{ i18n "contact_us" | default "Contact Us" }}</h2>
+            {{ end }}
+
+            {{ with .form.description }}
+            <p class="contact-page__form-note font-body">{{ . }}</p>
+            {{ end }}
+          </div>
+
+          {{ partial "form.html" (dict "page" . "sitekey" .Site.Params.turnstile_sitekey "id" "contact") }}
+        </section>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</main>
+{{ end }}
