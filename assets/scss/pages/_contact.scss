@@ -1,20 +1,3 @@
-
-.contact-page__header {
-  gap: space(1);
-  text-align: left;
-}
-
-.contact-page__description {
-  margin: 0;
-  max-width: 72ch;
-}
-
-.contact-page__eyebrow {
-  color: var(--brand);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
 .contact-page__content {
   display: grid;
   gap: space(2);
@@ -35,16 +18,14 @@
   box-shadow: var(--shadow);
 }
 
-.contact-page__summary,
 .contact-page__form-header,
-.contact-page__notes {
+.contact-page__direct-header {
   display: grid;
   gap: space(1);
 }
 
-.contact-page__panel-description,
 .contact-page__form-note,
-.contact-page__notes-item {
+.contact-page__direct-description {
   color: var(--secondary);
 }
 
@@ -90,37 +71,10 @@
   color: color-mix(in oklab, var(--brand) 84%, black);
 }
 
-.contact-page__notes-list {
-  display: grid;
-  gap: space(0.75);
-}
-
-.contact-page__notes-item {
-  position: relative;
-  padding-left: space(2);
-}
-
-.contact-page__notes-item::before {
-  content: "";
-  position: absolute;
-  inset-block-start: 0.5em;
-  inset-inline-start: 0;
-  inline-size: 0.625rem;
-  block-size: 0.625rem;
-  border-radius: var(--radius-pill);
-  background-color: color-mix(in oklab, var(--brand) 78%, white);
-  box-shadow: 0 0 0 0.25rem color-mix(in oklab, var(--brand) 12%, white);
-}
-
 @include mq-up(tablet) {
   .contact-page__panel {
     gap: space(2.5);
     padding: space(3);
-  }
-
-  .contact-page__content {
-    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-    align-items: start;
   }
 
   .contact-page__info-list {
@@ -130,11 +84,5 @@
 
   .contact-page__info-item {
     padding-top: space(1.5);
-  }
-}
-
-@include mq-up(laptop) {
-  .contact-page__inner {
-    gap: space(4);
   }
 }
