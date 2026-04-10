@@ -16,3 +16,8 @@ lead_form_phone = "Phone / WhatsApp*"
 lead_form_message = "Message"
 lead_form_submit = "Submit"
 lead_form_setup_required = "Form protection is not configured yet. Add a Turnstile site key to enable submissions."
+
+email = "EMAIL"
+phone = "PHONE / WHATSAPP"
+address = "ADDRESS"
+business_hours = "BUSINESS HOURS"

@@ -16,3 +16,8 @@ lead_form_phone = "电话 / WhatsApp*"
 lead_form_message = "留言"
 lead_form_submit = "提交"
 lead_form_setup_required = "表单防护尚未配置，请先填写 Turnstile 站点 key 后再启用提交。"
+
+email = "邮箱"
+phone = "电话 / WhatsApp"
+address = "地址"
+business_hours = "办公时间"
