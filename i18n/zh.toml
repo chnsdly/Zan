@@ -21,6 +21,4 @@ email = "邮箱"
 phone = "电话 / WhatsApp"
 address = "地址"
 business_hours = "办公时间"
-contact_direct_title = "其他联系方式"
-contact_direct_description = "您也可以通过以下方式直接联系我们。"
 

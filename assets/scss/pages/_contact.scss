@@ -1,88 +1,19 @@
-.contact-page__content {
-  display: grid;
-  gap: space(2);
-}
 
-.contact-page__panel {
-  display: grid;
-  gap: space(2);
-  padding: space(2);
-  border: var(--border);
-  border-radius: var(--radius-l);
-  background:
-    linear-gradient(
-      180deg,
-      color-mix(in oklab, white 92%, var(--surface)) 0%,
-      var(--card) 100%
-    );
-  box-shadow: var(--shadow);
-}
-
-.contact-page__form-header,
-.contact-page__direct-header {
+.contact__form-header,
+.contact__direct-header {
   display: grid;
   gap: space(1);
 }
 
-.contact-page__form-note,
-.contact-page__direct-description {
+.contact__form-description,
+.contact__direct-description {
   color: var(--secondary);
 }
 
-.contact-page__info-list {
-  display: grid;
-  gap: space(1.25);
-}
-
-.contact-page__info-item {
-  display: grid;
-  gap: space(0.5);
-  padding-top: space(1.25);
-  border-top: var(--border);
-}
-
-.contact-page__info-label {
-  color: var(--secondary);
-}
-
-.contact-page__info-value {
-  color: var(--on-surface);
-}
-
-.contact-page__info-link {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
-  transition: color var(--transition-base);
-}
-
-.contact-page__info-link:hover,
-.contact-page__info-link:focus-visible {
-  color: var(--brand);
-}
-
-.contact-page__info-link:focus-visible {
-  outline: var(--focus-outline);
-  outline-offset: var(--focus-offset);
-  border-radius: var(--radius-s);
-}
-
-.contact-page__info-link:active {
-  color: color-mix(in oklab, var(--brand) 84%, black);
-}
-
-@include mq-up(tablet) {
-  .contact-page__panel {
-    gap: space(2.5);
-    padding: space(3);
-  }
-
-  .contact-page__info-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: space(1.5);
-  }
-
-  .contact-page__info-item {
-    padding-top: space(1.5);
-  }
+.contact__form-body {
+  background-color: white;
+  margin-block: space(4);
+  padding: space(4);
+  border-radius: var(--radius-l);
+  border: var(--border);
 }

@@ -21,6 +21,4 @@ email = "EMAIL"
 phone = "PHONE / WHATSAPP"
 address = "ADDRESS"
 business_hours = "BUSINESS HOURS"
-contact_direct_title = "Other Contact Methods"
-contact_direct_description = "You can also contact us directly through the following channels."
 

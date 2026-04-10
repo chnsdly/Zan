@@ -399,97 +399,22 @@
 
     
 
-<main class="section contact-page" aria-labelledby="contact-page-title">
+<main class="section contact" aria-labelledby="contact-page-title">
   <div class="container container--narrow">
     <div class="section__inner">
-      
-      <div class="contact-page__content">
-        <section class="contact-page__panel contact-page__panel--summary" aria-labelledby="contact-summary-title">
-          <div class="contact-page__summary">
-            
-            <h2 id="contact-summary-title" class="contact-page__panel-title font-title-s">Tell us what your project needs</h2>
-            
-
-            
-            <p class="contact-page__panel-description font-body">Use this form to share your application scenario, voltage level, capacity range, quantity, destination country, and delivery timing. The more context you provide, the easier it is for us to suggest a suitable direction.</p>
-            
-          </div>
-
+      <section class = "contact__form">
+        
+        <div class="contact__form-header">
           
-          <dl class="contact-page__info-list">
-            
-            <div class="contact-page__info-item">
-              
-              <dt class="contact-page__info-label font-meta">Best to include</dt>
-              
-
-              <dd class="contact-page__info-value font-body">
-                
-                Voltage level, capacity range, installation environment, quantity, destination, and schedule.
-                
-              </dd>
-            </div>
-            
-            <div class="contact-page__info-item">
-              
-              <dt class="contact-page__info-label font-meta">Product scope</dt>
-              
-
-              <dd class="contact-page__info-value font-body">
-                
-                Oil-immersed transformers, dry-type transformers, and related distribution solutions.
-                
-              </dd>
-            </div>
-            
-            <div class="contact-page__info-item">
-              
-              <dt class="contact-page__info-label font-meta">How we work</dt>
-              
-
-              <dd class="contact-page__info-value font-body">
-                
-                We focus on clear specifications, practical communication, and project-fit recommendations.
-                
-              </dd>
-            </div>
-            
-          </dl>
+          
+          <h2 id="contact-form-title" class="contact-page__panel-title font-body">Send Your Inquiry</h2>
           
 
           
-          <div class="contact-page__notes">
-            
-            <h3 class="contact-page__notes-title font-title-xs">A strong inquiry usually includes</h3>
-            
-
-            
-            <ul class="contact-page__notes-list">
-              
-              <li class="contact-page__notes-item font-body">Your intended application or industry scenario.</li>
-              
-              <li class="contact-page__notes-item font-body">Key technical requirements or reference standards.</li>
-              
-              <li class="contact-page__notes-item font-body">Anything that may affect installation, transport, or operation.</li>
-              
-            </ul>
-            
-          </div>
-          
-        </section>
-
-        <section class="contact-page__panel contact-page__panel--form" aria-labelledby="contact-form-title">
-          <div class="contact-page__form-header">
-            
-            <h2 id="contact-form-title" class="contact-page__panel-title font-title-s">Send Your Inquiry</h2>
-            
-
-            
-            <p class="contact-page__form-note font-body">Fields marked with * are required. Add as much project context as you can.</p>
-            
-          </div>
-
-          
+        </div>
+        
+        <div class = "contact__form-body">
+        
 
 
 
@@ -502,7 +427,7 @@
 <div class="lead-form" data-lead-form-block>
   <form action="/api/lead" method="POST" class="lead-form__form" data-lead-form accept-charset="UTF-8">
 
-    <input type="hidden" name="page_url" value="">
+    <input type="hidden" name="page_url" value="http://localhost:1313/contact/">
     <input type="hidden" name="utm_source" value="">
     <input type="hidden" name="utm_medium" value="">
     <input type="hidden" name="utm_campaign" value="">
@@ -510,44 +435,44 @@
     <input type="hidden" name="utm_content" value="">
 
     <div class="lead-form__honeypot" aria-hidden="true">
-      <label class="lead-form__honeypot-label" for="contact--website">Leave this field blank</label>
-      <input id="contact--website" name="website" type="text" tabindex="-1" autocomplete="off">
+      <label class="lead-form__honeypot-label" for="contact-3c4864f00d23f7ea35511ec930ce1d9c-website">Leave this field blank</label>
+      <input id="contact-3c4864f00d23f7ea35511ec930ce1d9c-website" name="website" type="text" tabindex="-1" autocomplete="off">
     </div>
 
     <div class="lead-form__fields">
       <div class="lead-form__field">
-        <label class="lead-form__label font-meta" for="contact--name">Full Name*</label>
-        <input class="lead-form__input" id="contact--name" name="name" type="text" required autocomplete="name" maxlength="100">
+        <label class="lead-form__label font-meta" for="contact-3c4864f00d23f7ea35511ec930ce1d9c-name">Full Name*</label>
+        <input class="lead-form__input" id="contact-3c4864f00d23f7ea35511ec930ce1d9c-name" name="name" type="text" required autocomplete="name" maxlength="100">
       </div>  
 
       <div class="lead-form__field">
-        <label class="lead-form__label font-meta" for="contact--email">Email*</label>
-        <input class="lead-form__input" id="contact--email" name="email" type="email" required autocomplete="email" maxlength="254">
+        <label class="lead-form__label font-meta" for="contact-3c4864f00d23f7ea35511ec930ce1d9c-email">Email*</label>
+        <input class="lead-form__input" id="contact-3c4864f00d23f7ea35511ec930ce1d9c-email" name="email" type="email" required autocomplete="email" maxlength="254">
       </div>
 
       <div class="lead-form__field">
-        <label class="lead-form__label font-meta" for="contact--company">Company</label>
-        <input class="lead-form__input" id="contact--company" name="company" type="text" autocomplete="organization" maxlength="150">
+        <label class="lead-form__label font-meta" for="contact-3c4864f00d23f7ea35511ec930ce1d9c-company">Company</label>
+        <input class="lead-form__input" id="contact-3c4864f00d23f7ea35511ec930ce1d9c-company" name="company" type="text" autocomplete="organization" maxlength="150">
       </div>
 
       <div class="lead-form__field">
-        <label class="lead-form__label font-meta" for="contact--country">Country*</label>
-        <input class="lead-form__input" id="contact--country" name="country" type="text" required autocomplete="country-name" maxlength="100">
+        <label class="lead-form__label font-meta" for="contact-3c4864f00d23f7ea35511ec930ce1d9c-country">Country*</label>
+        <input class="lead-form__input" id="contact-3c4864f00d23f7ea35511ec930ce1d9c-country" name="country" type="text" required autocomplete="country-name" maxlength="100">
       </div>
 
       <div class="lead-form__field">
-        <label class="lead-form__label font-meta" for="contact--phone">Phone / WhatsApp*</label>
-        <input class="lead-form__input" id="contact--phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" maxlength="50">
+        <label class="lead-form__label font-meta" for="contact-3c4864f00d23f7ea35511ec930ce1d9c-phone">Phone / WhatsApp*</label>
+        <input class="lead-form__input" id="contact-3c4864f00d23f7ea35511ec930ce1d9c-phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" maxlength="50">
       </div>
 
       <div class="lead-form__field lead-form__field--full">
-        <label class="lead-form__label font-meta" for="contact--message">Message</label>
-        <textarea class="lead-form__input lead-form__input--textarea" id="contact--message" name="message" rows="4" maxlength="2000"></textarea>
+        <label class="lead-form__label font-meta" for="contact-3c4864f00d23f7ea35511ec930ce1d9c-message">Message</label>
+        <textarea class="lead-form__input lead-form__input--textarea" id="contact-3c4864f00d23f7ea35511ec930ce1d9c-message" name="message" rows="4" maxlength="2000"></textarea>
       </div>
     </div>
 
     <div class="lead-form__captcha">
-      <div class="cf-turnstile" data-sitekey=""></div>
+      <div class="cf-turnstile" data-sitekey="0x44AAAAAA"></div>
     </div>
 
     <button type="submit" class="button lead-form__submit">Submit</button>
@@ -586,9 +511,30 @@
     })();
   </script>
 </div>
-        </section>
-      </div>
+        </div>
+        
+      </section>
+
+      <section class="contact__direct" aria-labelledby="contact-direct-title">
+        
+        <div class="contact__direct-header">
       
+          
+          <h2 id="contact-direct-title" class="contact__direct-title font-body">You can also contact us directly through the following channels.</h2>
+          
+      
+          
+      
+        </div>
+        
+
+        <div class = "contact__direct-body">
+          <div class = "contact__direct-item">
+            
+          </div>
+        </div>
+
+        </section>
     </div>
   </div>
 </main>

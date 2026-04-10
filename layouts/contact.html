@@ -1,64 +1,49 @@
 {{ define "main" }}
 
-<main class="section contact-page" aria-labelledby="contact-page-title">
+<main class="section contact" aria-labelledby="contact-page-title">
   <div class="container container--narrow">
     <div class="section__inner">
-      {{ with .Params.contact }}
-      <div class="contact-page__content">
-        <section class="contact-page__panel contact-page__panel--form" aria-labelledby="contact-form-title">
-          <div class="contact-page__form-header">
-            {{ with .form.title }}
-            <h2 id="contact-form-title" class="contact-page__panel-title font-title-s">{{ . }}</h2>
-            {{ else }}
-            <h2 id="contact-form-title" class="contact-page__panel-title font-title-s">{{ i18n "contact_us" | default "Contact Us" }}</h2>
-            {{ end }}
+      <section class = "contact__form">
+        {{ with .Params.form }}
+        <div class="contact__form-header">
+          
+          {{ with .title }}
+          <h2 id="contact-form-title" class="contact-page__panel-title font-body">{{ . }}</h2>
+          {{ end }}
 
-            {{ with .form.description }}
-            <p class="contact-page__form-note font-body">{{ . }}</p>
-            {{ end }}
+          {{ with .description }}
+          <p class="contact__form-description font-body">{{ . }}</p>
+          {{ end }}
+        </div>
+        
+        <div class = "contact__form-body">
+        {{ partial "form.html" (dict "page" $ "sitekey" $.Site.Params.turnstile_sitekey "id" "contact") }}
+        </div>
+        {{ end }}
+      </section>
+
+      <section class="contact__direct" aria-labelledby="contact-direct-title">
+        {{ with .Params.direct }}
+        <div class="contact__direct-header">
+      
+          {{ with .title }}
+          <h2 id="contact-direct-title" class="contact__direct-title font-body">{{ . }}</h2>
+          {{ end }}
+      
+          {{ with .description }}
+          <p class="contact__direct-description font-body">{{ . }}</p>
+          {{ end }}
+      
+        </div>
+        {{ end }}
+
+        <div class = "contact__direct-body">
+          <div class = "contact__direct-item">
+            
           </div>
+        </div>
 
-          {{ partial "form.html" (dict "page" $ "sitekey" $.Site.Params.turnstile_sitekey "id" "contact") }}
         </section>
-
-        <section class="contact-page__panel contact-page__panel--direct" aria-labelledby="contact-direct-title">
-          <div class="contact-page__direct-header">
-            <h2 id="contact-direct-title" class="contact-page__panel-title font-title-s">
-              {{ i18n "contact_direct_title" | default "Direct Contact" }}
-            </h2>
-            <p class="contact-page__direct-description font-body">
-              {{ i18n "contact_direct_description" | default "You can also reach us directly through the following channels." }}
-            </p>
-          </div>
-
-          <dl class="contact-page__info-list">
-            <div class="contact-page__info-item">
-              <dt class="contact-page__info-label font-meta">{{ i18n "email" | default "Email" }}</dt>
-              <dd class="contact-page__info-value font-body">
-                <a class="contact-page__info-link" href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a>
-              </dd>
-            </div>
-
-            <div class="contact-page__info-item">
-              <dt class="contact-page__info-label font-meta">{{ i18n "phone" | default "Phone" }}</dt>
-              <dd class="contact-page__info-value font-body">
-                <a class="contact-page__info-link" href="tel:{{ $.Site.Params.phone | replaceRE "[^+0-9]" "" }}">{{ $.Site.Params.phone }}</a>
-              </dd>
-            </div>
-
-            <div class="contact-page__info-item">
-              <dt class="contact-page__info-label font-meta">{{ i18n "address" | default "Address" }}</dt>
-              <dd class="contact-page__info-value font-body">{{ $.Site.Params.address }}</dd>
-            </div>
-
-            <div class="contact-page__info-item">
-              <dt class="contact-page__info-label font-meta">{{ i18n "business_hours" | default "Business Hours" }}</dt>
-              <dd class="contact-page__info-value font-body">{{ $.Site.Params.business_hours }}</dd>
-            </div>
-          </dl>
-        </section>
-      </div>
-      {{ end }}
     </div>
   </div>
 </main>

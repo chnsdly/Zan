@@ -3,7 +3,7 @@
   {{ $navLabel := i18n "breadcrumbs_navigation" | default "Breadcrumb" }}
   
   {{ $containerClass := "container" }}
-  {{ if and .IsPage (in (slice "product" "insights") .Type) }}
+  {{ if and .IsPage (in (slice "product" "insights" "contact") .Type) }}
     {{ $containerClass = "container container--narrow" }}
   {{ end }}
 

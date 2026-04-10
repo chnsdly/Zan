@@ -1088,109 +1088,18 @@ body.is-menu-open {
   .case-studies-list__grid {
     grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
-.contact-page__header {
-  gap: calc(var(--space) * 1);
-  text-align: left; }
-
-.contact-page__description {
-  margin: 0;
-  max-width: 72ch; }
-
-.contact-page__eyebrow {
-  color: var(--brand);
-  text-transform: uppercase;
-  letter-spacing: 0.08em; }
-
-.contact-page__content {
-  display: grid;
-  gap: calc(var(--space) * 2); }
-
-.contact-page__panel {
-  display: grid;
-  gap: calc(var(--space) * 2);
-  padding: calc(var(--space) * 2);
-  border: var(--border);
-  border-radius: var(--radius-l);
-  background: linear-gradient(180deg, color-mix(in oklab, white 92%, var(--surface)) 0%, var(--card) 100%);
-  box-shadow: var(--shadow); }
-
-.contact-page__summary,
-.contact-page__form-header,
-.contact-page__notes {
+.contact__form-header,
+.contact__direct-header {
   display: grid;
   gap: calc(var(--space) * 1); }
 
-.contact-page__panel-description,
-.contact-page__form-note,
-.contact-page__notes-item {
+.contact__form-description,
+.contact__direct-description {
   color: var(--secondary); }
 
-.contact-page__info-list {
-  display: grid;
-  gap: calc(var(--space) * 1.25); }
-
-.contact-page__info-item {
-  display: grid;
-  gap: calc(var(--space) * 0.5);
-  padding-top: calc(var(--space) * 1.25);
-  border-top: var(--border); }
-
-.contact-page__info-label {
-  color: var(--secondary); }
-
-.contact-page__info-value {
-  color: var(--on-surface); }
-
-.contact-page__info-link {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
-  transition: color var(--transition-base); }
-
-.contact-page__info-link:hover,
-.contact-page__info-link:focus-visible {
-  color: var(--brand); }
-
-.contact-page__info-link:focus-visible {
-  outline: var(--focus-outline);
-  outline-offset: var(--focus-offset);
-  border-radius: var(--radius-s); }
-
-.contact-page__info-link:active {
-  color: color-mix(in oklab, var(--brand) 84%, black); }
-
-.contact-page__notes-list {
-  display: grid;
-  gap: calc(var(--space) * 0.75); }
-
-.contact-page__notes-item {
-  position: relative;
-  padding-left: calc(var(--space) * 2); }
-
-.contact-page__notes-item::before {
-  content: "";
-  position: absolute;
-  inset-block-start: 0.5em;
-  inset-inline-start: 0;
-  inline-size: 0.625rem;
-  block-size: 0.625rem;
-  border-radius: var(--radius-pill);
-  background-color: color-mix(in oklab, var(--brand) 78%, white);
-  box-shadow: 0 0 0 0.25rem color-mix(in oklab, var(--brand) 12%, white); }
-
-@media (min-width: 48rem) {
-  .contact-page__panel {
-    gap: calc(var(--space) * 2.5);
-    padding: calc(var(--space) * 3); }
-  .contact-page__content {
-    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-    align-items: start; }
-  .contact-page__info-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: calc(var(--space) * 1.5); }
-  .contact-page__info-item {
-    padding-top: calc(var(--space) * 1.5); } }
-
-@media (min-width: 64rem) {
-  .contact-page__inner {
-    gap: calc(var(--space) * 4); } }
+.contact__form-body {
+  background-color: white;
+  margin-block: calc(var(--space) * 4);
+  padding: calc(var(--space) * 4);
+  border-radius: var(--radius-l);
+  border: var(--border); }
