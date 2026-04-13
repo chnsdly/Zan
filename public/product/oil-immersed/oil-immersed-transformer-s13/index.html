@@ -97,11 +97,43 @@
           </li>
           
           
-          <li class="site-header__nav-item">
+          <li class="site-header__nav-item site-header__nav-item--has-children">
             
-            <a class="site-header__nav-link" href="/product/dry-type/" >
-              DRY-TYPE TRANSFORMER
-            </a>
+            <button class="site-header__nav-link site-header__nav-toggle site-header__nav-link--current" type="button">
+              <span>PRODUCT</span>
+              <svg class="site-header__nav-caret" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                  stroke-width="1.8" />
+              </svg>
+            </button>
+            <ul class="site-header__submenu">
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/product/switchgear/" >
+                  SWITCHGEAR
+                </a>
+              </li>
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/product/substation/" >
+                  COMPACT SUBSTATION
+                </a>
+              </li>
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link
+                  site-header__submenu-link--current" href="/product/oil-immersed/" aria-current="page" >
+                  OIL-IMMERSED TRANSFORMER
+                </a>
+              </li>
+              
+              <li class="site-header__submenu-item">
+                <a class="site-header__submenu-link" href="/product/dry-type/" >
+                  DRY-TYPE TRANSFORMER
+                </a>
+              </li>
+              
+            </ul>
             
           </li>
           
@@ -170,7 +202,14 @@
             
             <li class="site-header__mobile-item">
               
-              <a class="site-header__mobile-link" href="/product/dry-type/">DRY-TYPE TRANSFORMER</a>
+              <button class="site-header__mobile-link site-header__mobile-link--submenu" type="button"
+                data-menu-open="product">
+                <span>PRODUCT</span>
+                <svg class="site-header__mobile-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M9 7l5 5-5 5" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.8" />
+                </svg>
+              </button>
               
             </li>
             
@@ -203,6 +242,28 @@
         
         
         
+        
+        <div class="site-header__mobile-panel" data-menu-panel="product" hidden>
+          <ul class="site-header__mobile-list">
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/product/switchgear/">SWITCHGEAR</a>
+            </li>
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/product/substation/">COMPACT SUBSTATION</a>
+            </li>
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/product/oil-immersed/">OIL-IMMERSED TRANSFORMER</a>
+            </li>
+            
+            <li class="site-header__mobile-item">
+              <a class="site-header__mobile-link" href="/product/dry-type/">DRY-TYPE TRANSFORMER</a>
+            </li>
+            
+          </ul>
+        </div>
         
         
         
@@ -242,7 +303,7 @@
     const languageSwitcher = header.querySelector('[data-language-switcher]');
     const menuTitles = {
       root: "\"菜单\"",
-      "\"resources\"": "\"RESOURCES\"",
+      "\"product\"": "\"PRODUCT\"","\"resources\"": "\"RESOURCES\"",
     };
 
     let activePanel = 'root';
