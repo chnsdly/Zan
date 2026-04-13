@@ -3,7 +3,7 @@ logo = "images/logo.png"
 
 email = "weibenlong6@gmail.com"
 phone = "+86 13325077372"
-address = "Xianghe Industrial Park, Linyi City, Shandong, China"
 business_hours = "Mon–Sat, 8:00 AM–5:00 PM (GMT+8)"
+address = "Xianghe Industrial Park, Linyi City, Shandong, China"
 
 turnstile_sitekey = "0x44AAAAAA"
