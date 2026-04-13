@@ -1,3 +1,6 @@
+.contact__layout {
+  gap: space(4);
+}
 
 .contact__form-header,
 .contact__direct-header {
@@ -10,10 +13,59 @@
   color: var(--secondary);
 }
 
-.contact__form-body {
+.contact__form-body,
+.contact__direct-body {
   background-color: white;
   margin-block: space(4);
   padding: space(4);
   border-radius: var(--radius-l);
   border: var(--border);
+}
+
+.contact__direct-body {
+  display: grid;
+  gap: space(2);
+}
+
+.contact__direct-item {
+  display: grid;
+  gap: space(0.75);
+}
+
+.contact__direct-item + .contact__direct-item {
+  padding-top: space(2);
+  border-top: var(--border);
+}
+
+.contact__direct-label {
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.contact__direct-value {
+  margin: 0;
+  color: var(--on-surface);
+  line-height: 1.6;
+}
+
+a.contact__direct-value {
+  text-decoration: none;
+}
+
+a.contact__direct-value:hover,
+a.contact__direct-value:focus-visible {
+  color: var(--brand);
+}
+
+@media (min-width: 1024px) {
+  .contact__layout {
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .contact__form-body,
+  .contact__direct-body {
+    margin-block: space(3) 0;
+  }
 }
