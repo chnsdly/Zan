@@ -1134,10 +1134,6 @@ a.contact__direct-value:hover,
 a.contact__direct-value:focus-visible {
   color: var(--brand); }
 
-@media (min-width: 1024px) {
-  .contact__layout {
-    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
-    align-items: start; }
-  .contact__form-body,
-  .contact__direct-body {
-    margin-block: calc(var(--space) * 3) 0; } }
+.contact__form-body,
+.contact__direct-body {
+  margin-block: calc(var(--space) * 3) 0; }
