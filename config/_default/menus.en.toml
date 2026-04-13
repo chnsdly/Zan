@@ -4,24 +4,34 @@ pageRef = "/"
 weight = 10
 
 [[main]]
-name = "SWITCHGEAR"
-pageRef = "/product/switchgear"
-weight = 11
+name = "PRODUCT"
+pageRef = "/product"
+identifier = "product"
+weight = 20
 
-[[main]]
-name = "COMPACT SUBSTATION"
-pageRef = "/product/substation"
-weight = 12
+  [[main]]
+  name = "SWITCHGEAR"
+  pageRef = "/product/switchgear"
+  identifier = "product"
+  weight = 21
 
-[[main]]
-name = "OIL-IMMERSED TRANSFORMER"
-pageRef = "/product/oil-immersed"
-weight = 13
+  [[main]]
+  name = "COMPACT SUBSTATION"
+  pageRef = "/product/substation"
+  identifier = "product"
+  weight = 22
 
-[[main]]
-name = "DRY-TYPE TRANSFORMER"
-pageRef = "/product/dry-type"
-weight = 14
+  [[main]]
+  name = "OIL-IMMERSED TRANSFORMER"
+  pageRef = "/product/oil-immersed"
+  identifier = "product"
+  weight = 23
+
+  [[main]]
+  name = "DRY-TYPE TRANSFORMER"
+  pageRef = "/product/dry-type"
+  identifier = "product"
+  weight = 24
 
 [[main]]
 name = "RESOURCES"
