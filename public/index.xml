@@ -73,9 +73,16 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/footer/faq/</link>
+      <link>http://localhost:1313/footer/cookie-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/footer/faq/</guid>
+      <guid>http://localhost:1313/footer/cookie-policy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/footer/disclaimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/footer/disclaimer/</guid>
       <description></description>
     </item>
     <item>
@@ -83,6 +90,13 @@
       <link>http://localhost:1313/footer/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/footer/privacy-policy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/footer/terms-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/footer/terms-conditions/</guid>
       <description></description>
     </item>
     <item>

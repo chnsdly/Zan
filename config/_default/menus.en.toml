@@ -64,6 +64,16 @@ pageRef = "/footer/privacy-policy"
 weight = 1
 
 [[footer]]
-name = "FAQ"
-pageRef = "/footer/faq"
+name = "Terms & Conditions"
+pageRef = "/footer/terms-conditions"
 weight = 2
+
+[[footer]]
+name = "Cookie Policy"
+pageRef = "/footer/cookie-policy"
+weight = 3
+
+[[footer]]
+name = "Disclaimer"
+pageRef = "/footer/disclaimer"
+weight = 4

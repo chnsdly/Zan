@@ -61,9 +61,19 @@ weight = 40
 [[footer]]
 name = "隐私政策"
 pageRef = "/footer/privacy-policy"
+weight = 1
+
+[[footer]]
+name = "网站条款"
+pageRef = "/footer/terms-conditions"
 weight = 2
 
 [[footer]]
-name = "常见问题"
-pageRef = "/footer/faq"
+name = "Cookie 政策"
+pageRef = "/footer/cookie-policy"
+weight = 3
+
+[[footer]]
+name = "免责声明"
+pageRef = "/footer/disclaimer"
 weight = 4

@@ -171,16 +171,28 @@
                 href="http://localhost:1313/resources/case-studies/case-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/footer/faq/</loc>
+    <loc>http://localhost:1313/footer/cookie-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="http://localhost:1313/zh/footer/faq/"
+                href="http://localhost:1313/zh/footer/cookie-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/footer/faq/"
+                href="http://localhost:1313/footer/cookie-policy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/footer/disclaimer/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/footer/disclaimer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/footer/disclaimer/"
                 />
   </url><url>
     <loc>http://localhost:1313/footer/privacy-policy/</loc>
@@ -193,6 +205,18 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="http://localhost:1313/footer/privacy-policy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/footer/terms-conditions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/footer/terms-conditions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/footer/terms-conditions/"
                 />
   </url><url>
     <loc>http://localhost:1313/product/oil-immersed/oil-immersed-power-110kv/</loc>
