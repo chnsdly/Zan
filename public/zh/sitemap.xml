@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zh/resources/</loc>
-    <lastmod>2026-03-30T09:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/resources/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/resources/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh/resources/insights/</loc>
     <lastmod>2026-03-30T09:00:00+00:00</lastmod>
     <xhtml:link
@@ -52,6 +39,19 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/</loc>
+    <lastmod>2026-03-30T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/resources/case-studies/</loc>
@@ -243,18 +243,6 @@
                 href="http://localhost:1313/zh/footer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh/product/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/product/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/product/"
-                />
-  </url><url>
     <loc>http://localhost:1313/zh/product/oil-immersed/oil-immersed-transformer-s13/</loc>
     <xhtml:link
                 rel="alternate"
@@ -337,6 +325,18 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/product/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/product/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/product/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/product/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer/</loc>
