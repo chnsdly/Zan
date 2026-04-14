@@ -1197,3 +1197,41 @@ a.contact__direct-value:focus-visible {
 .contact__form-body,
 .contact__direct-body {
   margin-block: calc(var(--space) * 3) 0; }
+
+.resources-page__article {
+  display: grid;
+  gap: calc(var(--space) * 2.5); }
+
+.resources-page__media {
+  border: var(--border);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  background-color: color-mix(in oklab, var(--surface) 86%, var(--brand)); }
+
+.resources-page__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover; }
+
+.resources-page__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: calc(var(--space) * 0.5) calc(var(--space) * 1.5);
+  color: var(--secondary); }
+
+.resources-page__title {
+  color: var(--on-surface); }
+
+.resources-page__content {
+  display: grid;
+  gap: calc(var(--space) * 1.5); }
+
+.resources-page__content :is(h2, h3, h4) {
+  margin-top: calc(var(--space) * 2); }
+
+.resources-page__content p,
+.resources-page__content li {
+  color: var(--on-surface); }
