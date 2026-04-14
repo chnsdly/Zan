@@ -22,3 +22,9 @@ phone = "电话 / WhatsApp"
 address = "地址"
 business_hours = "办公时间"
 
+
+footer_aria_label = "网站底部"
+footer_site_menu = "网站菜单"
+footer_legal = "法律与合规"
+footer_contact = "联系方式"
+footer_copyright = "© 2000-2026 恒锂新能源科技（临沂）有限公司"
