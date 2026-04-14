@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Transformer Insights on Zan</title>
+    <title>Insights on Zan</title>
     <link>http://localhost:1313/resources/insights/</link>
-    <description>Recent content in Transformer Insights on Zan</description>
+    <description>Recent content in Insights on Zan</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 30 Mar 2026 09:00:00 +0000</lastBuildDate>
