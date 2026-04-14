@@ -6,8 +6,15 @@
     <description>Recent content in Home | Zan on Zan</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 26 Mar 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 09:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dry-Type vs Oil-Immersed Transformers: Choosing by Scenario, Not Habit</title>
+      <link>http://localhost:1313/resources/insights/insights-3/</link>
+      <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/insights-3/</guid>
+      <description>&lt;p&gt;Selecting transformer type should be driven by site constraints and operating priorities rather than organizational habit. Dry-type and oil-immersed units each perform well in the right context.&lt;/p&gt;&#xA;&lt;p&gt;Dry-type transformers are often favored in high-occupancy buildings, indoor industrial zones, and fire-sensitive spaces because they are oil-free and easier to place close to loads. They can simplify routine maintenance and reduce environmental handling concerns.&lt;/p&gt;&#xA;&lt;p&gt;Oil-immersed transformers remain strong in higher-capacity outdoor applications, where cooling performance and economic efficiency are key. With proper sealing, monitoring, and oil management, they can deliver robust long-term service.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Urban Distribution Reliability Upgrade with Smart Monitoring</title>
       <link>http://localhost:1313/resources/case-studies/case-3-copy/</link>
@@ -21,6 +28,20 @@
       <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
       <guid>http://localhost:1313/resources/case-studies/case-3/</guid>
       <description>&lt;h2 id=&#34;project-background&#34;&gt;Project Background&lt;/h2&gt;&#xA;&lt;p&gt;A dense urban district faced repeated customer complaints during summer peaks. Existing equipment lacked real-time visibility, making fault isolation and maintenance scheduling slow.&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;The utility launched a staged retrofit program centered on transformer modernization:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Deployed higher-efficiency distribution transformers at overloaded nodes.&lt;/li&gt;&#xA;&lt;li&gt;Added online monitoring for winding temperature, load rate, and alarms.&lt;/li&gt;&#xA;&lt;li&gt;Established data-driven maintenance triggers instead of fixed interval inspection.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;&#xA;&lt;p&gt;Within the first maintenance cycle, the utility achieved:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Transformer Temperature Rise Matters More Than Many Teams Expect</title>
+      <link>http://localhost:1313/resources/insights/insights-2/</link>
+      <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/insights-2/</guid>
+      <description>&lt;p&gt;Transformer temperature rise has a direct relationship with insulation life. Even small long-term deviations can compound over years, especially in dusty workshops, coastal humidity, or enclosed substations with weak airflow.&lt;/p&gt;&#xA;&lt;p&gt;In operation, teams should track top-oil or winding hotspot trends rather than relying only on occasional spot measurements. A stable load with rising temperature is often an early signal of ventilation degradation, harmonic stress, or contact resistance issues.&lt;/p&gt;&#xA;&lt;p&gt;To control risk, combine design-side choices and operation-side discipline: choose low-loss core and winding structures, ensure proper ventilation paths, and set alarm thresholds with clear response actions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Select Transformer Capacity for Variable Industrial Loads</title>
+      <link>http://localhost:1313/resources/insights/insights-1/</link>
+      <pubDate>Fri, 20 Mar 2026 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/insights-1/</guid>
+      <description>&lt;p&gt;When industrial demand changes by shift, season, and production line utilization, transformer sizing based only on nameplate totals often leads to oversizing or hidden overload risk. A better approach starts with real load profiles.&lt;/p&gt;&#xA;&lt;p&gt;First, collect 15-minute interval power data and identify three values: base load, stable production load, and short-duration peak load. Then map these values against duty cycles to understand how often peaks appear and how long they persist.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oil-Immersed Transformer for a Utility-Scale Solar Project</title>

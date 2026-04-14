@@ -5,10 +5,6 @@
 
 .insights-list__item {
   border-bottom: var(--border);
-
-  &:first-child {
-    border-top: var(--border);
-  }
 }
 
 .insights-list__card {

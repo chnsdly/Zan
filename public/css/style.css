@@ -1022,6 +1022,65 @@ body.is-menu-open {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     align-items: start; } }
 
+.insights-list__list {
+  display: grid;
+  grid-template-columns: 1fr; }
+
+.insights-list__item {
+  border-bottom: var(--border); }
+
+.insights-list__card {
+  display: grid;
+  gap: calc(var(--space) * 2);
+  padding-block: calc(var(--space) * 2.5);
+  color: var(--on-surface);
+  transition: color var(--transition-base); }
+  .insights-list__card:hover, .insights-list__card:focus-visible {
+    color: var(--brand); }
+  .insights-list__card:focus-visible {
+    outline: var(--focus-outline);
+    outline-offset: var(--focus-offset); }
+
+.insights-list__media {
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-s);
+  overflow: hidden;
+  background-color: color-mix(in oklab, var(--surface) 86%, var(--brand)); }
+
+.insights-list__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.insights-list__content {
+  display: grid;
+  align-content: start;
+  gap: calc(var(--space) * 1.25);
+  min-width: 0; }
+
+.insights-list__title {
+  color: currentColor; }
+
+.insights-list__excerpt {
+  color: var(--on-surface);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+
+.insights-list__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--space) * 0.5) calc(var(--space) * 1.5);
+  color: var(--secondary); }
+
+@media (min-width: 48rem) {
+  .insights-list__card {
+    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+    align-items: center;
+    gap: calc(var(--space) * 3); } }
+
 .case-studies-list__grid {
   display: grid;
   grid-template-columns: 1fr;
