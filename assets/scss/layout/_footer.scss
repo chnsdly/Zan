@@ -1,7 +1,6 @@
 .site-footer {
   margin-top: space(8);
-  border-top: var(--border);
-  background-color: var(--card);
+  background-color: #F5F5F5;
   color: var(--on-surface);
 }
 
@@ -29,7 +28,7 @@
 
 .site-footer__link,
 .site-footer__meta {
-  color: var(--secondary);
+  color: var(--on-surface);
   line-height: 1.6;
 }
 
@@ -63,7 +62,7 @@
 .site-footer__copyright-text {
   margin: 0;
   padding-block: space(2.5);
-  color: var(--secondary);
+  color: var(--on-surface);
 }
 
 @include mq-up(tablet) {

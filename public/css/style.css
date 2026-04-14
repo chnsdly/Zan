@@ -500,10 +500,62 @@ body.is-menu-open {
   .site-header__submenu-link {
     min-height: 2.75rem; } }
 
-/* Footer
-   页面底部区域样式。
-   这里写 footer 本身的背景、文字颜色、间距、分栏结构，
-   以及底部信息区的整体排版。 */
+.site-footer {
+  margin-top: calc(var(--space) * 8);
+  background-color: #F5F5F5;
+  color: var(--on-surface); }
+
+.site-footer__main {
+  padding-block: calc(var(--space) * 6); }
+
+.site-footer__grid {
+  display: grid;
+  gap: calc(var(--space) * 4); }
+
+.site-footer__column {
+  min-width: 0; }
+
+.site-footer__title {
+  margin-bottom: calc(var(--space) * 1.5); }
+
+.site-footer__list {
+  display: grid;
+  gap: calc(var(--space) * 1.25); }
+
+.site-footer__link,
+.site-footer__meta {
+  color: var(--on-surface);
+  line-height: 1.6; }
+
+.site-footer__link {
+  text-underline-offset: 0.15em;
+  transition: color var(--transition-base), opacity var(--transition-base), transform var(--transition-base); }
+
+.site-footer__link:hover,
+.site-footer__link:focus-visible,
+.site-footer__link:active {
+  color: var(--brand); }
+
+.site-footer__link:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset); }
+
+.site-footer__link:active {
+  transform: translateY(1px); }
+
+.site-footer__copyright {
+  border-top: var(--border); }
+
+.site-footer__copyright-text {
+  margin: 0;
+  padding-block: calc(var(--space) * 2.5);
+  color: var(--on-surface); }
+
+@media (min-width: 48rem) {
+  .site-footer__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: calc(var(--space) * 3); } }
+
 /* Sidebar
    侧边栏区域样式。
    这里写侧栏本身的宽度、间距、吸附、边框等区域级规则，
@@ -721,7 +773,7 @@ body.is-menu-open {
   color: var(--on-brand); }
 
 .home-trusted {
-  background-color: color-mix(in oklab, var(--surface) 93%, var(--brand)); }
+  background-color: #F3F4F6; }
 
 .home-trusted__list {
   display: grid;
@@ -743,7 +795,7 @@ body.is-menu-open {
 
 .home-stats {
   padding-block: calc(var(--space) * 4);
-  background-color: color-mix(in oklab, var(--surface) 93%, var(--brand)); }
+  background-color: #F3F4F6; }
 
 .home-stats__grid {
   display: grid;
@@ -887,7 +939,7 @@ body.is-menu-open {
     transform: translateX(calc(-50% - calc(var(--space) * 1))); } }
 
 .home-reports {
-  background-color: color-mix(in oklab, var(--surface) 93%, var(--brand)); }
+  background-color: #F3F4F6; }
 
 .home-reports__list {
   display: flex;
