@@ -1,4 +1,4 @@
 +++
-title = ""
-description = ""
+title = "Resources"
+description = "Browse transformer case studies and technical insights for power distribution projects."
 +++
