@@ -1,6 +1,6 @@
 {{ define "main" }}
 <main class="section insights-list" aria-labelledby="insights-list-page-title">
-  <div class="container">
+  <div class="container container--narrow">
       <ul class="insights-list__list">
         {{ range .RegularPages.ByDate.Reverse }}
         {{ $item := . }}

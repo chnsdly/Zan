@@ -1055,6 +1055,7 @@ body.is-menu-open {
 
 .insights-list__content {
   display: grid;
+  grid-template-rows: auto 1fr auto;
   align-content: start;
   gap: calc(var(--space) * 1.25);
   min-width: 0; }
@@ -1077,8 +1078,8 @@ body.is-menu-open {
 
 @media (min-width: 48rem) {
   .insights-list__card {
-    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
-    align-items: center;
+    grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+    align-items: stretch;
     gap: calc(var(--space) * 3); } }
 
 .case-studies-list__grid {

@@ -41,6 +41,7 @@
 
 .insights-list__content {
   display: grid;
+  grid-template-rows: auto 1fr auto;
   align-content: start;
   gap: space(1.25);
   min-width: 0;
@@ -67,8 +68,8 @@
 
 @include mq-up(tablet) {
   .insights-list__card {
-    grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
-    align-items: center;
+    grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+    align-items: stretch;
     gap: space(3);
   }
 }
