@@ -3,7 +3,7 @@
   {{ $navLabel := i18n "breadcrumbs_navigation" | default "Breadcrumb" }}
   
   {{ $containerClass := "container" }}
-  {{ if and .IsPage (in (slice "product" "insights" "contact") .Type) }}
+  {{ if and .IsPage (in (slice "product" "insights" "contact" "resources") .Type) }}
     {{ $containerClass = "container container--narrow" }}
   {{ end }}
 
@@ -17,13 +17,13 @@
         {{ range .Ancestors.Reverse }}
           {{ if not .IsHome }}
             <li class="breadcrumbs__item">
-              <a class="breadcrumbs__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <a class="breadcrumbs__link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
             </li>
           {{ end }}
         {{ end }}
 
         <li class="breadcrumbs__item">
-          <span class="breadcrumbs__current" aria-current="page">{{ .Title }}</span>
+          <span class="breadcrumbs__current" aria-current="page">{{ .LinkTitle }}</span>
         </li>
       </ol>
     </div>
