@@ -22,3 +22,9 @@ phone = "PHONE / WHATSAPP"
 address = "ADDRESS"
 business_hours = "BUSINESS HOURS"
 
+
+footer_aria_label = "Site footer"
+footer_site_menu = "Site Menu"
+footer_legal = "Legal & Compliance"
+footer_contact = "Contact"
+footer_copyright = "© 2000-2026 Hengli New Energy Technology (Linyi) Co., Ltd."
