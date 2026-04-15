@@ -11,7 +11,7 @@
   height: 100%;
   border: var(--border);
   border-radius: var(--radius-m);
-  background-color: var(--product-background);
+  background: var(--product-background);
   box-shadow: var(--shadow);
   overflow: hidden;
   transition:
@@ -44,7 +44,6 @@
 
 .products-list__media {
   aspect-ratio: 4 / 3;
-  background-color: color-mix(in oklab, var(--surface) 86%, var(--brand));
 }
 
 .products-list__image {

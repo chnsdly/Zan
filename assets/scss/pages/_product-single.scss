@@ -11,7 +11,7 @@
   border: var(--border);
   border-radius: var(--radius-m);
   overflow: hidden;
-  background-color: color-mix(in oklab, var(--surface) 86%, var(--brand));
+  background: var(--product-background);
 }
 
 .product-single__image {
