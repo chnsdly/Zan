@@ -1,7 +1,7 @@
 +++
 title = "立体三角卷铁芯变压器"
 description = "立体三角卷铁芯油浸式配电变压器以三维磁路几何优化为核心，提升三相磁通平衡，降低励磁电流、空载损耗与运行噪声。该结构适合对电能质量、安静运行和长期能效有明确要求的工业与城市配电项目。"
-image = "/images/oil-immersed/three-dimensional-wound-core-transformer.webp"
+image = "/images/products/oil-immersed/three-dimensional-wound-core-transformer.webp"
 +++
 
 立体三角卷铁芯变压器的关键在于铁心结构而非“油浸”本身。相比传统平面叠片铁心，三维卷铁心可形成更均衡的三相磁路路径，帮助优化磁通分布并降低励磁电流。这一结构路线通常带来更低的空载损耗、更平稳的合闸特性以及更优的振动与噪声控制，特别适合对供电品质和环境噪声敏感的配电场景。

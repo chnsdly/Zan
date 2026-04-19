@@ -1,7 +1,7 @@
 +++
 title = "110kV油浸式变压器"
 description = "110kV油浸式电力变压器面向变电站、公用电网与大型工业连续供电场景，围绕长期可靠性、稳定调压、热稳定与绝缘耐久进行系统化设计。产品可根据项目配置冷却方式与分接开关方案，适配高可用性电网和高停电成本负荷中心。"
-image = "/images/oil-immersed/oil-immersed-power-110kv.webp"
+image = "/images/products/oil-immersed/oil-immersed-power-110kv.webp"
 featured = true
 +++
 

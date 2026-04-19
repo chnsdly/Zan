@@ -9,7 +9,7 @@ home_hero:
   description: "Engineered solutions for modern power distribution, focused on safety, efficiency, and dependable operation across diverse project needs."
   button:
     label: "Learn more"
-    url: "/product/oil-immersed/"
+    url: "/product/products/oil-immersed/"
 
 home_trusted:
   enable: true

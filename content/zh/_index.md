@@ -9,7 +9,7 @@ home_hero:
   description: "面向现代配电需求的工程化解决方案，聚焦安全、高效与可靠运行，适配多样化项目场景。"
   button:
     label: "了解更多"
-    url: "/product/oil-immersed/"
+    url: "/product/products/oil-immersed/"
 
 home_trusted:
   enable: true

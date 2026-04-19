@@ -1,7 +1,7 @@
 +++
 title = "SCBH15干式变压器"
 description = "SCBH15非晶合金树脂浇注干式变压器将干式无油高安全特性与非晶铁心低空载损耗优势结合，适合长期带电、轻载比例高且重视节能减碳的室内配电系统，帮助客户同时实现安全运行与长期电费优化。"
-image = "/images/dry-type/scb15h-dry-type-transformer.webp"
+image = "/images/products/dry-type/scb15h-dry-type-transformer.webp"
 featured = true
 +++
 

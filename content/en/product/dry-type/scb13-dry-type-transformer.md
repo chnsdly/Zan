@@ -1,7 +1,7 @@
 +++
 title = "SCB13 Cast Resin Dry-Type Transformer"
 description = "SCB13 is an oil-free cast resin dry-type transformer for indoor distribution environments that require fire safety, low maintenance, and reliable load-center installation, offering stable performance, reduced operational risk, and balanced lifecycle economics for critical building power systems."
-image = "/images/dry-type/scb13-dry-type-transformer.webp"
+image = "/images/products/dry-type/scb13-dry-type-transformer.webp"
 featured = true
 +++
 

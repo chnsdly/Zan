@@ -1,7 +1,7 @@
 +++
 title = "S13 Oil-Immersed Transformer"
 description = "The S13 sealed oil-immersed distribution transformer is a mature low-loss mainstream series for industrial, commercial, and utility distribution applications, offering dependable voltage performance, reduced no-load losses, and balanced lifecycle value for cost-sensitive upgrade projects."
-image = "/images/oil-immersed/oil-immersed-transformer-s13.webp"
+image = "/images/products/oil-immersed/oil-immersed-transformer-s13.webp"
 featured = true
 +++
 

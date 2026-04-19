@@ -1,7 +1,7 @@
 +++
 title = "110 kV Oil-Immersed Transformer"
 description = "The 110 kV oil-immersed power transformer is engineered for utility substations, grid interconnection points, and large industrial supply systems where long-term reliability, stable voltage regulation, thermal stability, and dependable insulation performance are critical to continuous operation."
-image = "/images/oil-immersed/oil-immersed-power-110kv.webp"
+image = "/images/products/oil-immersed/oil-immersed-power-110kv.webp"
 featured = true
 +++
 

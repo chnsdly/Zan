@@ -1,7 +1,7 @@
 +++
 title = "220 kV Oil-Immersed Transformer"
 description = "The 220 kV oil-immersed transformer serves bulk-power transmission and major grid nodes, combining high-level insulation coordination, robust short-circuit withstand capability, advanced thermal design, and lifecycle reliability for critical high-capacity utility infrastructure."
-image = "/images/oil-immersed/oil-immersed-power-220kv.webp"
+image = "/images/products/oil-immersed/oil-immersed-power-220kv.webp"
 featured = true
 +++
 

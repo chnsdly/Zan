@@ -1,7 +1,7 @@
 +++
 title = "S22 Oil-Immersed Transformer"
 description = "The S22 sealed oil-immersed distribution transformer is positioned as a premium high-efficiency option within silicon-steel series, designed for users focused on lower operating losses, long energized-hour duty, and improved total cost of ownership across the transformer lifecycle."
-image = "/images/oil-immersed/oil-immersed-transformer-s22.webp"
+image = "/images/products/oil-immersed/oil-immersed-transformer-s22.webp"
 featured = true
 +++
 

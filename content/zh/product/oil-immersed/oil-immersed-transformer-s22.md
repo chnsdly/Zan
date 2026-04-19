@@ -1,7 +1,7 @@
 +++
 title = "S22油浸式变压器"
 description = "S22全密封油浸式配电变压器面向高能效优先级项目，突出更低运行损耗与更优总拥有成本表现。产品适合长时带电工况、碳管理约束严格及追求高效配电资产回报的用户。"
-image = "/images/oil-immersed/oil-immersed-transformer-s22.webp"
+image = "/images/products/oil-immersed/oil-immersed-transformer-s22.webp"
 featured = true
 +++
 

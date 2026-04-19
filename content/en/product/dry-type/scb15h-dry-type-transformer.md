@@ -1,7 +1,7 @@
 +++
 title = "SCBH15 Cast Resin Dry-Type Transformer"
 description = "SCBH15 combines cast-resin dry-type safety with an amorphous alloy core to deliver stronger no-load-loss optimization, making it a high-value indoor distribution option for projects that prioritize fire-safe oil-free installation and long-term energy-cost reduction under extended energized operation."
-image = "/images/dry-type/scb15h-dry-type-transformer.webp"
+image = "/images/products/dry-type/scb15h-dry-type-transformer.webp"
 featured = true
 +++
 

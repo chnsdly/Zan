@@ -1,7 +1,7 @@
 +++
 title = "非晶立体三角卷铁芯变压器"
 description = "非晶立体三角卷铁芯油浸式变压器将非晶合金低空载损耗材料与3D卷铁心磁路结构结合，面向长时间带电和轻载时段较多的配电网络，提供更强的节能表现、低噪运行特性与长期运营成本优化价值。"
-image = "/images/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer.webp"
+image = "/images/products/oil-immersed/amorphous-alloy-three-dimensional-wound-core-transformer.webp"
 +++
 
 该系列融合两条高能效设计路径：一是非晶合金铁心对空载损耗的显著优化能力，二是三维卷铁心对三相磁路平衡和振动噪声控制的结构优势。对于全年带电、负荷波动明显且轻载占比较高的系统，这种组合能够更有效地降低长期基础损耗，从而改善项目全寿命周期的能效与经济性。

@@ -1,7 +1,7 @@
 +++
 title = "S20 Oil-Immersed Transformer"
 description = "The S20 sealed oil-immersed distribution transformer is positioned above conventional low-loss tiers, delivering stronger lifecycle efficiency and lower operating losses for continuously energized networks that prioritize long-term energy cost control and reliable distribution performance."
-image = "/images/oil-immersed/oil-immersed-transformer-s20.webp"
+image = "/images/products/oil-immersed/oil-immersed-transformer-s20.webp"
 featured = true
 +++
 

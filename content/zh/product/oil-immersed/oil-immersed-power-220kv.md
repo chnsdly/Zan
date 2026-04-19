@@ -1,7 +1,7 @@
 +++
 title = "220kV油浸式变压器"
 description = "220kV油浸式电力变压器定位于大容量输电与关键电网枢纽场景，强调高等级绝缘配合、抗短路能力、热设计与全生命周期可靠性。产品可按系统需求扩展为三绕组或自耦等结构，用于高功率传输与系统级电压调节。"
-image = "/images/oil-immersed/oil-immersed-power-220kv.webp"
+image = "/images/products/oil-immersed/oil-immersed-power-220kv.webp"
 featured = true
 +++
 
