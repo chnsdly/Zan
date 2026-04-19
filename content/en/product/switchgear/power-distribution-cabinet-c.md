@@ -2,7 +2,6 @@
 title = "High and Low Voltage Power Distribution Cabinet C"
 description = "Designed for integrated distribution and control, this power distribution cabinet supports safe electrical conversion and branch management across high/low-voltage interfaces while maintaining maintainability, installation compliance, and operational transparency."
 image = "/images/products/switchgear/power-distribution-cabinet-c.webp"
-featured = true
 +++
 
 The cabinet system connects upstream switchgear or transformer outputs with downstream distribution boards, delivering coordinated protection and operational control for motors, lighting, and process loads. Its architecture allows flexible adaptation to different circuit counts and functional zoning requirements.

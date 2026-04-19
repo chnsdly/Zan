@@ -2,7 +2,6 @@
 title = "Prefabricated Compact Substation D"
 description = "Prefabricated compact substation D is developed for temporary and project-based power supply scenarios, enabling fast installation and redeployment with robust structure, small footprint, and flexible network integration options."
 image = "/images/products/substation/box-type-substation-d.webp"
-featured = true
 +++
 
 Substation D is suitable for construction sites, temporary event venues, emergency backup tasks, and staged capacity expansion projects. By integrating MV intake, transformer section, and LV distribution in one enclosed package, it supports a rapid “deliver-install-energize” workflow that shortens temporary power preparation time.

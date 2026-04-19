@@ -2,7 +2,6 @@
 title = "GCK低压抽出式开关柜B"
 description = "GCK抽出式低压开关柜通过模块化装配、良好动热稳定性与方案灵活组合，实现安全、易维护且节省空间的PC/MCC配电，适用于工厂、变电站及大型建筑基础设施。"
 image = "/images/products/switchgear/gck-low-voltage-switchgear-b.webp"
-featured = true
 +++
 
 柜体采用模块化C型材框架，具有装配效率高、通用性强的特点，可适配不同工程方案。抽屉式与固定分隔式回路可在同一系统内组合配置，以匹配运行关键性与投资优先级。

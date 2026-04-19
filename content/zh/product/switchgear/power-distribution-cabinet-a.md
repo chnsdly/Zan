@@ -2,7 +2,6 @@
 title = "高低压配电柜A"
 description = "高低压配电柜用于完成从上级电源到终端负荷配电箱的电能分配、控制、计量与电缆连接，适配多级建筑与工业配电网络的安全有序运行需求。"
 image = "/images/products/switchgear/power-distribution-cabinet-a.webp"
-featured = true
 +++
 
 该类产品用于在同一柜体内集成开关、保护、指示与计量单元，形成完整的成套配电节点。典型应用为接入变压器低压侧并向下游配电箱、控制箱供电，构建端到端配电体系。

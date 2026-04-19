@@ -2,7 +2,6 @@
 title = "MNS低压抽出式开关柜B"
 description = "MNS低压开关柜采用紧凑结构、模块化抽屉单元与统一水平母线设计，可在50/60Hz、690V及以下配电系统中实现进线、馈电、电机控制与无功补偿等功能，并提供优良的安全防护与可维护性。"
 image = "/images/products/switchgear/mns-low-voltage-switchgear-b.webp"
-featured = true
 +++
 
 MNS平台面向中大型低压配电工程，在有限占地内实现较高回路密度。标准化PC与MCC单元可与无功补偿、软启动等回路灵活组合，便于系统集成并预留后续扩容空间。
