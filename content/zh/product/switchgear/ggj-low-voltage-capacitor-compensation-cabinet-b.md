@@ -2,7 +2,6 @@
 title = "GGJ低压无功功率补偿柜B"
 description = "GGJ无功补偿设备将低压电容补偿与电网参数监测结合，用于提升0.4kV系统功率因数与供电质量，帮助用户降低损耗并提高网络带载能力。"
 image = "/images/products/switchgear/ggj-low-voltage-capacitor-compensation-cabinet-b.webp"
-featured = true
 +++
 
 GGJ柜体面向低压配电场景，可依据负荷变化实现分级或自动无功补偿。对于感性负荷波动较大的系统，稳定功率因数有助于改善电压质量并提升整体运行经济性。

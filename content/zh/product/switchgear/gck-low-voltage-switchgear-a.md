@@ -2,7 +2,6 @@
 title = "GCK低压抽出式开关柜A"
 description = "GCK低压抽出式开关柜适用于50/60Hz、660V及以下系统，集成PC与MCC功能，采用C型材模块化结构，具备高回路密度与可靠联锁能力，可满足工业配电与电机控制需求。"
 image = "/images/products/switchgear/gck-low-voltage-switchgear-a.webp"
-featured = true
 +++
 
 GCK柜体面向低压配电室紧凑化与功能集成化需求。不同规格的抽屉单元可按系统方案自由组合，在保持成套一致性的同时实现定制化回路规划。

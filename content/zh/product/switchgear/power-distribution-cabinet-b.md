@@ -2,7 +2,6 @@
 title = "高低压配电柜B"
 description = "该高低压配电柜方案将开关与保护元件集中于分级配电体系中，可实现从变电站/变压器到终端支路的可靠控制与计量，适用于复杂设施供电网络。"
 image = "/images/products/switchgear/power-distribution-cabinet-b.webp"
-featured = true
 +++
 
 此类配电柜承担多级配电中的能量路由与保护任务，通常按项目电气方案集成断路器、熔断器、指示器、仪表及辅助控制器件，是工业、商业与公共设施配电室的关键设备。

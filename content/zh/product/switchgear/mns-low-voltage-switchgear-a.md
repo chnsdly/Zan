@@ -2,7 +2,6 @@
 title = "MNS低压抽出式开关柜A"
 description = "MNS低压抽出式开关柜集成PC配电中心、MCC电机控制中心与无功补偿功能，适用于50/60Hz、额定电压690V及以下系统，具备紧凑模块化结构、固定与抽屉混合方案及便捷运维能力，满足工业与公用配电场景的高可靠性需求。"
 image = "/images/products/switchgear/mns-low-voltage-switchgear-a.webp"
-featured = true
 +++
 
 MNS系列是在吸收国内外同类产品技术基础上形成的新一代低压抽出式方案。其柜架、抽屉单元与母线系统围绕进线、馈线、电机控制及无功补偿等功能进行一体化优化，兼顾成套效率与长期运行稳定性。

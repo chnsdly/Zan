@@ -2,7 +2,6 @@
 title = "高低压配电柜D"
 description = "高低压配电柜在配电系统中协同实现回路保护、控制、计量与电缆管理，帮助电网与终端用户在供配电全链路中保持稳定电能质量与安全运行状态。"
 image = "/images/products/switchgear/power-distribution-cabinet-d.webp"
-featured = true
 +++
 
 作为配电基础设施核心设备，此类柜体通过标准化外壳集成多类电器，实现有序电能管理。其常部署于电源侧设备与终端分配电盘之间，服务于工厂、园区及大型建筑等场景。

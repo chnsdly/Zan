@@ -2,7 +2,6 @@
 title = "高低压配电柜C"
 description = "该配电柜面向高低压接口场景下的综合配电与控制需求，支持安全电能转换与支路管理，并兼顾可维护性、安装合规性与运行可视化。"
 image = "/images/products/switchgear/power-distribution-cabinet-c.webp"
-featured = true
 +++
 
 该系统用于衔接上级开关设备或变压器与下游配电盘，实现电机、照明及工艺负荷的协调保护与运行控制。其结构可根据回路数量和功能分区要求进行灵活调整。

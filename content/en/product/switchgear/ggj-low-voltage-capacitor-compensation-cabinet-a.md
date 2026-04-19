@@ -2,7 +2,6 @@
 title = "GGJ Low-Voltage Reactive Power Compensation Cabinet A"
 description = "The GGJ low-voltage reactive power compensation cabinet combines capacitor compensation and power quality monitoring for 0.4kV/50Hz systems, improving power factor, reducing line losses, and supporting stable distribution performance in industrial and commercial facilities."
 image = "/images/products/switchgear/ggj-low-voltage-capacitor-compensation-cabinet-a.webp"
-featured = true
 +++
 
 GGJ series adopts mature domestic compensation technology and selected low-voltage components to provide centralized reactive power management. By reducing unnecessary reactive current circulation, the cabinet helps release transformer and feeder capacity while lowering distribution losses.
