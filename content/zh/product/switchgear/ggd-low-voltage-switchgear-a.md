@@ -2,7 +2,6 @@
 title = "GGD低压开关柜A"
 description = "GGD低压开关柜是面向50Hz、400V/4000A及以下系统的经济型固定式成套配电设备，具备较高分断能力、良好动热稳定性及灵活电气方案组合能力，可用于动力与照明配电。"
 image = "/images/products/switchgear/ggd-low-voltage-switchgear-a.webp"
-featured = true
 +++
 
 GGD按安全、经济、可靠原则设计，采用组合式框架与自然通风结构，在常规运行条件下具备良好的温升控制能力。产品标准防护等级通常为IP30，并可根据安装环境进行范围化选型。

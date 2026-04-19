@@ -67,6 +67,8 @@ home_company:
       name: "工厂内部图片"
     - image: "images/company/factory-3.webp"
       name: "工厂内部图片"
+    - image: "images/company/factory-4.webp"
+      name: "工厂内部图片"
 
 home_reports:
   enable: true

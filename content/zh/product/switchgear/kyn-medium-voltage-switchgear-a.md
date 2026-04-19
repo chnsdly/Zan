@@ -2,7 +2,6 @@
 title = "KYN28铠装移开式交流金属封闭开关设备A"
 description = "KYN28铠装移开式交流金属封闭开关设备适用于3.6–12kV电力系统，采用手车式断路器结构，具备完善机电联锁能力，可实现中压系统的分合闸、控制与保护功能。"
 image = "/images/products/switchgear/kyn-medium-voltage-switchgear-a.webp"
-featured = true
 +++
 
 KYN28柜体由金属铠装柜架与可移开式手车组成，通常配置真空断路器、接地开关及互感器等一次元件。其分隔式结构有助于实现功能区清晰隔离，并提升发电、输配电场景下的故障约束能力。

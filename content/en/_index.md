@@ -68,6 +68,8 @@ home_company:
       name: "Factory interior image"
     - image: "images/company/factory-3.webp"
       name: "Factory interior image"
+    - image: "images/company/factory-4.webp"
+      name: "Factory interior image"
 
 home_reports:
   enable: true

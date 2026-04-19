@@ -2,7 +2,6 @@
 title = "GGD Low-Voltage Switchgear A"
 description = "GGD low-voltage switchgear is a cost-effective fixed-type distribution cabinet for AC 50Hz systems up to 400V/4000A, featuring high breaking capacity, sound thermal stability, and flexible electrical scheme combination for power and lighting distribution."
 image = "/images/products/switchgear/ggd-low-voltage-switchgear-a.webp"
-featured = true
 +++
 
 Developed under principles of safety, economy, and reliability, GGD adopts a modular frame structure with natural ventilation to support stable temperature rise control in normal operation. Standard protection level is typically IP30, with selectable range adjusted to site conditions.
