@@ -33,6 +33,7 @@ weight = 20
   parent = "product"
   weight = 24
 
+
 [[main]]
 name = "资源中心"
 pageRef = "/resources"
@@ -50,6 +51,11 @@ weight = 30
   pageRef = "/resources/case-studies"
   parent = "resources"
   weight = 32
+
+[[main]]
+name = "关于公司"
+pageRef = "/about"
+weight = 38
 
 [[main]]
 name = "联系我们"
