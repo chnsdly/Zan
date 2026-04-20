@@ -49,8 +49,8 @@
 
       </div>
       {{ if gt $heroTotal 1 }}
-      <button class="home-hero__nav home-hero__nav--prev" type="button" aria-label="Previous slide" data-home-hero-prev>&lt;</button>
-      <button class="home-hero__nav home-hero__nav--next" type="button" aria-label="Next slide" data-home-hero-next>&gt;</button>
+      <button class="home-hero__nav home-hero__nav--prev" type="button" aria-label="Previous slide" data-home-hero-prev>&lsaquo;</button>
+      <button class="home-hero__nav home-hero__nav--next" type="button" aria-label="Next slide" data-home-hero-next>&rsaquo;</button>
       <div class="home-hero__dots" role="tablist" aria-label="Hero slides">
         {{ range $index, $_ := $heroImages }}
         <button
