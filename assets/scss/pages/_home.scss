@@ -5,6 +5,14 @@
   overflow: hidden;
 }
 
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
 .home-hero__bg {
   position: absolute;
   inset: 0;
@@ -15,6 +23,7 @@
 
 .home-hero__inner {
   position: relative;
+  z-index: 2;
   display: flex;
   gap: space(6);
   flex-direction: column;
