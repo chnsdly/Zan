@@ -4,7 +4,8 @@ description: ""
 
 home_hero:
   enable: true
-  hero_bg: "images/hero_bg.webp"
+  hero_bg_1: "images/hero_bg_1.webp"
+  hero_bg_2: "images/hero_bg_2.webp"
   title: "RELIABLE POWER, BUILT FOR LONG-TERM PERFORMANCE"
   description: "Engineered solutions for modern power distribution, focused on safety, efficiency, and dependable operation across diverse project needs."
   button:

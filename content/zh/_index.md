@@ -4,7 +4,8 @@ description: ""
 
 home_hero:
   enable: true
-  hero_bg: "images/hero_bg.webp"
+  hero_bg_1: "images/hero_bg_1.webp"
+  hero_bg_2: "images/hero_bg_2.webp"
   title: "可靠电力，成就长久在线"
   description: "面向现代配电需求的工程化解决方案，聚焦安全、高效与可靠运行，适配多样化项目场景。"
   button:

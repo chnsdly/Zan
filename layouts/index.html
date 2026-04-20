@@ -4,7 +4,7 @@
   {{ with .Params.home_hero }}
     {{ if .enable }}
     <section class="home-hero">
-      {{ with .hero_bg }}
+      {{ with .hero_bg_1 }}
       {{ partial "image.html" (dict
         "src" .
         "alt" ""
