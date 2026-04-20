@@ -5,7 +5,7 @@
         <div class="product-single__overview">
           {{ with .Params.image }}
           <div class="product-single__media">
-            <img class="product-single__image" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="eager" decoding="async">
+            <img class="product-single__image" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" decoding="async">
           </div>
           {{ end }}
       

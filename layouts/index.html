@@ -50,7 +50,7 @@
           {{ range . }}
           <li class="home-trusted__item">
             <span class="home-trusted__logo-link home-trusted__logo-link--disabled">
-              <img class="home-trusted__logo" src="{{ .logo | relURL }}" alt="{{ .name }}" decoding="async">
+              <img class="home-trusted__logo" src="{{ .logo | relURL }}" alt="{{ .name }}" loading="lazy" decoding="async">
             </span>
           </li>
           {{ end }}
