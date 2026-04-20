@@ -6,6 +6,7 @@ body.is-menu-open {
   position: sticky;
   top: 0;
   z-index: var(--z-header);
+  box-shadow: var(--shadow);
 }
 
 .site-header__bar {
