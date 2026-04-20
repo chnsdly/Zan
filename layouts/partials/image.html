@@ -41,7 +41,7 @@
 {{- end -}}
 
 {{- $srcset := slice -}}
-{{- $largest := nil -}}
+{{- $largest := $orig -}}
 
 {{- range $finalWidths -}}
   {{- $img := $orig.Resize (printf "%dx webp q80" .) -}}
