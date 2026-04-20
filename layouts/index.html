@@ -4,14 +4,8 @@
   {{ with .Params.home_hero }}
     {{ if .enable }}
     {{ $heroImages := slice }}
-    {{ with .images }}
-      {{ range . }}
-        {{ $heroImages = $heroImages | append . }}
-      {{ end }}
-    {{ end }}
-    {{ if eq (len $heroImages) 0 }}
-      {{ with .hero_bg_1 }}{{ $heroImages = $heroImages | append . }}{{ end }}
-      {{ with .hero_bg_2 }}{{ $heroImages = $heroImages | append . }}{{ end }}
+    {{ range .images }}
+      {{ $heroImages = $heroImages | append . }}
     {{ end }}
     {{ $heroTotal := len $heroImages }}
     <section class="home-hero" data-home-hero>
