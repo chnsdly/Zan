@@ -1,7 +1,6 @@
 .home-hero {
   position: relative;
   min-height: 82svh;
-  display: flex;
   overflow: hidden;
 }
 
@@ -13,9 +12,18 @@
   z-index: 1;
 }
 
-.home-hero__bg {
+.home-hero__slides {
   position: absolute;
   inset: 0;
+  display: flex;
+  transition: transform 320ms ease;
+}
+
+.home-hero__slide {
+  flex: 0 0 100%;
+}
+
+.home-hero__bg {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -25,12 +33,64 @@
   position: relative;
   z-index: 2;
   display: flex;
+  min-height: 82svh;
   gap: space(6);
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: var(--surface);
+}
+
+.home-hero__nav {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  display: none;
+  width: 4rem;
+  height: 5rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--surface);
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1;
+  cursor: pointer;
+  transform: translateY(-50%);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+}
+
+.home-hero__nav--prev {
+  left: space(2);
+}
+
+.home-hero__nav--next {
+  right: space(2);
+}
+
+.home-hero__dots {
+  position: absolute;
+  left: 50%;
+  bottom: space(3);
+  z-index: 2;
+  display: flex;
+  gap: space(1);
+  transform: translateX(-50%);
+}
+
+.home-hero__dot {
+  width: .625rem;
+  height: .625rem;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: color-mix(in oklab, var(--surface) 50%, transparent);
+  cursor: pointer;
+}
+
+.home-hero__dot.is-active {
+  background: var(--surface);
 }
 
 
@@ -211,6 +271,12 @@
 
 
 @include mq-up(tablet) {
+  .home-hero__nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .home-stats__grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
