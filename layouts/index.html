@@ -86,7 +86,7 @@
         </div>
       
         <ul class="products-list__grid">
-          {{ range $featuredProducts.ByWeight.ByTitle }}
+          {{ range $featuredProducts.ByWeight }}
           {{ $item := . }}
           <li class="products-list__item">
             <a class="products-list__card" href="{{ .RelPermalink }}">
