@@ -5,7 +5,15 @@
     {{ if .enable }}
     <section class="home-hero">
       {{ with .hero_bg }}
-      <img class="home-hero__bg" src="{{ . | relURL }}" alt="" aria-hidden="true" decoding="async" fetchpriority="high">
+      {{ partial "image.html" (dict
+        "src" .
+        "alt" ""
+        "class" "home-hero__bg"
+        "sizes" "100vw"
+        "widths" (slice 768 1280 1600 1920)
+        "loading" "eager"
+        "fetch" "high"
+      ) }}
       {{ end }}
       <div class="container home-hero__inner">
           {{ with .title }}
