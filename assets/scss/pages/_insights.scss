@@ -49,10 +49,13 @@
 
 .insights-list__title {
   color: currentColor;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .insights-list__excerpt {
-  color: var(--on-surface);
+  color: var(--secondary);
   display: -webkit-box;
   line-height: 1.6;
   max-height: calc(2 * 1.6em);
