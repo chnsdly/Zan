@@ -247,10 +247,7 @@ body.is-menu-open {
 
 .site-header__drawer {
   position: fixed;
-  top: var(--height-header);
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
   background-color: var(--surface);
   border-top: var(--border);
   overflow: hidden;
