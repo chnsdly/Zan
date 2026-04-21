@@ -10,7 +10,7 @@ identifier = "product"
 weight = 20
 
   [[main]]
-  name = "开关柜"
+  name = "高低压开关柜"
   pageRef = "/product/switchgear"
   parent = "product"
   weight = 21
