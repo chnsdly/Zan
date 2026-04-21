@@ -15,7 +15,7 @@ home_hero:
 
 home_trusted:
   enable: true
-  title: "全球合作伙伴"
+  title: "合作伙伴"
   description: ""
   logos:
     - name: "Partner 1"
