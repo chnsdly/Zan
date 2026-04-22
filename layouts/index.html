@@ -172,6 +172,40 @@
   </section>
   {{ end }}
 
+
+<!---------- Featured FAQs ---------->
+  {{ $featuredFaqs := where (where .Site.RegularPages "Type" "faq") "Params.featured" true }}
+  {{ if gt (len $featuredFaqs) 0 }}
+  <section class="section insights-list faq-list" aria-labelledby="home-featured-faq-title">
+    <div class="container container--narrow">
+      <div class="section__inner">
+        <div class="section__header">
+          <h2 id="home-featured-faq-title" class="section__title font-title-l">{{ with .Params.home_featured_faq.title }}{{ . }}{{ else }}{{ if eq .Lang "zh" }}精选问答{{ else }}Featured FAQs{{ end }}{{ end }}</h2>
+          {{ with .Params.home_featured_faq.description }}
+          <p class="section__description font-body">{{ . }}</p>
+          {{ end }}
+        </div>
+
+        <ul class="insights-list__list">
+          {{ range $featuredFaqs.ByDate.Reverse }}
+          {{ $summary := .Summary | plainify | truncate 220 }}
+          <li class="insights-list__item">
+            <a class="insights-list__card faq-list__card" href="{{ .RelPermalink }}">
+              <div class="insights-list__content">
+                <h3 class="insights-list__title font-title-xs">{{ .Title }}</h3>
+                {{ with $summary }}
+                <p class="insights-list__excerpt font-body">{{ . }}</p>
+                {{ end }}
+              </div>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
 <!---------- Stats ---------->
   {{ with .Params.home_stats }}
   {{ if .enable }}
