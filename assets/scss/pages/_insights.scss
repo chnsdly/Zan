@@ -77,4 +77,8 @@
     align-items: stretch;
     gap: space(3);
   }
+
+  .faq-list__card {
+    grid-template-columns: 1fr;
+  }
 }
