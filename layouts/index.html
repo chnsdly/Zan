@@ -333,7 +333,7 @@
   {{ $featuredFaqs := where .RegularPages "Params.featured" true }}
   {{ if gt (len $featuredFaqs) 0 }}
   <section class="section insights-list faq-list" aria-labelledby="home-featured-faq-title">
-    <div class="container container--narrow">
+    <div class="container">
       <div class="section__inner">
         <div class="section__header">
           <h2 id="home-featured-faq-title" class="section__title font-title-l">{{ with $.Params.home_featured_faq.title }}{{ . }}{{ else }}{{ if eq $.Lang "zh" }}精选问答{{ else }}Featured FAQs{{ end }}{{ end }}</h2>

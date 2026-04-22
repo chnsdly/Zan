@@ -40,7 +40,7 @@ home_featured:
   description: "围绕可靠运行、高效表现与多样化项目需求而打造。"
 
 home_featured_faq:
-  title: "精选问答"
+  title: "常见问题"
   description: "围绕选型、维护与运行的常见问题，快速获取实用答案。"
 
 home_stats:
