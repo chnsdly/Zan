@@ -1,8 +1,8 @@
 +++
 title = "How do I choose the right transformer capacity for my project?"
 description = "A practical sizing logic based on load profile, margin, and expansion planning."
-date = 2026-04-22T09:10:00Z
-publishDate = 2026-04-22T09:10:00Z
+date = 2026-04-01T09:10:00Z
+publishDate = 2026-04-01T09:10:00Z
 +++
 
 Start from measured or estimated load profile instead of summing all nameplate loads directly. Distinguish base load, normal operating load, and short-duration peak load to avoid oversized or undersized selection.

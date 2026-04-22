@@ -1,8 +1,8 @@
 +++
 title = "What is the difference between an oil-immersed transformer and a dry-type transformer?"
 description = "A quick comparison of cooling method, installation scenarios, and maintenance needs."
-date = 2026-04-22T09:00:00Z
-publishDate = 2026-04-22T09:00:00Z
+date = 2026-04-01T09:00:00Z
+publishDate = 2026-04-01T09:00:00Z
 +++
 
 Oil-immersed transformers use insulating oil for heat dissipation and insulation, so they usually have stronger overload capability and are often used outdoors, in substations, and in higher-capacity distribution systems.

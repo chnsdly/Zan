@@ -1,8 +1,8 @@
 +++
 title = "How often should a transformer be maintained and what should be checked first?"
 description = "Baseline maintenance frequency and high-priority inspection checklist."
-date = 2026-04-22T09:20:00Z
-publishDate = 2026-04-22T09:20:00Z
+date = 2026-04-01T09:20:00Z
+publishDate = 2026-04-01T09:20:00Z
 +++
 
 Routine inspection frequency depends on environment and load severity, but most projects use monthly visual checks, quarterly operational checks, and annual comprehensive maintenance.
