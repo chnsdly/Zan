@@ -52,6 +52,12 @@ weight = 30
   parent = "resources"
   weight = 32
 
+  [[main]]
+  name = "常见问题"
+  pageRef = "/resources/faq"
+  parent = "resources"
+  weight = 33
+
 [[main]]
 name = "关于公司"
 pageRef = "/about"

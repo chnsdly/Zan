@@ -52,6 +52,12 @@ weight = 30
   parent = "resources"
   weight = 32
 
+[[main]]
+  name = "FAQ"
+  pageRef = "/resources/faq"
+  parent = "resources"
+  weight = 33
+
 
 [[main]]
 name = "ABOUT US"
