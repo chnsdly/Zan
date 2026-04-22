@@ -39,6 +39,10 @@ home_featured:
   title: "Featured Products"
   description: "Engineered for reliable operation, efficient performance, and diverse project requirements."
 
+home_featured_faq:
+  title: "Featured FAQs"
+  description: "Quick answers to common questions on selection, maintenance, and operation."
+
 home_stats:
   enable: true
   stats_bg: "images/home_stats.webp"
