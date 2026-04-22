@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<!---------- Company ---------->
+  {{ with .Params.home_company }}
+  {{ if .enable }}
+  <section class="section home-company">
+    <div class="container">
+      <div class="section__inner">
+        {{ $company := . }}
+          <div class="home-company__overview">
+            {{ with .image }}
+            <div class="home-company__media">
+              <img class="home-company__image" src="{{ . | relURL }}" alt="{{ $company.title }}" loading="lazy"
+                decoding="async">
+            </div>
+            {{ end }}
+      
+            <div class="home-company__summary">
+              {{ with .title }}
+              <h3 id="home-company-title" class="home-company__title font-title-xs">{{ . }}</h3>
+              {{ end }}
+              {{ with .description }}
+              <p class="font-body">{{ . }}</p>
+              {{ end }}
+              <a class="button home-company__quote" href='{{ "/contact/" | relLangURL }}'>
+                {{ i18n "contact_us" | default "Contact Us" }}
+              </a>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }} 
+
+{{ end }} 
