@@ -1,4 +1,8 @@
 ---
+title: "About Us"
+layout: "about"
+description: "Learn more about Hengli New Energy Technology (Linyi) Co., Ltd."
+
 home_company:
   enable: true
   image: "images/company/company.webp"
