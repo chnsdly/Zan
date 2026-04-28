@@ -1,4 +1,8 @@
 ---
+title: "关于我们"
+layout: "about"
+description: "了解恒锂新能源科技（临沂）有限公司。"
+
 home_company:
   enable: true
   image: "images/company/company.webp"
