@@ -30,4 +30,7 @@ about_support:
     - icon: "support"
       title: "支持"
       description: "提供英文资料、技术参数确认、包装运输建议及售后沟通支持，帮助海外客户顺利完成采购与项目交付。"
+    - icon: "delivery"
+      title: "交付"
+      description: "结合项目周期安排生产与发运节点，协同装箱与单证准备，降低跨境运输不确定性并提升现场交付效率。"
 ---

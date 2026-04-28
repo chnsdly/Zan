@@ -30,4 +30,7 @@ about_support:
     - icon: "support"
       title: "Project Support"
       description: "We provide English documentation, technical parameter confirmation, packaging and shipping guidance, and responsive after-sales coordination for overseas projects."
+    - icon: "delivery"
+      title: "Delivery Coordination"
+      description: "We coordinate production windows, shipment milestones, packing plans, and export documentation to reduce cross-border uncertainty and keep on-site commissioning schedules on track."
 ---

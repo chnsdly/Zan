@@ -31,6 +31,12 @@
 
 .about-support__header {
   max-width: 44rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.about-support__header .section__title {
+  color: var(--surface);
 }
 
 .about-support__header .section__description {
