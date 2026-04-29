@@ -135,7 +135,8 @@
 .about-production__card {
   height: 100%;
   display: grid;
-  gap: space(2);
+  gap: space(1);
+  align-content: start;
 }
 
 .about-production__image {
@@ -148,12 +149,14 @@
 .about-production__content {
   display: grid;
   text-align: center;
+  padding-bottom: space(2);
   gap: space(1);
 }
 
 .about-production__card:active {
   transform: translateY(0);
 }
+
 
 
 @include mq-up(tablet) {
