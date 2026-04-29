@@ -85,5 +85,43 @@
   </section>
   {{ end }}
   {{ end }}
+
+<!---------- Production ---------->
+  {{ with .Params.about_production }}
+  {{ if .enable }}
+  <section class="section about-production">
+    <div class="container">
+      <div class="section__inner about-production__inner">
+        <div class="section__header about-production__header">
+          {{ with .title }}
+          <h2 class="section__title font-title-l">{{ . }}</h2>
+          {{ end }}
+          {{ with .description }}
+          <p class="section__description font-body">{{ . }}</p>
+          {{ end }}
+        </div>
+        {{ with .items }}
+        <ul class="about-production__grid">
+          {{ range . }}
+          {{ $item := . }}
+          <li class="about-production__item">
+            <article class="about-production__card" tabindex="0"{{ if .disabled }} aria-disabled="true"{{ end }}>
+              {{ with .image }}
+              <img class="about-production__image" src="{{ . | relURL }}" alt="{{ $item.title }}" loading="lazy" decoding="async">
+              {{ end }}
+              <div class="about-production__content">
+                <h3 class="about-production__title font-title-xs">{{ .title }}</h3>
+                <p class="about-production__description font-body">{{ .description }}</p>
+              </div>
+            </article>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ end }}
 </main>
 {{ end }}

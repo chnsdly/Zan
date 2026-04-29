@@ -33,4 +33,22 @@ about_support:
     - icon: "delivery"
       title: "Delivery Coordination"
       description: "We coordinate production windows, shipment milestones, packing plans, and export documentation to reduce cross-border uncertainty and keep on-site commissioning schedules on track."
+
+about_production:
+  enable: true
+  title: "Factory & Production Workflow"
+  description: "From core-coil processing to export delivery preparation, each production step is managed with clear procedures to support transformer quality and project execution."
+  items:
+    - image: "images/company/coil-processing.webp"
+      title: "Core & Coil Processing"
+      description: "Controlled core and coil processes help ensure insulation reliability, winding consistency and stable transformer performance."
+    - image: "images/company/transformer-assembly.webp"
+      title: "Transformer Assembly"
+      description: "Each assembly step is carried out according to project specifications, technical drawings and application requirements."
+    - image: "images/company/quality-testing.webp"
+      title: "Quality Testing"
+      description: "Routine inspection and testing are performed before shipment to verify electrical performance and production quality."
+    - image: "images/company/export-delivery-support.webp"
+      title: "Export Delivery Support"
+      description: "Export-oriented packaging and shipment coordination help support overseas transformer projects from production to delivery."
 ---
