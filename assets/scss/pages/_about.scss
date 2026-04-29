@@ -1,12 +1,4 @@
-.about-page {
-  overflow: clip;
-}
 
-.about-support {
-  position: relative;
-  isolation: isolate;
-  color: var(--surface);
-}
 
 .about-support::before {
   content: "";
@@ -26,12 +18,9 @@
 }
 
 
-.about-support__header .section__title {
-  color: var(--surface);
-}
-
+.about-support__header .section__title,
 .about-support__header .section__description {
-  color: color-mix(in oklab, var(--surface) 92%, transparent);
+  color: var(--surface);
 }
 
 .about-support__grid {
@@ -47,7 +36,7 @@
 .about-support__card {
   height: 100%;
   display: grid;
-  gap: space(1.5);
+  gap: space(2);
   padding: space(2);
   border: 1px solid color-mix(in oklab, var(--surface) 22%, transparent);
   border-radius: var(--radius-m);
@@ -63,11 +52,12 @@
   display: flex;
   align-items: center;
   gap: space(1);
+  color: var(--surface);
 }
 
 .about-support__icon {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 2rem;
+  height: 2rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -81,23 +71,12 @@
 }
 
 .about-support__card:hover,
-.about-support__card:focus-visible,
-.about-support__card:focus-within {
+.about-support__card:focus-visible {
   background: color-mix(in oklab, var(--surface) 20%, transparent);
   box-shadow: var(--shadow-hover);
   transform: translateY(-2px);
 }
 
-.about-support__card:active {
-  transform: translateY(0);
-}
-
-.about-support__card[aria-disabled="true"] {
-  opacity: .6;
-  pointer-events: none;
-  box-shadow: none;
-  transform: none;
-}
 
 .about-support__card:focus-visible {
   outline: var(--focus-outline);
@@ -105,7 +84,7 @@
 }
 
 .about-support__card-description {
-  color: color-mix(in oklab, var(--surface) 94%, transparent);
+  color: var(--surface);
 }
 
 @include mq-up(tablet) {
