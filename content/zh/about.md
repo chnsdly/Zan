@@ -33,4 +33,22 @@ about_support:
     - icon: "delivery"
       title: "交付"
       description: "结合项目周期安排生产与发运节点，协同装箱与单证准备，降低跨境运输不确定性并提升现场交付效率。"
+
+about_production:
+  enable: true
+  title: "工厂与生产流程"
+  description: "从铁芯线圈处理到出口发运准备，各生产环节按流程执行，以支持变压器质量稳定与项目交付。"
+  items:
+    - image: "images/company/coil-processing.webp"
+      title: "铁芯与线圈处理"
+      description: "受控的铁芯与线圈处理流程有助于保障绝缘可靠性、绕组一致性与变压器运行稳定性。"
+    - image: "images/company/transformer-assembly.webp"
+      title: "变压器总装"
+      description: "各项装配步骤均依据项目规范、技术图纸与实际应用要求执行。"
+    - image: "images/company/quality-testing.webp"
+      title: "质量测试"
+      description: "出厂前执行例行检验与测试，以验证电气性能和生产质量。"
+    - image: "images/company/export-delivery-support.webp"
+      title: "出口交付支持"
+      description: "面向出口项目的包装与发运协同，有助于支持海外变压器项目从生产到交付的衔接。"
 ---
