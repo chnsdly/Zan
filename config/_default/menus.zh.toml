@@ -13,25 +13,25 @@ weight = 20
   name = "高低压开关柜"
   pageRef = "/product/switchgear"
   parent = "product"
-  weight = 21
+  weight = 24
 
   [[main]]
   name = "箱式变电站"
   pageRef = "/product/substation"
   parent = "product"
-  weight = 22
+  weight = 23
 
   [[main]]
   name = "油浸式变压器"
   pageRef = "/product/oil-immersed"
   parent = "product"
-  weight = 23
+  weight = 21
 
   [[main]]
   name = "干式变压器"
   pageRef = "/product/dry-type"
   parent = "product"
-  weight = 24
+  weight = 22
 
 
 [[main]]

@@ -13,25 +13,25 @@ weight = 20
   name = "SWITCHGEAR"
   pageRef = "/product/switchgear"
   parent = "product"
-  weight = 21
+  weight = 24
 
   [[main]]
   name = "COMPACT SUBSTATION"
   pageRef = "/product/substation"
   parent = "product"
-  weight = 22
+  weight = 23
 
   [[main]]
   name = "OIL-IMMERSED TRANSFORMER"
   pageRef = "/product/oil-immersed"
   parent = "product"
-  weight = 23
+  weight = 21
 
   [[main]]
   name = "DRY-TYPE TRANSFORMER"
   pageRef = "/product/dry-type"
   parent = "product"
-  weight = 24
+  weight = 22
 
 
 [[main]]
