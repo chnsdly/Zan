@@ -1,5 +1,5 @@
-baseURL = 'https://example.org/'
-title = 'Zan'
+baseURL = 'https://www.henglitransformer.com/'
+title = 'HengLi'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
