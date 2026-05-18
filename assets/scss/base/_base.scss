@@ -34,3 +34,29 @@ body {
 .font-title-s {font-size: 1.5rem; font-weight: 500;}
 .font-title-l {font-size: 1.75rem; font-weight: 500;}
 .font-display {font-size: 2.5rem; font-weight: 600;}
+
+.section {
+  position: relative;
+  padding-block: space(4);
+}
+
+.section__inner {
+  display: grid;
+  gap: space(3);
+}
+
+.section__header {
+  display: grid;
+  gap: space(2);
+  text-align: center;
+}
+
+.section__title {
+  color: var(--on-surface);
+}
+
+.section__description {
+  margin: 0 auto;
+  max-width: 120ch;
+  color: var(--secondary);
+}
