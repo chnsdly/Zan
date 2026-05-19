@@ -11,7 +11,7 @@
   --secondary: color-mix(in oklab, var(--on-surface) 70%, var(--surface) 30%);
   --card: color-mix(in oklab, var(--surface) 38%, white);
   /* 卡片背景色 */
-  --product-background: linear-gradient(to top, #EAF4FF 0%, #B9DAFA 50%, #76AFE8 100%);
+  --img-bg: linear-gradient(to top, #EAF4FF 0%, #B9DAFA 50%, #76AFE8 100%);
   /* 产品图片背景色 */
   --container-narrow: 56rem;
   /* 窄版：以阅读为主 */
@@ -22,9 +22,6 @@
   --border:       1px solid #E7E5DD;
   /* 全站统一边框 */
   --space: 0.5rem;
-  --height-button: 3.5rem;
-  --height-input: 2.5rem;
-  --height-header: 4.5rem;
   --radius-s: 12px;
   /* 按钮、输入框、小标签 */
   --radius-m: 16px;
@@ -181,6 +178,27 @@ body {
   font-size: 2.5rem;
   font-weight: 600; }
 
+.section {
+  position: relative;
+  padding-block: calc(var(--space) * 4); }
+
+.section__inner {
+  display: grid;
+  gap: calc(var(--space) * 3); }
+
+.section__header {
+  display: grid;
+  gap: calc(var(--space) * 2);
+  text-align: center; }
+
+.section__title {
+  color: var(--on-surface); }
+
+.section__description {
+  margin: 0 auto;
+  max-width: 120ch;
+  color: var(--secondary); }
+
 body.is-menu-open {
   overflow: hidden; }
 
@@ -194,7 +212,7 @@ body.is-menu-open {
   background-color: var(--surface); }
 
 .site-header__inner {
-  min-height: var(--height-header);
+  min-height: 4.5rem;
   display: flex;
   padding-inline: calc(var(--space) * 2);
   align-items: center;
@@ -563,38 +581,13 @@ body.is-menu-open {
    侧边栏区域样式。
    这里写侧栏本身的宽度、间距、吸附、边框等区域级规则，
    不负责里面每个小组件的详细外观。 */
-/* Section
-   页面内容区块的通用外层样式。
-   这里统一管理各 section 的上下留白、容器宽度、
-   区块之间的节奏和基础布局。 */
-.section {
-  position: relative;
-  padding-block: calc(var(--space) * 4); }
-
-.section__inner {
-  display: grid;
-  gap: calc(var(--space) * 3); }
-
-.section__header {
-  display: grid;
-  gap: calc(var(--space) * 2);
-  text-align: center; }
-
-.section__title {
-  color: var(--on-surface); }
-
-.section__description {
-  margin: 0 auto;
-  max-width: 120ch;
-  color: var(--secondary); }
-
 .button {
   background-color: var(--brand);
   color: var(--on-brand);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: var(--height-button);
+  min-height: 3.5rem;
   padding: 0.625rem 1.5rem;
   line-height: 1;
   border-radius: var(--radius-s);
@@ -637,7 +630,7 @@ body.is-menu-open {
 
 .lead-form__input {
   width: 100%;
-  min-height: var(--height-input);
+  min-height: 2.5rem;
   padding: 0.75rem 1rem;
   border: var(--border);
   border-radius: var(--radius-s);
@@ -1047,7 +1040,7 @@ body.is-menu-open {
   height: 100%;
   border: var(--border);
   border-radius: var(--radius-m);
-  background: var(--product-background);
+  background: var(--img-bg);
   box-shadow: var(--shadow);
   overflow: hidden;
   transition: transform var(--transition-base), box-shadow var(--transition-base), background-color var(--transition-base); }
@@ -1103,7 +1096,7 @@ body.is-menu-open {
   border: var(--border);
   border-radius: var(--radius-m);
   overflow: hidden;
-  background: var(--product-background); }
+  background: var(--img-bg); }
 
 .product-single__image {
   width: 100%;
