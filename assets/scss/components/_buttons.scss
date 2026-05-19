@@ -32,3 +32,8 @@
   transform: translateY(0);
   box-shadow: var(--shadow);
 }
+/* reset replacement local migration */
+.button {
+  border: 0;
+  text-decoration: none;
+}

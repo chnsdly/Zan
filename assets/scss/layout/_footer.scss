@@ -73,3 +73,14 @@
     gap: space(3);
   }
 }
+
+/* reset replacement local migration */
+.site-footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer__link {
+  text-decoration: none;
+}

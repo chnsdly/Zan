@@ -399,3 +399,40 @@ body.is-menu-open {
     min-height: 2.75rem;
   }
 }
+/* reset replacement local migration: keep header visuals explicit in-place */
+.site-header__nav-list,
+.site-header__submenu,
+.site-header__mobile-list,
+.site-header__language-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-header__nav-link,
+.site-header__submenu-link,
+.site-header__mobile-link,
+.site-header__language-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header__icon-button,
+.site-header__menu-toggle,
+.site-header__back {
+  border: 0;
+  background: none;
+  color: inherit;
+}
+
+/* keep existing visual values after clearing UA styles */
+.site-header__icon-button {
+  border: var(--border);
+  background-color: #ffffff;
+  color: var(--on-surface);
+}
+
+.site-header__menu-toggle,
+.site-header__back {
+  color: var(--on-surface);
+}
