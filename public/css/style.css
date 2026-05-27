@@ -31,9 +31,12 @@
   /* 窄版：以阅读为主 */
   --space: 0.5rem;
   /* 基准间距步长 */
+  --height-header: 4.5rem;
+  /* 头部高度 */
   /* ==========================================================================
      外观
      ========================================================================== */
+  --font-sans: "Inter", "Noto Sans SC", Arial, sans-serif;
   --border:       1px solid #E7E5DD;
   /* 全站统一边框 */
   --radius-s: 12px;
@@ -183,6 +186,8 @@ textarea {
 
    ========================================================================== */
 body {
+  font-family: var(--font-sans);
+  font-weight: 400;
   background-color: var(--surface); }
 
 .container {
@@ -257,7 +262,7 @@ body.is-menu-open {
   background-color: var(--surface); }
 
 .site-header__inner {
-  min-height: 4.5rem;
+  min-height: var(--height-header);
   display: flex;
   padding-inline: calc(var(--space) * 2);
   align-items: center;

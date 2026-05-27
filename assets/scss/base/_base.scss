@@ -15,8 +15,11 @@
 
    ========================================================================== */
 body {
+  font-family: var(--font-sans);
+  font-weight: 400;
   background-color: var(--surface);
 }
+
 
 .container {
   box-sizing: border-box;
