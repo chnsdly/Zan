@@ -4,6 +4,7 @@ description = "A practical guide for industrial buyers evaluating whether an on-
 author = "Hengli Engineering Desk"
 date = 2026-06-04T09:00:00Z
 publishDate = 2026-06-04T09:00:00Z
+image = "/images/resources/insights/when-factory-needs-on-load-tap-changing-transformer.webp"
 readingTime = "9 min"
 featured = false
 +++

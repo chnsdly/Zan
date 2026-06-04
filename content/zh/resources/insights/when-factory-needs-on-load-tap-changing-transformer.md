@@ -4,6 +4,7 @@ description = "面向工业采购方的实用指南：如何判断电压波动�
 author = "恒立工程团队"
 date = 2026-06-04T09:00:00Z
 publishDate = 2026-06-04T09:00:00Z
+image = "/images/resources/insights/when-factory-needs-on-load-tap-changing-transformer.webp"
 readingTime = "9 分钟"
 featured = false
 +++
