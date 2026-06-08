@@ -3,8 +3,8 @@ title = "Transformer Impedance and Motor Starting Voltage Dip: What Factory Buye
 description = "A practical guide for industrial buyers evaluating transformer impedance, motor starting voltage dip, and RFQ data before ordering a factory distribution transformer."
 image = "/images/resources/insights/transformer-impedance-motor-starting-voltage-dip.webp"
 author = "Hengli Engineering Desk"
-date = 2026-06-08T09:00:00Z
-publishDate = 2026-06-08T09:00:00Z
+date = 2026-06-08T00:00:00Z
+publishDate = 2026-06-08T00:00:00Z
 readingTime = "10 min"
 featured = false
 +++
