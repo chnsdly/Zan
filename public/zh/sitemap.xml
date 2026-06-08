@@ -112,7 +112,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/zh/resources/insights/</loc>
-    <lastmod>2026-03-30T09:00:00+00:00</lastmod>
+    <lastmod>2026-06-04T09:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -122,6 +122,45 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/resources/insights/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/insights/when-factory-needs-on-load-tap-changing-transformer/</loc>
+    <lastmod>2026-06-04T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/insights/when-factory-needs-on-load-tap-changing-transformer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/insights/when-factory-needs-on-load-tap-changing-transformer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/</loc>
+    <lastmod>2026-06-04T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh/resources/</loc>
+    <lastmod>2026-06-04T09:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/resources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="http://localhost:1313/zh/resources/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/resources/insights/insights-3/</loc>
@@ -135,32 +174,6 @@
                 rel="alternate"
                 hreflang="zh-CN"
                 href="http://localhost:1313/zh/resources/insights/insights-3/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/</loc>
-    <lastmod>2026-03-30T09:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh/resources/</loc>
-    <lastmod>2026-03-30T09:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="http://localhost:1313/resources/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="http://localhost:1313/zh/resources/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh/resources/case-studies/case-3/</loc>

@@ -6,8 +6,15 @@
     <description>Recent content in Insights on HengLi</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 30 Mar 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 09:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/resources/insights/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When Does a Factory Need an On-Load Tap-Changing Transformer?</title>
+      <link>http://localhost:1313/resources/insights/when-factory-needs-on-load-tap-changing-transformer/</link>
+      <pubDate>Thu, 04 Jun 2026 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/when-factory-needs-on-load-tap-changing-transformer/</guid>
+      <description>&lt;p&gt;A factory can have enough transformer capacity and still suffer from unstable production if voltage moves outside the operating window of its equipment. This is especially common in plants with large motors, welding lines, compressors, furnaces, variable production shifts, or a weak incoming utility network.&lt;/p&gt;&#xA;&lt;p&gt;In these situations, the procurement question is not only “How many kVA do we need?” It becomes: “Can the transformer keep the secondary voltage stable while the plant is running?”&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dry-Type or Oil-Immersed Transformer? A Decision Framework for Industrial Projects</title>
       <link>http://localhost:1313/resources/insights/insights-3/</link>

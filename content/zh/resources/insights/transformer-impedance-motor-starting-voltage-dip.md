@@ -1,6 +1,7 @@
 +++
 title = "变压器阻抗与电机启动电压跌落：工厂采购前应核对什么"
 description = "面向工业采购方的实用指南，说明如何在订购工厂配电变压器前评估变压器阻抗、电机启动电压跌落和询价资料。"
+image = "/images/resources/insights/transformer-impedance-motor-starting-voltage-dip.webp"
 author = "Hengli Engineering Desk"
 date = 2026-06-08T09:00:00Z
 publishDate = 2026-06-08T09:00:00Z

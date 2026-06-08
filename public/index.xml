@@ -6,7 +6,7 @@
     <description>Recent content in Home | HengLi on HengLi</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 30 Mar 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 09:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>S13 Oil-Immersed Transformer</title>
@@ -63,6 +63,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/product/substation/box-type-substation-b/</guid>
       <description>&lt;p&gt;Substation B is optimized for industrial duty where continuity of supply and maintainability are key project targets. It integrates MV incoming section, transformer step-down section, and LV outgoing section into a factory-assembled package, reducing field assembly work and lowering schedule risk compared with multi-equipment on-site integration.&lt;/p&gt;&#xA;&lt;p&gt;The product uses a high-strength channel-steel base and skeleton to handle lifting, relocation, and long service cycles. Enclosure material can be selected according to corrosion class and appearance requirements, while compartmentalized separation and interlock philosophy reduce cross-interference during inspection. Transformer rating, wiring method, and key MV/LV component selection can be customized to match load profile and project-specific engineering standards.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>When Does a Factory Need an On-Load Tap-Changing Transformer?</title>
+      <link>http://localhost:1313/resources/insights/when-factory-needs-on-load-tap-changing-transformer/</link>
+      <pubDate>Thu, 04 Jun 2026 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/when-factory-needs-on-load-tap-changing-transformer/</guid>
+      <description>&lt;p&gt;A factory can have enough transformer capacity and still suffer from unstable production if voltage moves outside the operating window of its equipment. This is especially common in plants with large motors, welding lines, compressors, furnaces, variable production shifts, or a weak incoming utility network.&lt;/p&gt;&#xA;&lt;p&gt;In these situations, the procurement question is not only “How many kVA do we need?” It becomes: “Can the transformer keep the secondary voltage stable while the plant is running?”&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dry-Type or Oil-Immersed Transformer? A Decision Framework for Industrial Projects</title>
