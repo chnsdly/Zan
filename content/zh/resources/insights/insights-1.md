@@ -1,7 +1,7 @@
 +++
 title = "如何为波动负载工厂配置配电变压器容量"
 description = "以叙事方式讲清工厂项目中的配电变压器选型：在可靠性、扩产与全生命周期成本之间找到平衡。"
-author = "恒立技术团队"
+author = "恒锂技术团队"
 date = 2026-03-20T09:00:00Z
 publishDate = 2026-03-20T09:00:00Z
 image = "/images/resources/insights/insights-1.webp"

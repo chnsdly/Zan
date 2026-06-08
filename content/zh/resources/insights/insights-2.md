@@ -1,7 +1,7 @@
 +++
 title = "从温升到寿命：工业买家真正需要关注什么"
 description = "解释温升为何是工业配电可靠性的核心指标，以及项目团队如何在故障前进行风险管理。"
-author = "恒立可靠性小组"
+author = "恒锂可靠性小组"
 date = 2026-03-25T09:00:00Z
 publishDate = 2026-03-25T09:00:00Z
 image = "/images/resources/insights/insights-2.webp"

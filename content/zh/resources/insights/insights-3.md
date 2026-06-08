@@ -1,7 +1,7 @@
 +++
 title = "干式还是油浸式？工业项目中的变压器选型框架"
 description = "以场景化叙事方式比较 dry-type 与 oil-immersed 变压器，帮助工厂与工业项目团队做出更稳健决策。"
-author = "恒立工程团队"
+author = "恒锂工程团队"
 date = 2026-03-30T09:00:00Z
 publishDate = 2026-03-30T09:00:00Z
 image = "/images/resources/insights/insights-3.webp"

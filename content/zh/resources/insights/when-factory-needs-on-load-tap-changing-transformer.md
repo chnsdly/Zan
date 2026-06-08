@@ -1,7 +1,7 @@
 +++
 title = "工厂什么时候需要有载调压变压器？"
 description = "面向工业采购方的实用指南：如何判断电压波动、敏感设备和生产负荷变化是否足以支撑选用有载调压变压器。"
-author = "恒立工程团队"
+author = "恒锂工程团队"
 date = 2026-06-04T09:00:00Z
 publishDate = 2026-06-04T09:00:00Z
 image = "/images/resources/insights/when-factory-needs-on-load-tap-changing-transformer.webp"
