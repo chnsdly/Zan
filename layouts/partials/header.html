@@ -12,7 +12,7 @@
         {{ if gt (len $languages) 1 }}
         <details class="site-header__language" data-language-switcher>
           <summary class="site-header__icon-button">
-            <span class="site-header__language-label font-meta">{{ .Site.Language.LanguageName }}</span>
+            <span class="site-header__language-label font-meta">{{ .Site.Language.LanguageName | default .Site.Language.Lang }}</span>
             <svg class="site-header__language-icon" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M7 10l5 5 5-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                 stroke-width="1.8" />
@@ -29,7 +29,7 @@
               <a class="site-header__language-link font-meta {{ if eq $.Site.Language.Lang .Lang }} site-header__language-link--current{{ end }}"
                 href="{{ $target }}" lang="{{ or .LanguageCode .Lang }}" {{ if eq $.Site.Language.Lang .Lang
                 }}aria-current="true" {{ end }}>
-                {{ .LanguageName }}
+                {{ .LanguageName | default .Lang }}
               </a>
             </li>
             {{ end }}
