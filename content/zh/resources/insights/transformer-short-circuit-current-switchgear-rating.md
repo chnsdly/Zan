@@ -1,7 +1,7 @@
 +++
 title = "变压器短路电流与开关柜额定值：扩容改造前采购方应核对什么"
 description = "面向工厂采购方的实用指南，说明在更换或扩容配电变压器前，如何核对变压器短路电流、阻抗、开关柜额定值和询价资料。"
-image = ""
+image = "/images/resources/insights/transformer-short-circuit-current-switchgear-rating.webp"
 author = "Hengli Engineering Desk"
 date = 2026-06-11T00:00:00Z
 publishDate = 2026-06-11T00:00:00Z

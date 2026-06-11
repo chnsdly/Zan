@@ -1,7 +1,7 @@
 +++
 title = "Transformer Short-Circuit Current and Switchgear Rating: What Buyers Should Verify Before an Upgrade"
 description = "A practical guide for factory buyers checking transformer short-circuit current, impedance, switchgear ratings, and RFQ data before replacing or upsizing a distribution transformer."
-image = ""
+image = "/images/resources/insights/transformer-short-circuit-current-switchgear-rating.webp"
 author = "Hengli Engineering Desk"
 date = 2026-06-11T00:00:00Z
 publishDate = 2026-06-11T00:00:00Z
