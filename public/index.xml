@@ -6,7 +6,7 @@
     <description>Recent content in Home | HengLi on HengLi</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 04 Jun 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>S13 Oil-Immersed Transformer</title>
@@ -63,6 +63,160 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/product/substation/box-type-substation-b/</guid>
       <description>&lt;p&gt;Substation B is optimized for industrial duty where continuity of supply and maintainability are key project targets. It integrates MV incoming section, transformer step-down section, and LV outgoing section into a factory-assembled package, reducing field assembly work and lowering schedule risk compared with multi-equipment on-site integration.&lt;/p&gt;&#xA;&lt;p&gt;The product uses a high-strength channel-steel base and skeleton to handle lifting, relocation, and long service cycles. Enclosure material can be selected according to corrosion class and appearance requirements, while compartmentalized separation and interlock philosophy reduce cross-interference during inspection. Transformer rating, wiring method, and key MV/LV component selection can be customized to match load profile and project-specific engineering standards.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Oil Preservation RFQ: Conservator or Sealed Tank</title>
+      <link>http://localhost:1313/resources/insights/transformer-oil-preservation-rfq/</link>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-oil-preservation-rfq/</guid>
+      <description>&lt;p&gt;An oil-immersed transformer does more than hold oil inside a tank. The oil has to expand and contract with temperature, stay reasonably protected from moisture and air where the design requires it, remain visible to operators, and leave a traceable path for inspection and maintenance. If the RFQ only says &amp;ldquo;oil-filled transformer, standard accessories,&amp;rdquo; the buyer may not know whether the quotation assumes a conservator, sealed tank, breather, diaphragm, oil level gauge, pressure relief device, sampling valve, or site filling work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Surge Arresters in Transformer RFQs: Interface Checks</title>
+      <link>http://localhost:1313/resources/insights/transformer-surge-arrester-rfq/</link>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-surge-arrester-rfq/</guid>
+      <description>&lt;p&gt;A transformer RFQ that says &amp;ldquo;with surge arresters&amp;rdquo; is still incomplete. It does not say which side of the transformer is protected, whether arresters are mounted at the transformer, inside the medium-voltage switchgear, at an overhead-line transition, or supplied by the utility, and it does not prove that the arrester duty matches the project&amp;rsquo;s insulation-coordination basis.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: buyers should ask for the system voltage basis, required insulation level language, surge arrester scope, mounting location, terminal and cable interface, grounding path, monitoring or disconnecting devices if specified, drawings, and test or compliance evidence. Final selection remains subject to the project specification, utility rules, local code, applicable standards, supplier datasheets, insulation-coordination study where required, and qualified electrical engineering review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Cooling Method RFQ: Fans, Radiators, Airflow</title>
+      <link>http://localhost:1313/resources/insights/transformer-cooling-method-rfq/</link>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-cooling-method-rfq/</guid>
+      <description>&lt;p&gt;A transformer can be correctly sized on paper and still become a site problem if the cooling method is treated as a catalogue label. Radiators may need more clearance than the layout allows. Dry-type fans may be assumed but not wired to the building system. A compact substation may have transformer capacity on the datasheet while the enclosure ventilation path is still unclear.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: do not ask only for &amp;ldquo;1000 kVA transformer, standard cooling.&amp;rdquo; A useful RFQ should state the required rating under each cooling stage, site ambient and altitude, installation layout, radiator or fan scope, control and alarm wiring, auxiliary power, noise sensitivity, maintenance access, and evidence required in the final datasheet or test report. Final suitability remains subject to project drawings, supplier documents, applicable market standards, local code, utility requirements, AHJ review, and qualified electrical or mechanical engineering confirmation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Oil Containment RFQ: Fire and Drainage Checks</title>
+      <link>http://localhost:1313/resources/insights/transformer-oil-containment-fire-drainage/</link>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-oil-containment-fire-drainage/</guid>
+      <description>&lt;p&gt;An oil-filled transformer can have the right kVA rating, voltage ratio, impedance, and accessories while the project is still not ready to order it. The missing items are often outside the transformer tank: oil containment, drainage route, fire separation, access for inspection, environmental review, and who approves the final civil works.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: an RFQ for an oil-filled transformer should define oil volume information, installation location, containment concept, drainage boundary, fire interface, access requirements, document deliverables, and the party responsible for final approval. The final solution still depends on project drawings, supplier datasheets, fire and environmental rules, utility requirements, local code, AHJ review, and qualified engineering design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Protection CTs and Relays in Switchgear RFQs</title>
+      <link>http://localhost:1313/resources/insights/protection-cts-relays-switchgear-rfq/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/protection-cts-relays-switchgear-rfq/</guid>
+      <description>&lt;p&gt;A switchgear quotation can include breakers, busbars, cabinets, and meters while still leaving the protection system too vague for manufacturing approval. The missing details are often small words in the RFQ: CT ratio, CT class, burden, relay function, trip circuit, interlock, auxiliary contact, test terminal, communication point, and who is responsible for the final settings.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: a switchgear RFQ should separate protection CTs from metering CTs, state relay and trip-circuit functions, define transformer and feeder boundaries, request drawings and terminal lists, and leave final settings to the project protection study. Final suitability still depends on approved single-line diagrams, short-circuit and protection coordination studies, utility requirements, local code, AHJ review, supplier datasheets, test records, and commissioning by qualified personnel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Noise RFQ: Acoustic Limits Buyers Should Set</title>
+      <link>http://localhost:1313/resources/insights/transformer-noise-rfq-acoustic-limits/</link>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-noise-rfq-acoustic-limits/</guid>
+      <description>&lt;p&gt;A transformer can satisfy the electrical specification and still become a project problem if it is too audible at the wrong boundary: a hotel plant room above occupied space, a hospital electrical room near treatment areas, a factory transformer bay beside offices, a mine substation close to accommodation, or an outdoor compact substation near a property line.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: do not ask only for a &amp;ldquo;low-noise transformer.&amp;rdquo; A useful RFQ should state the required acoustic criterion, measurement basis, installation location, expected operating condition, cooling accessories, enclosure or room layout, nearby receivers, document evidence, and responsibility for site acoustic control. Final sound limits and acceptance still depend on project specifications, local ordinances, utility rules, building design, AHJ review, supplier datasheets, factory test reports, and qualified acoustic or electrical engineering review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Cable Box RFQ: Terminal and Entry Checks</title>
+      <link>http://localhost:1313/resources/insights/transformer-cable-box-rfq/</link>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-cable-box-rfq/</guid>
+      <description>&lt;p&gt;A transformer can meet the electrical rating on paper and still arrive with an interface that does not fit the site. Cable entry direction, terminal orientation, lug space, gland plates, grounding points, busduct flanges, CT location, and switchgear boundaries are often treated as installation details. In real projects, they can decide whether the unit connects cleanly or needs rework.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: include the cable box and terminal interface in the RFQ before the quotation is compared. The buyer should state the cable route, cable type and quantity where known, entry direction, termination method, grounding and shield requirements, switchgear or busduct boundary, replacement constraints, and document evidence needed for approval. Final suitability must still be confirmed by project drawings, supplier datasheets, factory documents, local code, utility rules, AHJ requirements, and qualified electrical review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Vector Group RFQ: Phase and Neutral Checks</title>
+      <link>http://localhost:1313/resources/insights/transformer-vector-group-rfq/</link>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-vector-group-rfq/</guid>
+      <description>&lt;p&gt;Vector group is a short code on a transformer datasheet, but it can decide whether the transformer fits the site. A buyer may request the correct kVA, voltage ratio, frequency, and enclosure, then still face late questions about phase displacement, neutral availability, grounding, relay inputs, meter wiring, or whether the new transformer can connect beside an existing one.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: do not treat vector group as a catalogue default. The RFQ should state the required primary and secondary winding connection, clock-hour phase displacement, neutral terminal requirements, grounding interface, existing equipment constraints, and document evidence. Final selection must be confirmed by project drawings, utility requirements, local code, protection studies, supplier datasheets, factory test reports, and qualified electrical review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Switchgear Expansion RFQ: Spare Feeders and Space Checks</title>
+      <link>http://localhost:1313/resources/insights/switchgear-expansion-feeder-rfq/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/switchgear-expansion-feeder-rfq/</guid>
+      <description>&lt;p&gt;Many factory and park projects ask for &amp;ldquo;extra spare feeders&amp;rdquo; in a switchgear quotation, but that phrase is too vague for a purchase order. A spare breaker, an empty withdrawable unit, a blank cubicle, a reserved cable trench opening, and a future bay at the end of the lineup are different engineering and commercial items.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: a switchgear expansion RFQ should define the future load scenario, feeder schedule, installed spares, physical spare space, busbar and fault-study basis, cable entry, control and metering space, room dimensions, ventilation assumptions, and document deliverables. Final suitability still depends on approved project drawings, protection coordination, short-circuit study, local code, utility requirements, AHJ review, supplier datasheets, routine verification or test records, and site commissioning by qualified personnel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Neutral Grounding: RFQ Interface Checklist</title>
+      <link>http://localhost:1313/resources/insights/transformer-neutral-grounding-rfq/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-neutral-grounding-rfq/</guid>
+      <description>&lt;p&gt;A transformer RFQ should not stop at &amp;ldquo;grounded neutral.&amp;rdquo; The buyer should define the system earthing basis, transformer winding connection and vector group, neutral terminal requirements, grounding device scope if any, switchgear earth-bar interface, protection and metering requirements, documents, and the party responsible for final approval.&lt;/p&gt;&#xA;&lt;p&gt;This article helps buyers, EPC teams, industrial plants, commercial buildings, utilities, mines, and renewable-energy projects prepare clearer transformer and switchgear RFQs. It does not design the grounding system. Neutral grounding, protection, insulation coordination, short-circuit duty, fire rules, and energization approval must be confirmed by the project engineer, local code, utility, AHJ, supplier documents, final datasheet, and test reports.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Pre-Energization Checklist Before Startup</title>
+      <link>http://localhost:1313/resources/insights/transformer-pre-energization-checklist/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-pre-energization-checklist/</guid>
+      <description>&lt;p&gt;A transformer should not be energized just because it arrived on site, passed factory testing, and is now bolted to its foundation. The short answer is: before first energization, the site team should align mechanical completion, nameplate and document traceability, grounding, cable or bus connections, insulation and oil or dry-type condition checks, switchgear readiness, protection settings, control wiring, permits, and utility or AHJ release.&lt;/p&gt;&#xA;&lt;p&gt;This article is for buyers, EPC teams, plant engineers, and project managers who need a practical pre-energization checklist for transformers and associated switchgear. It helps a procurement team ask better questions and collect evidence, but it does not replace the final decision of a registered electrical engineer, commissioning authority, utility reviewer, protection specialist, local AHJ, or qualified site testing team.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Power Factor Correction Cabinets: RFQ Checks With Transformers</title>
+      <link>http://localhost:1313/resources/insights/power-factor-correction-cabinet-rfq/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/power-factor-correction-cabinet-rfq/</guid>
+      <description>&lt;p&gt;Power-factor correction is often added to a transformer inquiry after the main kVA, voltage ratio, and switchgear scope are already being priced. That late addition can create a procurement problem: the buyer may receive a capacitor cabinet quote, but the quotation may not explain where the power-factor target is measured, whether harmonics have been reviewed, how the stages will switch, or how the cabinet connects to the transformer and low-voltage bus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Harmonic Loads and Transformer RFQs: What Buyers Should Specify</title>
+      <link>http://localhost:1313/resources/insights/harmonic-loads-transformer-rfq/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/harmonic-loads-transformer-rfq/</guid>
+      <description>&lt;p&gt;Nonlinear loads are easy to hide inside a transformer RFQ. A factory may state the total kVA and voltage correctly, but omit the drives, rectifiers, UPS systems, chargers, welding equipment, LED power supplies, or inverter-based process equipment that shape the real current waveform.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: when a meaningful share of the load is nonlinear, the RFQ should identify the equipment type, duty cycle, harmonic data if available, neutral-current concern, capacitor or filter interface, utility power-quality requirement, and the expected engineering basis for transformer loading. The final selection still depends on the project load study, supplier datasheet, factory test report, local code, utility requirements, applicable standards, and review by qualified electrical engineers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer FAT Checklist Before Shipment Release</title>
+      <link>http://localhost:1313/resources/insights/transformer-fat-shipment-checklist/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-fat-shipment-checklist/</guid>
+      <description>&lt;p&gt;A transformer can pass routine factory tests and still arrive with practical problems: a drawing revision not reflected on the nameplate, an alarm contact not wired to the agreed terminal, missing loose accessories, packing not matched to long storage, or a test report that does not state the same rating as the purchase order.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: before shipment release, the buyer should align the approved datasheet, drawings, test plan, factory test report, nameplate, accessory schedule, packing list, and open-deviation record. FAT is a document and evidence checkpoint as much as a test-room event. Final acceptance still depends on the contract, project specification, supplier documents, factory test report, local code, utility requirements, AHJ review, and site commissioning by qualified personnel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compact Substation RFQ: Interface Checks Before Ordering</title>
+      <link>http://localhost:1313/resources/insights/compact-substation-interface-rfq/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/compact-substation-interface-rfq/</guid>
+      <description>&lt;p&gt;A compact substation is often purchased to simplify site work, but it is not a single-product decision. It combines enclosure, transformer, medium-voltage switching, low-voltage distribution, cable compartments, ventilation, protection, metering, and civil interfaces. If those interfaces are unclear before ordering, the package can still delay foundation work, cable pulling, utility review, installation, or commissioning.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: a compact substation RFQ should define the single-line diagram, equipment boundary, cable entry, foundation interface, access clearances, enclosure environment, earthing arrangement, utility metering needs, protection/control interfaces, and document deliverables. Final approval still depends on project drawings, supplier documents, local code, utility requirements, AHJ review, factory test reports, and commissioning procedures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Accessories and Alarm Contacts: RFQ Checklist</title>
+      <link>http://localhost:1313/resources/insights/transformer-accessories-alarm-contacts/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-accessories-alarm-contacts/</guid>
+      <description>&lt;p&gt;A transformer quotation can look complete while still missing items that determine whether the equipment is easy to install, monitor, protect, and accept on site. Temperature indicators, alarm contacts, pressure devices, fans, heaters, terminal boxes, cable boxes, CTs, surge arresters, wheels, lifting points, and communication interfaces may be treated as &amp;ldquo;accessories,&amp;rdquo; but they are often critical project interfaces.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: do not leave transformer accessories to supplier default. The RFQ should state which protection devices, monitoring points, auxiliary contacts, enclosure details, cable interfaces, and document evidence are required for the specific project. Final selection must still be confirmed by the approved datasheet, wiring diagram, protection design, local code, utility requirements, factory test report, and commissioning plan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Losses and Efficiency: RFQ Checks for Buyers</title>
+      <link>http://localhost:1313/resources/insights/transformer-losses-efficiency-rfq/</link>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-losses-efficiency-rfq/</guid>
+      <description>&lt;p&gt;A transformer with a lower purchase price is not always the lower-cost purchase. A transformer advertised as &amp;ldquo;high efficiency&amp;rdquo; is not automatically the right purchase either. For factories, commercial buildings, EPC projects, mines, industrial parks, and renewable-energy facilities, the useful question is more specific: what loss values, efficiency rules, test evidence, and operating assumptions should be compared before the order is released?&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: ask for the no-load loss, load loss, reference temperature or test basis, applicable market efficiency requirement, test report evidence, and the load profile used for any lifecycle-cost comparison. Final acceptance still depends on the approved datasheet, factory test report, project specification, applicable local regulation, utility requirement, and qualified engineering review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Can New and Existing Transformers Operate in Parallel?</title>
+      <link>http://localhost:1313/resources/insights/parallel-transformer-operation-checklist/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/parallel-transformer-operation-checklist/</guid>
+      <description>&lt;p&gt;Adding a second transformer looks like a simple way to increase plant capacity: keep the existing unit, install a new one beside it, close a bus coupler, and share the load. In some projects that is a workable plan. In others it can create circulating current, uneven loading, higher fault current, nuisance trips, or a commissioning delay.&lt;/p&gt;&#xA;&lt;p&gt;The short answer is: new and existing transformers can operate in parallel only when their electrical characteristics, switching arrangement, protection scheme, grounding method, and operating rules are compatible for the specific project. A matching kVA rating or a similar voltage label is not enough.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Site Conditions for Transformer RFQs: What Buyers Should Specify</title>
+      <link>http://localhost:1313/resources/insights/site-conditions-transformer-rfq/</link>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/site-conditions-transformer-rfq/</guid>
+      <description>&lt;p&gt;A transformer quotation is only as accurate as the site description behind it. Capacity, voltage ratio, impedance, and losses matter, but a technically correct transformer can still become the wrong purchase if the RFQ says nothing about ambient temperature, altitude, dust, moisture, corrosive air, ventilation, cable entry, maintenance access, or local enclosure requirements.&lt;/p&gt;&#xA;&lt;p&gt;For overseas factories, EPC teams, commercial buildings, mines, industrial parks, and renewable-energy sites, site conditions should be treated as engineering input, not background information. The final design still depends on project drawings, applicable standards, utility requirements, fire rules, AHJ review, and the supplier&amp;rsquo;s approved datasheet. A clear RFQ simply makes early quotations more comparable and reduces avoidable technical gaps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Receiving Inspection and Temporary Storage Checklist Before Installation</title>
+      <link>http://localhost:1313/resources/insights/transformer-receiving-inspection-storage-checklist/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-receiving-inspection-storage-checklist/</guid>
+      <description>&lt;p&gt;A transformer order is not finished when the unit leaves the factory. For many overseas projects, the most vulnerable period begins after shipment: unloading, receiving inspection, warehouse storage, and waiting for civil works or switchgear installation to catch up.&lt;/p&gt;&#xA;&lt;p&gt;This stage is easy to underestimate because the transformer may already have passed routine tests and export packing checks. Yet transport vibration, rough unloading, moisture exposure, missing accessories, or poor temporary storage can turn a technically correct transformer into a delayed commissioning problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Short-Circuit Current and Switchgear Rating: What Buyers Should Verify Before an Upgrade</title>
+      <link>http://localhost:1313/resources/insights/transformer-short-circuit-current-switchgear-rating/</link>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-short-circuit-current-switchgear-rating/</guid>
+      <description>&lt;p&gt;A transformer upgrade can solve one problem and create another if the downstream system is not checked carefully. A factory may replace a 1600 kVA transformer with a 2500 kVA unit to support expansion, or choose a lower-impedance transformer to improve voltage performance. The new transformer may be technically correct by itself, but the available short-circuit current at the low-voltage bus can increase enough to exceed the rating of existing switchgear, busbars, cables, breakers, or protection devices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformer Impedance and Motor Starting Voltage Dip: What Factory Buyers Should Check</title>
+      <link>http://localhost:1313/resources/insights/transformer-impedance-motor-starting-voltage-dip/</link>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/insights/transformer-impedance-motor-starting-voltage-dip/</guid>
+      <description>&lt;p&gt;A transformer can pass routine tests, match the requested kVA rating, and still create problems when a large motor starts. The symptom is familiar in many factories: lights flicker, drives trip, contactors chatter, compressors fail to restart smoothly, or a production line reports random faults during a shift change.&lt;/p&gt;&#xA;&lt;p&gt;In these cases, the issue is often not the nameplate capacity alone. It is the interaction between &lt;strong&gt;transformer impedance&lt;/strong&gt;, motor starting current, cable voltage drop, upstream network strength, and the sensitivity of downstream equipment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>When Does a Factory Need an On-Load Tap-Changing Transformer?</title>
